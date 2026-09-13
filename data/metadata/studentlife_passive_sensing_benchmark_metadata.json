@@ -1,0 +1,103 @@
+{
+  "dataset_name": "StudentLife Passive Sensing Benchmark",
+  "version": "1.0.0",
+  "source": "Dartmouth College (Wang et al., UbiComp 2014)",
+  "official_url": "https://studentlife.cs.dartmouth.edu/",
+  "license": "Academic Research Use (Dartmouth Open Data)",
+  "citation": "Wang, R., Chen, F., Chen, Z., Li, T., Harari, G., Tignor, S., Zhou, X., Ben-Zeev, D., & Campbell, A. T. (2014). StudentLife: assessing mental health, cognitive ability and academic performance of college students using smartphones. In UbiComp '14, pp. 93-104.",
+  "download_date": "2026-09-10",
+  "local_storage_location": {
+    "raw": "data\\raw\\studentlife_passive_sensing_benchmark",
+    "interim": "data\\interim\\studentlife_passive_sensing_benchmark",
+    "processed": "data\\processed\\studentlife_passive_sensing_benchmark",
+    "metadata": "data\\metadata\\studentlife_passive_sensing_benchmark_metadata.json",
+    "docs": "docs\\datasets\\studentlife_passive_sensing_benchmark.md"
+  },
+  "intended_task": "behavioral_sensing_benchmark",
+  "features": [
+    "step_count",
+    "walking_minutes",
+    "sedentary_minutes",
+    "sleep_duration_hours",
+    "sleep_disturbances_count",
+    "mobility_radius_km",
+    "location_entropy",
+    "conversation_duration_minutes",
+    "screen_unlock_count"
+  ],
+  "labels": [
+    "baseline_normal",
+    "mild_variation",
+    "multi_domain_disruption"
+  ],
+  "number_of_samples": {
+    "total": 600,
+    "raw": 600,
+    "processed": 600
+  },
+  "train_validation_test_split": {
+    "train_count": 480,
+    "val_count": 60,
+    "test_count": 60,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (stratified, seed=42)"
+  ],
+  "checksums": {
+    "raw": "1e4a6c6762d0bd4298c3e6de47b7a1359ecca552ffcfcdc4000ed1c096893cd5",
+    "interim": "1e4a6c6762d0bd4298c3e6de47b7a1359ecca552ffcfcdc4000ed1c096893cd5",
+    "train": "483be7266435d08e6368d375a95ec93a755af96781d790d3229a7b51b15b72c6",
+    "val": "aedb131e0b203c2067f36ff32558a23ead2a6d6f5d5f161acacd1700a0b77725",
+    "test": "01f3c75426ff28efdf0f38e4ffa73a4bf1fca17ebb809081af5f435abd72ab12"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 600,
+    "class_distribution": {
+      "baseline_normal": {
+        "count": 426,
+        "percentage": 71.0
+      },
+      "mild_variation": {
+        "count": 102,
+        "percentage": 17.0
+      },
+      "multi_domain_disruption": {
+        "count": 72,
+        "percentage": 12.0
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 12.0,
+      "std_words": 0.0,
+      "min_words": 12,
+      "max_words": 12,
+      "median_words": 12.0,
+      "p95_words": 12.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Psychiatric diagnosis (e.g., Major Depressive Disorder or Bipolar Disorder)",
+    "Crisis or suicidal intent detection from passive sensors alone",
+    "Unilateral clinician notification without conversational context",
+    "Single-feature inference of mental distress"
+  ],
+  "registered_at": "2026-09-10T10:14:29.992770Z"
+}

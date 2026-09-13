@@ -1,0 +1,136 @@
+{
+  "dataset_name": "PsySym Mental Health Symptoms",
+  "version": "1.0.0",
+  "source": "Zhang et al. (EMNLP 2022) / DSM-5 PsySym Knowledge Graph",
+  "official_url": "https://aclanthology.org/2022.emnlp-main.677/",
+  "license": "MIT (Code) / Author-Agreement Research Use (PsySym Corpus)",
+  "citation": "Zhang, Z., Chen, S., Wu, M., & Zhu, K. (2022). Symptom Identification for Interpretable Detection of Multiple Mental Disorders on Social Media. In Proceedings of the 2022 EMNLP, pp. 9970-9985.",
+  "download_date": "2026-09-09",
+  "local_storage_location": {
+    "raw": "data\\raw\\psysym_mental_health_symptoms",
+    "interim": "data\\interim\\psysym_mental_health_symptoms",
+    "processed": "data\\processed\\psysym_mental_health_symptoms",
+    "metadata": "data\\metadata\\psysym_mental_health_symptoms_metadata.json",
+    "docs": "docs\\datasets\\psysym_mental_health_symptoms.md"
+  },
+  "intended_task": "symptom_signal_identification",
+  "features": [
+    "text",
+    "num_signals",
+    "sample_type"
+  ],
+  "labels": [
+    "sleep disturbance",
+    "loss of interest",
+    "depressed mood",
+    "fatigue / low energy",
+    "anxiety / panic",
+    "cognitive difficulty",
+    "feelings of worthlessness",
+    "appetite / eating change",
+    "social withdrawal / isolation",
+    "suicidal ideation / crisis thoughts"
+  ],
+  "number_of_samples": {
+    "total": 1673,
+    "raw": 1673,
+    "processed": 1673
+  },
+  "train_validation_test_split": {
+    "train_count": 1338,
+    "val_count": 167,
+    "test_count": 168,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (stratified, seed=42)"
+  ],
+  "checksums": {
+    "raw": "7e1ce2def59c4ad3496907d12cd89adfe8d9a048a6c39ce25c692d0f52f857c1",
+    "interim": "7e1ce2def59c4ad3496907d12cd89adfe8d9a048a6c39ce25c692d0f52f857c1",
+    "train": "623133c276ead42c915f3257b57ceca4bc1a24a700787c31fa0f803156dfe0c5",
+    "val": "29d2bc80d8e430d5039484e9238edf32af2425c609ebc232b8d7f5df87c690ed",
+    "test": "c3f5788c0a6c2e43cec557a19c83d298240e22f1c98cf9ee5ae2593f145cfe82"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 1673,
+    "class_distribution": {
+      "depressed mood": {
+        "count": 450,
+        "percentage": 26.9
+      },
+      "sleep disturbance": {
+        "count": 323,
+        "percentage": 19.31
+      },
+      "feelings of worthlessness": {
+        "count": 287,
+        "percentage": 17.15
+      },
+      "anxiety / panic": {
+        "count": 287,
+        "percentage": 17.15
+      },
+      "fatigue / low energy": {
+        "count": 258,
+        "percentage": 15.42
+      },
+      "loss of interest": {
+        "count": 224,
+        "percentage": 13.39
+      },
+      "social withdrawal / isolation": {
+        "count": 223,
+        "percentage": 13.33
+      },
+      "cognitive difficulty": {
+        "count": 223,
+        "percentage": 13.33
+      },
+      "appetite / eating change": {
+        "count": 223,
+        "percentage": 13.33
+      },
+      "suicidal ideation / crisis thoughts": {
+        "count": 188,
+        "percentage": 11.24
+      },
+      "__NONE__": {
+        "count": 100,
+        "percentage": 5.98
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 20.72,
+      "std_words": 7.47,
+      "min_words": 6,
+      "max_words": 45,
+      "median_words": 21.0,
+      "p95_words": 34.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Psychiatric disorder diagnosis",
+    "Depression / Bipolar / Anxiety diagnostic labeling",
+    "Clinical prescription recommendation",
+    "Replacing psychiatric evaluation"
+  ],
+  "registered_at": "2026-09-09T20:18:28.715415Z"
+}

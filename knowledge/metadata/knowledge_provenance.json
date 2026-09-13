@@ -1,0 +1,8 @@
+{
+  "system": "ZENOVA Curated Knowledge Base",
+  "curation_policy": "Strict peer-reviewed and authoritative global health agencies only",
+  "excluded_sources": "Arbitrary internet text, unverified user forums, social media posts",
+  "embedding_model": "dense-tfidf-lsa-v1",
+  "vector_store": "InMemoryVectorStore",
+  "total_indexed_passages": 18
+}

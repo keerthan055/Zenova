@@ -1,0 +1,114 @@
+{
+  "total_sources": 6,
+  "total_chunks": 18,
+  "sources": [
+    {
+      "source_id": "APA-RESILIENCE-2022",
+      "title": "Building Your Resilience",
+      "publisher": "American Psychological Association",
+      "url": "https://www.apa.org/topics/resilience/building-your-resilience",
+      "publication_date": "2022-02-01",
+      "source_type": "psychoeducation",
+      "evidence_tier": "TIER_1_CLINICAL_PEER_REVIEW",
+      "citation": "American Psychological Association. (2022). Building your resilience. APA Help Center.",
+      "scope": [
+        "resilience",
+        "cognitive_reframing",
+        "social_connection",
+        "goal_setting"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    },
+    {
+      "source_id": "CDC-SLEEP-2022",
+      "title": "Tips for Better Sleep and Sleep Hygiene",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/sleep/about_sleep/sleep_hygiene.html",
+      "publication_date": "2022-09-13",
+      "source_type": "psychoeducation",
+      "evidence_tier": "TIER_1_GLOBAL_HEALTH_AGENCY",
+      "citation": "Centers for Disease Control and Prevention. (2022). Tips for better sleep. U.S. Department of Health and Human Services.",
+      "scope": [
+        "sleep_hygiene",
+        "insomnia_prevention",
+        "circadian_rhythm",
+        "bedtime_routines"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    },
+    {
+      "source_id": "NHS-BREATHING-2023",
+      "title": "Breathing Exercises for Stress and Anxiety",
+      "publisher": "National Health Service (NHS UK)",
+      "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
+      "publication_date": "2023-11-14",
+      "source_type": "coping_strategy",
+      "evidence_tier": "TIER_2_GOVERNMENT_HEALTH_SERVICE",
+      "citation": "National Health Service. (2023). Breathing exercises for stress. NHS Every Mind Matters.",
+      "scope": [
+        "breathing_exercises",
+        "box_breathing",
+        "diaphragmatic_breathing",
+        "acute_anxiety_relief"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    },
+    {
+      "source_id": "NIMH-STRESS-2023",
+      "title": "I'm So Stressed Out! Fact Sheet",
+      "publisher": "National Institute of Mental Health",
+      "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "publication_date": "2023-08-10",
+      "source_type": "psychoeducation",
+      "evidence_tier": "TIER_1_CLINICAL_PEER_REVIEW",
+      "citation": "National Institute of Mental Health. (2023). I'm so stressed out! Fact sheet. U.S. Department of Health and Human Services, National Institutes of Health.",
+      "scope": [
+        "stress_vs_anxiety",
+        "physiological_symptoms",
+        "evidence_based_coping",
+        "sleep_and_relaxation"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    },
+    {
+      "source_id": "SAMHSA-COPING-2022",
+      "title": "Tips for Survivors of a Disaster or Other Traumatic Event: Managing Stress",
+      "publisher": "Substance Abuse and Mental Health Services Administration",
+      "url": "https://store.samhsa.gov/product/tips-survivors-disaster-or-other-traumatic-event-managing-stress",
+      "publication_date": "2022-05-12",
+      "source_type": "crisis_resource",
+      "evidence_tier": "TIER_2_GOVERNMENT_HEALTH_SERVICE",
+      "citation": "Substance Abuse and Mental Health Services Administration. (2022). Tips for survivors of a disaster or other traumatic event: Managing stress (HHS Publication No. SMA-13-4775). U.S. Department of Health and Human Services.",
+      "scope": [
+        "trauma_recovery",
+        "stress_reactions",
+        "healthy_routines",
+        "crisis_support"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    },
+    {
+      "source_id": "WHO-STRESS-2020",
+      "title": "Doing What Matters in Times of Stress: An Illustrated Guide",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789240003927",
+      "publication_date": "2020-04-29",
+      "source_type": "clinical_guideline",
+      "evidence_tier": "TIER_1_GLOBAL_HEALTH_AGENCY",
+      "citation": "World Health Organization. (2020). Doing what matters in times of stress: An illustrated guide. World Health Organization.",
+      "scope": [
+        "stress_management",
+        "grounding_exercises",
+        "unhooking_from_thoughts",
+        "emotional_regulation"
+      ],
+      "review_status": "APPROVED",
+      "chunks_count": 3
+    }
+  ]
+}

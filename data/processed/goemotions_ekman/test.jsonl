@@ -1,0 +1,883 @@
+{"text": "Out of curiosity, why won\u2019t you play Odyssey?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Am I the only one that doesn't what to see this? Tag this kind of stuff, please.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Seeing happy people isn't motivating because it shows how easy it is and how I'm failing at something literally everyone else on the planet can do", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "I think they honestly don't realize they're self-contradictory. It's not your ordinary, everyday doublethink...", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "I say it every day, buddy. I'd rather pay more at the pumps than be so selfish that I'd sell out our children's futures.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I was skeptical about it being huge but damn..", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Don't you're making me paranoid man", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "Talking about scary foreign people spreading disease is a classic xenophobic trope. Vile.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "So I've never seen [NAME] before and decided to Google it out of curiosity... Cheers for that", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Someone just vandalized this poor guys car in the target parking lot lol", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "I think its justified because that dude freaks me out. The less money the better.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "That isn't entirely fair. We're also for harboring regular ol' right trolls, too.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "What is with the pet worship? Should be more worried about your elderly relatives.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "bruiser sylvanus is so op for the first 20 mins, its ridiculous. underrated support.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Wow.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "I\u2019ve never heard of a vet adopting out pets before.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "test"}
+{"text": "\"Yeah, I was like \"\"man I love [NAME] so much but [NAME] is also amazing and good\"\"\"", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "This is still one of my favorite photos.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "Is that a sattiva or an indica?", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Even if she was 25 this would have been weird and creepy af.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "The dress was trailer trash appropriate. Did he just run out of money for a good dress? I mean, $300 BLACK UNDIES.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "dev"}
+{"text": "When I drove refers I was always afraid this would happen to me. I always shut my doors I'm just a worrier", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I absolutely love that idea. I went on an anniversary trip with a couple once and it was amazing! We had so much fun.", "label": "joy", "fine_emotions": ["admiration", "love"], "source_split": "train"}
+{"text": "Shoulda picked up [NAME] smh. Y\u2019all had a golden opportunity to pick up the god himself as a sub.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "it made me cry too when [NAME] return to her older self\ud83d\ude22", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Sorry to hear that", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "You're setting the bar awfully low for yourself.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Your age difference is incredibly creepy.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "I watched a video about fake makeup having rat piss in it. No thank you", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "There are courts. You need to document all this and let the judge give him a tongue lashing. Not that that would make a difference...", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "I would also have all this issues if I looked myself in the mirror dressing like that", "label": "surprise", "fine_emotions": ["realization"], "source_split": "dev"}
+{"text": "Any broncos fans out there that care to weigh in on this? Interested to hear your thoughts", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Do you have any tinder picture or bio advice? I have no selfies or mirror pics but still not doing very well", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "test"}
+{"text": "I'm so glad [NAME] is better looking than how he's depicted in UFC EA 3", "label": "joy", "fine_emotions": ["approval", "gratitude"], "source_split": "train"}
+{"text": "At what point in your life did you realize you weren\u2019t into it? (I\u2019m also not into it)", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "You are the type of fellow that puts mommy in the cheap home and cashes her cheques, loyalty of a snake.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "Guess we don't need to be afraid of hell, then, 'cause we can easily get out.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "How are you 100% positive that you're pregnant if you haven't taken a test yet?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Go pursue that education. Let [NAME] wallow in her own sadness.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Maybe ask some neighbours if there have been any strange or noteworthy comings and goings during the day.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "A great way to start the new year. Happy New year everyone.", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "Or he fetishizes about them. You never can tell.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I immediately block these shitheads/asshats", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "but think of how fun it would be!!", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "Yeah, but nobody takes McD's hamburgers seriously.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "My misunderstanding, I thought you were questioning why people thought we needed a change.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "But what volumes does the 3rd chart speak?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Thank you. I really appreciate the help", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "YEAH! How dare he ask if you were feeling ok!!!", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "Because they want to. Why do you act like a goddamn weirdo about stuff like this?", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "\ud83d\ude44 i hate these people.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "That would set an awful precedent Anytime the president can't pass something legislatively, he can just shut down the government to force his agenda through.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Same. You run a progressive or I will not vote", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "That opening is quite terrible tbh", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Interesting. Even if most disagree with it, I'd love to aee a resurrection of some sorts in IX.", "label": "joy", "fine_emotions": ["love"], "source_split": "test"}
+{"text": "but if it weren't that way then a corrupt police force could convict many innocents. there is no correct answer to this problem.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "[NAME] looks miserable in those photos.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "How is ot unreasonable. You take responsebility for what you breed. This natalist perversion is disgusting. The product didnt fail you. You failed the product.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I still think hating [NAME] isn't a good move for them. Could turn those undocumented [NAME] into undocumented [NAME].", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "dev"}
+{"text": "Wow you really can\u2019t handle losing can you?", "label": "surprise", "fine_emotions": ["curiosity", "surprise"], "source_split": "test"}
+{"text": "That ruling is such a mess: it gets the *reason* correct, but the Justices were so out of touch that the entire ruling was contradictory to that.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "It still wouldn't make sense. The problem isn't the looks", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "test"}
+{"text": "I agree. His own hair color is much better with his blue eyes.", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "Shame about him killing [NAME] on camera.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "Your using emotionl blackmail. Does the vet save cancer or destroy cancer? [NAME] = Vet. Your using babies and all sorts of things to manipulate. Vets only do the right thing.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "\"we have a \"\"righty\"\" complaining about \"\"lefties\"\" making up BS, while they make up BS... sad.\"", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Ok good points but you didn't address the issues faced by [NAME]. So you agree with me that losing as [NAME] shouldn't result in lost elo?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I love seeing the crowd's reaction to that every away game.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "\"I read it as baby sitter and for really confused at the \"\"she decided she wanted to walk\"\" part\"", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "I\u2019d say this is spot on. He\u2019s not sorry he hurt me. He just wants me to shut up.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Exactly, I've seen some of her friends and family SM and is not exactly wowing me.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "I just don\u2019t see why he pushed me leave with him so bad just to dip when I did", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "She might just be bitter over her own relationship and this is a painful reminder in some way.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Maybe you've been out of the game for a bit but literally every sentence is not a typical first date these days.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Huh that\u2019s her?! She appears on this sub every 3 days and she looks *so different* every time!!", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "This reminds me of the Percy Jackson series :P they do the same thing at one point when they visit a dam :P", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Oh for fuck sake. Things were going so well on the coaching front. This dude is nothing but a suck up", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I've come here to chew bubblegum and to kick ass.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Everyone who is complicit in all this should be punished and questioned as to why they allowed this to happen. Complete disgrace!", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "It smelled even worse than it sounds. You learn just how quickly someone's feet can rot and really stink up an entire bay.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "Deathly afraid, the undersides of boats too. I can't look if I see them in a picture or movie", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "OMG she reminds me of Ginger from Ginger Snaps! I'm in love!", "label": "joy", "fine_emotions": ["love"], "source_split": "test"}
+{"text": "No no no i didnt learn about that in my middle school bio class so it can't be real \ud83d\ude24", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "[NAME] didn\u2019t actively take any guns or accessories from me. [NAME] is... stop repeating circa 2012 Fox News propaganda to protect an active traitor.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Thank you! We all appreciate the kind words! \ud83d\udc93", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "train"}
+{"text": "To make her feel threatened", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "That sounds terrible.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Lol it's a bit of both I think.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "I hope all my muscles cringe so spastically all my joints come loose and I collapse into a writhing agonized pile of blood and meat.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "coincidences happen :P", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I wonder if losing their majority in the 2019 locals would shift the Unionist parties\u2019 position?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Washington Post is garbage because it prints garbage. I'll go with the decision by the experts thanks.", "label": "joy", "fine_emotions": ["approval", "gratitude"], "source_split": "train"}
+{"text": "Just hearing that thing's carapace sliding around and it's feet hitting the ground would make me vomit.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Neglect is a THING!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Sorry that's a mistype. I mean equally irresponsible", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "I feel like the world would be a vastly different place if the make up wearing roles where reversed", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "...and his last one was in New Orleans. Let\u2019s go Rams!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Confused and triggered", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Another thing I always wondered: why doesn't Raddus have autopilot? Would have prevented Holdo's death.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I love how he looks around for a flag and doesn\u2019t celebrate at first", "label": "joy", "fine_emotions": ["love"], "source_split": "test"}
+{"text": "No way!? Ugh this just sounds painful", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Incredible work and very unique, good for you", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "Were these the platforms they ran on.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "definitly whining my dude", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "This was the most fun I've had watching a game since [NAME] 35 point game", "label": "joy", "fine_emotions": ["amusement", "joy"], "source_split": "train"}
+{"text": "Yeah I cannot either on mobile, same with enough internet. Thoroughly disappointing.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "it only flatters them when they\u2019re posed a certain way. but other than that, it looks awful and uncomfortable", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "\"[NAME] i love this \"\"no one can be THIS happy, what a horrible person he must be\"\"\"", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "No I thought that movie was really bad. I could relate to requiem for a dream.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "So sorry about your loss. It's so heart wrenching xoxox", "label": "sadness", "fine_emotions": ["grief", "remorse"], "source_split": "train"}
+{"text": "I can finally block Post Mallone and all that repetitive weird rap that ppl play on my Spotify during parties.", "label": "joy", "fine_emotions": ["relief"], "source_split": "train"}
+{"text": "Every government in the world charges these fees. Welcome to the real world.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "I wish I could forget. Stop reminding me :(", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Yah, I'm a bad girl. In fact I'm bad at everything.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "And look like big tracts of land.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Maybe it depends on the state. In California, that means you\u2019re a moderate [NAME].", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "I\u2019m as terrified of Mr. [NAME] just as much as any sane person but I don\u2019t think we should *burn* him...", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "You go back to school... Except this time you don't qualify for ANY financial aid, because you already have a degree", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "It's kind of worrying that you genuinely believe that left-wing people are actively trying to destroy their own country. Approaching USA levels of ridiculous viewpoints.", "label": "fear", "fine_emotions": ["fear", "nervousness"], "source_split": "dev"}
+{"text": "How dare you put x on the same level as [NAME] and [NAME] [NAME] that's disgusting", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "\"I laughed at this post. Not because I find your pain amusing, but your casual use of the word \"\"boner\"\" kinda ruined the serious tone.\"", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Stupid theory!", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I am unconcerned.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "Not even polite if they're driving. The road rage here is terrifying.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "one of them shotting 22lr if I recall? Heck most the worst used a pistol ether exclusively or with a shotty too", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "He wasn't beat over the top all season. I think the longest pass he allowed was around 20 yards.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Ah yes. I remember we began with three.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": ">[NAME] wars benefit nobody. Actually, my stock portfolio is looking pretty great since he took over.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Welcome to MTV Cribs! The whole place is a giant bed for me", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "What a tool!", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "Happy Cakeday! I met my partner of 6 years at a London [NAME] meet-up \ud83e\udd29", "label": "joy", "fine_emotions": ["excitement"], "source_split": "train"}
+{"text": "Thanks so much for the advice! Will definitely keep that in mind", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "test"}
+{"text": "My biggest fear is catching feelings. I got dangerously close once lol. It\u2019s just about self control.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "He likes an old song and is young DISGUSTING", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Both consenting adults so nope not creepy", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I\u2019m far to antisocial or have too much contempt for other people to do something like that", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This is exactly what it's been like. I feel personally victimised by it all", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "OHHHHH! THAT ONE! Oh, *[NAME]*...", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Cant wait til [NAME] passes him. [NAME] is an ungrateful mofo. Anyone that praises their own work ethic and hard work needs slapped silly.", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "READ A BOOK YOU FUCKING CROOK.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I wish [NAME] son was older so it be possible he did this.", "label": "joy", "fine_emotions": ["desire"], "source_split": "train"}
+{"text": "[NAME], [NAME] is the most underrated [NAME]. I love that guy.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "Just wondering why they called the cops but not an ambulance seeing as how he was covered in blood and disoriented.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Mmm ... Chicken milk.", "label": "joy", "fine_emotions": ["excitement"], "source_split": "train"}
+{"text": "Why do people procreate, only to bring to earth a clone of themselves that's not attractive in any way.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Mr. [NAME]! Nooooo!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Where did you hear this? Sorry I never heard of this and I'm kinda interested now", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "You didn't come here to debate. You came here to excuse abhorrent behavior.", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "Right there with you! Unladylike was so depressing, I couldn't keep listening to it.", "label": "sadness", "fine_emotions": ["disappointment", "sadness"], "source_split": "train"}
+{"text": "Thanks fam, maybe I'll replay the level", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "I looked closely, his left ankle does not get run over. it just lands behind the very last tire. very lucky.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Say thos: mom, dad, she's busted. Respect my wishes!", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Also upvoted. Karma always helps. Edit: thanks for all the upvotes guys. I appreciate your support", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "train"}
+{"text": "She said that? Wtf?? That's fucked up. I shouldn't be surprised. Hypocrisy is common with this bunch.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "Ok well I hate to break it to you but I'm a magical pink unicorn...posting something on the internet does not make it true", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Wow City all of a sudden not so invincible anymore, have as many defeats as us now...", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "I believe that this may be meant for the person above me, for I have moved into the realm of monetized bananas.", "label": "joy", "fine_emotions": ["approval", "optimism"], "source_split": "test"}
+{"text": "Now I hate the giants as much as the next but they're 4th in average attendance and percentage.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "dev"}
+{"text": "good luck! I wish you the best <33", "label": "joy", "fine_emotions": ["optimism"], "source_split": "test"}
+{"text": "1 is the lie. I'm cheating because I remember this convo from last week.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "People don't have installation and maintenance costs and when they break down you can go outside and find another one really quick.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Yo this [NAME] was literally pulling moves out of the Hitman games jumping over to your balcony. Thats terrifying.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I'm still surprised this thing is only 2 Lanes in each direction", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "An ex-friend of mine proclaimed than anyone who speaks of being raped is a horrible, unethical human being.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "[NAME], going to go tell my husband that if this ever happens to pick me.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Why are you so salty? Who hurt you?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "dev"}
+{"text": "I will take it... for free of course /s", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "No more [NAME] from Georgia. Suck it you old, ugly hag.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Woo hoo!!! Free at last!", "label": "joy", "fine_emotions": ["excitement"], "source_split": "train"}
+{"text": "I\u2019m a big Spider-Man fan and this looks terrible compared to Spider-verse and the PS4 game.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "O no shes gonna go after mandy", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Yeah is saw that. Poor [NAME] :D", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "[NAME] AND [NAME] ENMESHED IN FISHY SEX SCANDAL!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Nice! I missed the Babybel.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "FYI your boyfriends fucking her too.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Really!? I thought it had, or at least it should. Guess I'm better off leaving too", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Barring an injury, [NAME] will be up by May at the latest. You're not going to sign him for one month.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "They are saying they are ethnically [NAME], which is true. Nationality and ethnicity are not synonymous.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "dev"}
+{"text": "You too! (FYI I accidentally initially replied in a new comment, in case you didn\u2019t see my other reply)", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "dev"}
+{"text": "So what? The LW doesn't. want. more. children.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Nope! It doesn't matter how stupid you were being.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "dev"}
+{"text": "My comment provided shame. I am nothing.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "He was horrible", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Im having a lot of fun, please continue the show", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "don't you hate it when that dogs are doing drugs behind your house?", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "50 becoz I\u2019ve used before and it\u2019s A really intense high but after a bit of research I\u2019m extremely hesitant to use it again", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Damn this guy just had a bad day!", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Sorry to burst your bubble but [NAME] is more popular than [NAME]", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "He\u2019s better than [NAME].", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "That isn't the ideal female body nor is it /fit/ That's a fetish", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "That's really sad. I used to live not far from there and spent a lot of time in that park. Fished in those ponds many times.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "So premier skins basically", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Nah, reviewable offsides is pretty bad", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "I don\u2019t know what I\u2019m to say I\u2019ll say it anyway", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "test"}
+{"text": "Ha! Had to go back and look. Pens.... I was seriously wondering wtf this was, a giant penis-shaped gummy bear?!", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "This is a depressing r/tworedditorsonecup", "label": "sadness", "fine_emotions": ["disappointment", "sadness"], "source_split": "train"}
+{"text": "At that point you might as well pay a visit to his home instead of suing. His house is a google search away.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Always remember that when problems get hardcore, Pornshit will be there to Worst them.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Sounds like he dodged a bullet. You\u2019re kinda dumb.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "> But my god, that fucking face. Never mind her, what about him further down.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "> no money at what normal, un-secterian people want! Surely not being sectarian should be considered normal in a civilised democratic society", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Generally you are still a \u201cteacher\u201d but I\u2019m not sure 100%. I know my instructional coach role is still \u201cteacher\u201d contract/pay.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "test"}
+{"text": "Hi, don\u2019t feel alone. Im here to talk if ya want if not thats cool too. Remember to try to be optimistic!", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "Awesome shot dude!", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "It didn\u2019t even compare to migas lol. Might have some in the morning.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "dev"}
+{"text": "Surprisingly all of my family keep their toasters on the work top despite being [RELIGION]/Unionist ?", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Gods, what a loser.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "You can only nominate one unit and said unit has to be one that wasn't already nominated", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "the world is becoming very boring...", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "BP can bulwark counter A good number of deflects and even drop attacks We have more than that to worry about", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Not the snowbank, though. That will end badly in spring.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I joined the casuals on the couch and curled up in horror while watching this", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I always cry when [NAME] is on screen.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Child: Dad, what's science? Dad: I don't know son, we're republican.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Prey actually had portals before Portal. Such an underrated game.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Yup, it may not look like much but it\u2019s still statistically significant. That\u2019s really bad for something being decided by a coin toss.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I love hearing other peoples stories about being high as hell watching drag race or being high on this sub. Y'all are my people.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "Great piece, thanks for sharing.", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "train"}
+{"text": "Dude nsfw this damn", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Because [NAME] is a man child who can\u2019t stand up to his mother", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "dev"}
+{"text": "Yeah. I killed them both.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Nice-full circle! Leaving [NAME] for dust- I love it.", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "Was it the same bike on the unreleased,MISC cover?", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Please tell me your shop didn't get you in trouble for that D:", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "[NAME] had a record for not scoring goals for several matches in a row with [NAME] as coach. Never mind that [NAME] was pretty awful during his time at Porto.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "You've aged horribly'", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "N00b account tosses insults - how surprising.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "THEY ARE SO CUTE TOGETHER!!", "label": "joy", "fine_emotions": ["admiration", "love"], "source_split": "train"}
+{"text": "Oh wow thank you all for your opinions, I was just curious and wanted to stare at cool skins :3", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "Wall St is scared of the 2020 Democratic primary.. Good!", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I would of taken a shit in the woods real quick", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "You can see [NAME] weapon on the plane in the background when [NAME] is talking", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I\u2019ve had it up to here with these damn rickets!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "did it work?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Always. And on a shallower note, he is aging so well, the handsome devil.", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "Hence what I said, it is just as illegal yesterday as it is today ... literally nothing changed", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Gotta think [NAME] was also tired after all the hard work they put out Most likely it'd be easier for a fresh player to run passed players", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "This particular clip had been posted dozens of times already. Still adorable but come on guys!", "label": "joy", "fine_emotions": ["admiration"], "source_split": "dev"}
+{"text": "Imagine if we dont trade [NAME] and [NAME] fans just kill all of us.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Yes", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Is she dead? She\u2019s dead isn\u2019t she...", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "A reason to play the game every 3 month?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Right now I'm listening to Stand By Me, I'm liking it", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "I was in Korea in July and August, it's hot as humid hell. Spring and autumn are better.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Idk, looks more like [NAME] to me, the fact he goes straight in for the hug is what sells me", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "It\u2019s not satisfying at all. If this wasn\u2019t [NAME] it wouldn\u2019t be popular. Interesting timing considering the [NAME] debacle too.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "test"}
+{"text": "I never knew cringing could be so ...cathartic.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "test"}
+{"text": "[NAME] no, these are horrid on anyone.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Omg, the hands touch the chicken, go off screen and then touch the salt. My mind is contaminated with Salmonella.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "How disgusting. Those vile people can burn in hell!", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Me too. I have so much shit and I can\u2019t imagine taking any of it into my car and piling it that high. Wtf?", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "any therapist will tell you emotions are valid even if they are irrational. Which i think is one problem with many TiMs.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Shoot, darn. You win again!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "You really don't comprehend anything my man, now do you? Goodness gracious the amount of stupidity.", "label": "anger", "fine_emotions": ["anger"], "source_split": "test"}
+{"text": "If this is actually how it goes, I won\u2019t feel so bad going from 5 to 8 in week 17.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "dev"}
+{"text": "[NAME]. Gave up in October and haven\u2019t looked back. I can\u2019t believe how easy I\u2019ve found it.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "test"}
+{"text": "cheers friend. same thing happened to me 2 days ago. hazzah!", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "I don\u2019t think anyone would be offended by calling a group guys. But idk", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Bohemian Rhapsody is a horrible song. Really horrible. Queen had a lot of great songs, but that one wasn't one of them.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "Your not winning their hearts, your just torturing them and they end up hating you.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "always the people I hate and never my crush", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Of course. For cost of [For salary figures", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "My son brings *homework* from kindergarten. I feel betrayed.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Happy little lies.", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "Got her game on.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Wow holy shit I didn't realize Reddit has become main stream media great analogy bud", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Yep, this cunt again.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Only when they have dirt underneath them, now that\u2019s disgusting.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Because majority of moves have stupidly long names. GO INTO ANGEL PUNISHER INTO DIVE BOMB RADIANCE AND FINISH THE JOB WITH PUNISHING LIGHT BLADE", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "You specifically believe that if a mortal sin is not confessed a person is damned.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "No, I generally feel like slugging them in the head repeatedly with an iron bar. Spitting is just petty. *Let your hatred flow!*", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Whatever it is, not enough.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Mark it nsfw just to mess with people. Worst title I have seen all week.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "you are trying to use post-modern mumbo jumbo deconstruction of words. Go away, idiot.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "Thanks man, I will have to check it out!", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "dev"}
+{"text": "These were one of the worst commentators I have ever been forced to listen to. The jokes were so cringe-worthy.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "That\u2019s the silver lining of this. Fuck Veracruz.", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "Lip piercings would be painful bloody and easily pulled out... Nipple piercings hurt tremendously if ripped and are also easily ripped out", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "No but it would be weird if you masturbated to it like I did", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "That scene made me think of Arizona a little bit tbh. I think I'm missing [NAME]*", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "dev"}
+{"text": "Thanks for comin' out.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "$20k - $30k is not an unrealistic sum. It would cost that much and more just to sell or house.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This is why you either keep your distance or shoot them.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "I could go, but honestly, it is the worst place on earth. I have 0 desire to do it.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "The lines are going to heal straight?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "\u201c[NAME] = [NAME] = [NAME]\u201d \ud83e\udd23\ud83d\ude02 It truly takes a DEVOTED moron to embrace that nonsense.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Please don't ruin our self-deprecating-humor cope.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I believe they shot him through the door in the back.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "U dumb.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I am not having a great day either. Sending good vibes, hope you feel better :)", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "After reading a lot of replies you should bee ashamed of yourself. This thread is a hive of bad puns and references.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "There is none, if anything pro government newspapers have been trying to show that its not the case in the last couple weeks.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "It also makes me cry! but because it shows how far [NAME] has fallen...", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "is there anything scientists not working on?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Guilty as well!", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "test"}
+{"text": "Oh, their theme gives me anxiety.", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "Love Myself by [NAME]. It\u2019s a song about touching yourself. Kids were singing it.", "label": "joy", "fine_emotions": ["love"], "source_split": "dev"}
+{"text": "Idk, I just need someone who cares but I always lose everyone and I\u2019m sick of trying to be good enough.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "\"\"\"And then you divorce them and date your stepsister.\"\"\"", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I went to college to get an MRS and all I got was this lousy BS!", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Thank you kind internet stranger for listening to me. I feel a little less alone for the moment.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "I find sativa makes me paranoid/anxious as hell. Indica calms me down more. Smoking too much of any strain makes me anxious by time though", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "Thanks for the resources!", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "\"\"\"Oh, how DARE you discuss the disgustingly unhealthy and dangerous lifestyle I pursue!\"\" /s\"", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "The fact half the level has no fucking music is a real pain.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Thank you for your inspiration", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "I work for the Hilton company I\u2019m disgusted they would let this happen outside one of their hotels if they had any ounce of control.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "Love this. I thought I replied this morning, but I\u2019m definitely taking your ideas and going to try them! Best of luck", "label": "joy", "fine_emotions": ["desire", "gratitude", "optimism"], "source_split": "train"}
+{"text": "*Hey just noticed..* it's your **10th Cakeday** likebigbuttons! ^(hug)", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Yikes I cringed hard", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "test"}
+{"text": "Awful taste hmmmmm", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "hum yhea i kind of agree, but i still dont understand what it has to do with the amount of devs left working on the game.", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "Breaking News: Man Write Op-Ed About What\u2019s Bad For Women", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "I was gonna report for hate but then I realized...", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "They're not. They're rolling super hard. And loving it!", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "Ours go insides and zones random isles.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "\"You're not going to stop using pot-stirring offensive words to \"\"trigger the libs\"\" or you're not going to stop using logic and reason?\"", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "That isn't the issue. The issue is shilling your channel.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "\"Oh damn, that would have been the only correct response! \"\"Sorry, but I have a boyfriend.\"\" End of conversation.\"", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "You sound scared", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Shame ,your quite cute", "label": "joy", "fine_emotions": ["admiration"], "source_split": "test"}
+{"text": "Ew her text is touching her photo, what a slut", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "It\u2019s shit. It doesn\u2019t let you see schedule information.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "dev"}
+{"text": "Fantastic thanks! If there\u2019s anything I can do to help you out with the interview or your first year teaching let me know!", "label": "joy", "fine_emotions": ["caring", "gratitude"], "source_split": "test"}
+{"text": "My heart skipped a beat when I saw this. My childhood dog looks just like them, and her name was Brandy!", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "Maybe we\u2019ve been mishearing the word \u2018starch\u2019 as \u2018staunch\u2019", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "I have no idea, I just get texts.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "Sorry my teams gave you your only two losses this season ;)", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "test"}
+{"text": "I\u2019m so nervous!", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "\"I still have no idea what \"\"died three times\"\" means...\"", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "No! My furniture is floating!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Freaky, more like creepy", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Yup [NAME] is who me miss. Anyone notice though that his little southern twang ramped up to about 100x more when he went national?? Lol", "label": "joy", "fine_emotions": ["amusement"], "source_split": "dev"}
+{"text": "Is this legit or just a random house?", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "I wish I could be half as cool as that guy", "label": "joy", "fine_emotions": ["optimism"], "source_split": "train"}
+{"text": "Are you honestly being serious? I have a hard time believing that you can afford it", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "\"Bro, people are telling you why a hundred bucks isn't a \"\"high fee\"\" for this type of event and you're not listening. Cheers. \"", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "What is the least confusing racism to you", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "I've fought mudcrabs more fearsome than you.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Oh do the thing where you flick food into my mouth!!!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Roast you? The fires of Mount Doom already did that for you, you [NAME] looking ass.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "You can do it girl! I believe in you! :)", "label": "joy", "fine_emotions": ["approval", "optimism"], "source_split": "train"}
+{"text": "I discovered this show on the cnn docuseries about the nineties. What a terrible idea for a show \ud83d\ude02\ud83d\ude02", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Just you. All my other senses open up, so my vision _changes_ but i'm still eyes open", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Why do you guys care so much?", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "As a [NAME], I would like to extend an apology to anyone freezing in the polar vortex.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Pair it with Mayhem meme eyes and baby, you've got a stew going.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "His smile and optimism: gone.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "The loading screen has the circle at the bottom that just keeps spinning. I tried uninstalling the app and that didn't work either.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "test"}
+{"text": "So you\u2019ve never had a fwb situation and if you have it made you worthless for a real relationship to other women? Hope this goes both ways", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "test"}
+{"text": "AV is a system where if you vote for a loser you can change your mind and 'have another go'. That's the problem.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "She regrets getting in trouble", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "You forgot to block the name in the tweet they're responding to", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This is creepy.", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "That shit really just made my night. Haha", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "I opened reddit to masturbate then I saw this. It's hard but... it's the right thing to do Thanks! Take it easy :)", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "I mean, if it's no questions asked how would they know you're not a resident?", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "[NAME] oh my god", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "Yeah. I don't even know why I was filming lmao. I hit #1 good. Definitely a miss on #2 though.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Use a damn rubber", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I just housed a transgender person for a few months after she came out to her parrents. So people are so cruel.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "Unblockable feint dodge light beats a roll on reaction to the unblockable.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "This whole ordeal seems entirely pointless, but i don't want to turn away in case i miss some drama", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "test"}
+{"text": "An angry old person yelling at a retail worker will never listen to reason.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Oh [NAME] imagining this tween screaming yaaass queen at a poor drag queen made me cringe into a ball", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "i don't usually 'wall of text' posts but i'm glad i made your post an exception. thank you, it brought tears to my eyes.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "yep he joined the wrong org", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "Here comes the \u201cTrade Nylander\u201d crowd - people can\u2019t see past the stat line.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This is the only viable way out of Brexit.", "label": "joy", "fine_emotions": ["approval"], "source_split": "test"}
+{"text": "THIS IS NOT HAPPENING!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Wow, that\u2019s fascinating! I\u2019d be interested to know the rationale (or lack thereof) for a [NAME].", "label": "joy", "fine_emotions": ["excitement"], "source_split": "dev"}
+{"text": "You should educate yourself on HPV. You don't contract it from being careless.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This is so infuriating.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "My saving grace: \u201cSince we have an odd number of students, is there anyone who\u2019d prefer to work alone for this project?\u201d", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "If I had that I\u2019d stop working and travel full time. I do not understand the avarice of the wealthy. It makes no fucking sense.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "test"}
+{"text": "[NAME] is often regarded as strategically the worst Lord in the series because of this. [NAME]", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Hard to expect much when he has not been involved in the offense for most of the season.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Such is the reality of online dating for men.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I honestly don\u2019t know who\u2019s out there that\u2019s better for [NAME]", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "You\u2019re a liar. \ud83d\ude02", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "test"}
+{"text": "I personally like [NAME] and think he could be on the team right now, but the Org doesn't agree.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "An eye for a *dead*eye? I'm sorry...", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "dev"}
+{"text": "Damn! You were so close! Scary. Damn damn!", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Living here. Now my daughters biggest aspiration is to leave this place, and I can\u2019t say I blame her.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Yeah, it\u2019s not exactly rocket-propelled hot wheels cars playing soccer, but eh, I\u2019m down.", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "I was grouping twitter with it. Tweets were great this year", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "The ID cards wouldn't have been a problem if they were like the EU one. It was the fuckload of biometric data that was abhorrent.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "M'goodboy. His mommy better give him plenty of tendies and honey mussy for his good manners.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "That's bad", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Yikes that's cringe", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "Glad [NAME] found some love in his life", "label": "joy", "fine_emotions": ["excitement", "love"], "source_split": "train"}
+{"text": "Woah so [NAME] was finally unhappy with the team? I sense a lineup shuffle coming", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "How dare you say that. He's a toad of the people! Not some rich frog!", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "I remember that one. It was so painful to watch", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "I\u2019m glad to see [NAME] finally get the big screen presence they deserve.", "label": "joy", "fine_emotions": ["admiration", "gratitude", "joy"], "source_split": "train"}
+{"text": "Dudes never show any interest in me irl so I was just thinking about getting a Tinder. Seems like people have much lower standards on there so fuck it", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Nope, midwest. I'd bet there are a bunch of shops with the same stuff though. P.S. I love your name!", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "So glad she died", "label": "sadness", "fine_emotions": ["grief"], "source_split": "train"}
+{"text": "[NAME] gets punched in the head and gets a penalty.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Damn, women really are helpless little sheep, aren\u2019t they? Best us men protect them. /s", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Idk I felt like that until I got diagnosed with a chronic autoimmune disease.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "That looks absolutely awful. On the good side, whoever made it, can only get better.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Wow. I hope that asst manager will be looking for a new job soon.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Clearly, he had a bad Wednesday practice...", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Wow I forgot we were competing with Sevilla for 3rd place. That makes this win even more important then!", "label": "joy", "fine_emotions": ["excitement"], "source_split": "dev"}
+{"text": "This shit got me rolling LMFAO", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "She is a horrible person and that is what makes her so relatable in real life.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "[NAME] and [NAME] are my favorite gay couple", "label": "joy", "fine_emotions": ["admiration", "love"], "source_split": "test"}
+{"text": "Ironic if an alt-right nutjob finally makes the alt-right nutjob mods finally mod. Maybe even cruelty can only take so much piss in its coffee.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "but you won't hear that from most of the press or people on this sub WHAT IS THEIR POLICY THOUGH lmao", "label": "joy", "fine_emotions": ["amusement"], "source_split": "test"}
+{"text": "Anti-vaxers aren't funny anymore, now they're just scary...", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "I don't really know how to explain because English is not my first language, I'm sorry.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "**Iowa\u2019s best player is out** I would simply avoid this game as we haven\u2019t seen Iowa play without [NAME]", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "pretty fukkin sure lmao, its over fam, doing another trumpdown would kill the gop so they wont let him do it", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "We have reached the stage where below 2 million is good. There truly is no bottom to this pit.", "label": "joy", "fine_emotions": ["admiration", "pride"], "source_split": "test"}
+{"text": "She sounds abusive and narcissistic. Delete your facebook, hit the gym and kill her.", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "\"*concussion* *Trophy system kills it* *Another concussion* *Trophy system kills it* \"\"Yo guys watch me throw this cluster\"\" Honestly embarrassing \"", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "for me it was def the egg yolk. i\u2019m pouting as i reluctantly eat it.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Girl here. I don't get why incels think that girls only like tall guys. I mean I'm 4'10 and my boyfriend is only 6'2.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "\u201cEat the vegetable growing out of your garbage can\u201d", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "He took [NAME], too? That wasn't part of the deal, [NAME]! THAT WASN'T PART !", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "dev"}
+{"text": "Wasn't he Eagles' top try scorer last year despite being a forward?", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Didn't even take a sip of the wine, and he still got wasted.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "That is even worse. No tax from them and we provide them with services.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "Right. It was wasted screen time. But oh no, we couldn\u2019t have a Snoke flash back that was 30 seconds *at most*.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Horrible night for dodo", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "This is awesome. Thank you!!!!", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "train"}
+{"text": "Because it's incredibly cringy.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "The only problem is that what you will never hear pf their relationship through sponsorships.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "test"}
+{"text": "You seem horrible", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Yep, lack of proper coaching yet again. Sucks we missed out on [NAME].", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "True, haha. Anywho, have a great day.", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "I\u2019m so sorry you are going through this. Sounds like an awful experience.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "hmm... it didnt work for me when i posted it but now it does... weird af", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Was gonna hit you with the /r/gatekeeping for that elitist mentality, but you recognized your errors. Props.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "It shouldn't be, I feel like that's happened to us many times!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I feel like [NAME] had the right idea losing the will to live. Now if only I could learn this power...", "label": "joy", "fine_emotions": ["approval", "desire"], "source_split": "dev"}
+{"text": "Of course I remember a time when I didn't know what calories were. I was a child.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "***huh?***", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "1-2-3-4 I declare a thumb war! Dangit [NAME], you win again! Ok you get to stab me again :(", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "dev"}
+{"text": "Even if you think me and him aren't soulmates, youve gotta be pretty sad to think soulmates don't exist.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "hahaha. best response I've seen in a few days", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "\"I want my kids to feel like life will take care of them -[NAME] \"\"LIFE will take care of them?\"\" *signature [NAME] face* hahahhaha\"", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "Fuck her... don\u2019t live to make your parents happy", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "But the battle dynamics are sh*t. Every other ME is better in that respect, especially the squad AI is bad. Really bad.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "But it\u2019s so hideous", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "She missed the part where that's her problem.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "You're right and I hate it.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Thats beyond shockingly bad. A new level of terrible. Wow...", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Also known as the song ice cream trucks play. I was wondering why it sounded so familiar!", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "After 8? I'm afraid after 5. It gets dark here early. :(", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "Can you blame us after the article?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Back at it with the crazy [RELIGION] conspiracies I see. Did you stop taking your pills?", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Nah I get that, it's just AFFIRMATIVE action...unless this went over my head as well lol", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "I\u2019ve had a hard time finding stuff in the area, occasionally Construction Junction will have a decent old handsaw or two...", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "dev"}
+{"text": "I'm not responding until you point me where any of my statements contradict cut and clear", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "It's embarrassing!", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "WHY HAVE I NOT SEEN YOU? WHERE THE HELL HAVE YOU BEEN?", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "Compared to the number of people fleeing Venezuela, the Honduras situation is a rounding error.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "also a harsh NOOOO when disgusted", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "What law did they break? This is just another example abusing a system for profit without the necessary laws in place to protect people.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Other than Moose, the American Robin took me forever to find.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "That is a valid question, I hope it can change, but admittedly that hope is pretty small.", "label": "joy", "fine_emotions": ["optimism"], "source_split": "train"}
+{"text": "You've shifted the goalposts from first novel to first modern novel... You people always complain that incels don't provide any support for their claims.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "I've seen so many of these and I still have a massive amount of difficulty believing it is possible.", "label": "joy", "fine_emotions": ["approval"], "source_split": "test"}
+{"text": "[NAME] is amazing...", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "I want this cat", "label": "joy", "fine_emotions": ["desire"], "source_split": "train"}
+{"text": "She refuses them by inhaling them [I'm sorry if that sounded bad plz no downvite]", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "makes no sense, troll harder", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "That is absolutely terrifying to me. Oh my god. The idea that she was trapped as a toddler her entire life is just... wow.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Also how nonchalantly he hits them, like he's swatting a mildly irritating fly", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "That's so disappointing. I'm sorry that happened to you. It really is hard to make friends as an adult.", "label": "sadness", "fine_emotions": ["disappointment", "remorse"], "source_split": "train"}
+{"text": "I think it's normal and fine and would second the suggestion to have her check into a weighted blanket.", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "Don't you know pets are valued more than a woman's life.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "This was touching and certainly fits here on r/bestof. But can someone explain how it started? How did someone know he's depressed? I'm just confused..", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "dev"}
+{"text": "Another pathetic PP.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Awkwardly remembering all of those promises I made mid-panic attack...", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "I hope this is better than The Middle I mean it's [NAME] so it's going to be decent at worst.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Yep. That's what made me kiss my SO for the first time. Those eyes. I don't think I'll ever forget.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Scripted but funny", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "No. It\u2019s creepy.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I would go to bed early and I would have nothing to do the 3-4 nights a week I play tennis lol", "label": "joy", "fine_emotions": ["amusement"], "source_split": "dev"}
+{"text": "\"You are like 2 years away from being Mr [NAME].... \"\"eeeeexcellent\"\"\"", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "FUCKKNG PLEASE \ud83d\ude4f\ud83d\ude4f\ud83d\ude4f", "label": "anger", "fine_emotions": ["anger"], "source_split": "dev"}
+{"text": "Notice how much harder [NAME] was concentrating on catching those rocks than [NAME] did at the end of TLJ...", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I think the general consensus in this sub is that he sucks and is the worst streamer on twitch.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "he knows there are tribute bands, right?...", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "The only thing I remember about that guy was the super racist remarks he made about [NAME].", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Bedside report is terrible.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Ok.... he can *call* it the State of the Union, but that doesn't mean it is.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Why is he wearing his little sisters jeans? Bc she stole his juice. That's why", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "I get all the deja smells and it's terrible.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "\"Oh my [NAME], is this the new transphobia specific \"\"Post Hog\"\"? Because it really should be.\"", "label": "surprise", "fine_emotions": ["curiosity", "surprise"], "source_split": "train"}
+{"text": "Hello fellow Newcastle vegans! We are very lucky to have so many vegan places!", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "dev"}
+{"text": "Where the fuck is that Kepner rocks person when we need them the most.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Thats insane. Someone died like 2 years ago after a bolt got kicked up by a truck and went through his windshield and hit him on 146 in LaPorte", "label": "sadness", "fine_emotions": ["grief"], "source_split": "train"}
+{"text": "it's hurting my heart :( why did you leave me", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "Everybody talks about this but I wonder if it increases the chances of prostate cancer. Do you know?", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Venezuela has uniquely terrible oil.", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "Sicko mode is on a whole new level, it cant be compared.", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "This is so sad. [NAME], play 'bitch lasagna'", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "nah man im just shook and deadTM\ufe0f", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Yeah, my mom would tell at and hit our family dog. She was a tiny little dog too. :(", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Ahhh more and more selfish", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "That sex doesn't exist and we're all just pretending for his benefit...", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "dev"}
+{"text": "If they add the yellow boots I\u2019ll be happy. I really like this suit", "label": "joy", "fine_emotions": ["joy", "love"], "source_split": "train"}
+{"text": "Best not let [NAME] near him, what with her oils and all...", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "test"}
+{"text": "Yea I saw that...had me worried for a sec but I had no trouble at Delta", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "The attempt was successful. He's crying and not talking to them because they're actually dead.", "label": "sadness", "fine_emotions": ["grief"], "source_split": "train"}
+{"text": "I'm so sorry for your loss. One of my favourite unisex names is [NAME].", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "I dated a Pens fan from SWB and can confirm this is very much a weird thing.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Came on her face and she told you? Wow disrespect. Either she didn't know how you really felt or didn't care. Sorry about your luck", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Wow, again? You deleted and reposted it after I called you out not even 5 minutes ago! #desperate", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Is a really worrying bench", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "[NAME]! You made me the happiest girl that could eva be!", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "And you've never driven over the speed limit?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "It is really boring. There is a culture in church, but it is essentially soulless and is really only weirdness with a heaping of superiority complex.", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "I have an issue metabolizing medications fast. I'll wake up during surgeries so they give me a lot of drugs.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "That sounds terrible, man. Have you been to a doctor yet?", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "No faith! Shame!", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "lool chill fam, u aint gotta do him that bad", "label": "joy", "fine_emotions": ["amusement"], "source_split": "dev"}
+{"text": "Cancer is even scarier my friend. Let's just hug it out", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "That facial hair....guy just finished playing red dead redemption 2 probably", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Shhh don't give them the idea!", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I'm really enjoying Season 3 but this would ruin it for me.", "label": "joy", "fine_emotions": ["joy"], "source_split": "train"}
+{"text": "So I should definitely give up on real life is what you are trying to say huh? :(", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "I know what you mean. I'm actually looking for a [NAME] irl. That's hard to find...", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "Explaining the whole thing i wouldnt have the heart to physically or mebtally hurt a person such as raping someone", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "There's those people that compliment me all the time and you can tell it's so forced and fake and I honestly dont know what to say", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Look what time it is. It's Fuck You, It's January!", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "\u201cWTF, He helped me? ...I\u2019ll eat him last :)\u201d", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Welcome back [NAME]!! You sexy Brazilian SON OF A BITCH", "label": "joy", "fine_emotions": ["admiration", "love"], "source_split": "train"}
+{"text": "The faces in that drawing are kinda horrifying", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I am literally dumbstruck. Reality has been brought into question. Top tier YouTube comments though.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "How old are you? It sounds like 90% of the guys you know who are your age also don\u2019t have their shit together", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Wait what? I don\u2019t get it?? Help.", "label": "surprise", "fine_emotions": ["confusion", "surprise"], "source_split": "train"}
+{"text": "lots of games have already added what he's asking for, i don't know why he asked the question", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Have fun!", "label": "joy", "fine_emotions": ["excitement"], "source_split": "train"}
+{"text": "Philanthropy really scares some people, doesn't it? People did this to [NAME] too.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Don\u2019t wait. Take control of your life back and leave. You know that\u2019s what\u2019s going to happen.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "That only works for the ironclad", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Have you talked to your boyfriend about your feelings?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Pity. I had some decent lunches there, but never went there at night.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "[NAME] just reminded us last night why he\u2019s paid his ridiculous wages", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Id like to see Finland win it. But id like to see [NAME] and [NAME] carry their teams in every way possible to those losses.", "label": "joy", "fine_emotions": ["desire"], "source_split": "train"}
+{"text": "\"Oh, the \"\"Thomas the nuclear bomb\"\"? That scarred me.\"", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Sounds dreadful.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "no, educate yourself like an anarchist.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Auch, that's gotta hurt...", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Honestly, this would creep me out a bit.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Liberal Grandma best Grandma.", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "You can take those inserts and shove them where the sun doesn't shine. Begone anti-vaxxer.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "> A good jab to the sternum is what I was taught. maybe a sharpened bat would work better?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I second this. Revlon makes a great cuticle oil with Jojoba and a few other oils in it.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "> I doubt a typical [NAME] would be bankrupted by a $20K bill This attitude represents exactly the stereotype of [NAME] that most people have.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "What makes them [NAME]? Tf", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Middle Eastern here and watching this team lose due to silly mistakes at 3-4 am kills me", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "dev"}
+{"text": "I feel a deep sense of shame.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "It\u2019s like you didn\u2019t even read the comment you\u2019re responding to.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "There has to be some repercussions for this judge, right? Considering the crimes, that bail seems incredibly low...", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "[NAME] in drag.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "The train conductor didn't kill anyone. There's nothing that person can to but watch. So it's a lot easier to believe.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Even with their new location around the corner, they are still incredibly awful. By far the worst [NAME].", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Same. Not being hateful to the op but I don't see the connection.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Whoa whoa whoa, dont go firing him into the rest of us. He is your alien being", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Women don't want their own shit. They want our shit. ---- [NAME]", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "In our society it is more shameful to pay for sex, do drugs and to gamble than to praise the death of innocent innocent victims.", "label": "sadness", "fine_emotions": ["disappointment", "embarrassment"], "source_split": "train"}
+{"text": "I have an idea. Hear me out in this. Maybe we shouldn\u2019t get upset about [NAME] until.... they...sign... elsewhere? Too radical?", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Those women's marches are honestly embarrasing. Most of the people there only seem to claim to be a feminist because it's trendy.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "Imagine your daughter running away from home. I think that's a pretty terrifying idea without some murderer or mystic horror", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "She's digging herself a nice grave for [NAME] to bury her in.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I just looked that up... Dear [NAME] why?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I spend a lot of time worrying about how and why that'll happen to me as I get older.", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "Cognitive Dissonance. Big problem in our society.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "[NAME] was the same in Crestwood. Scary as hell.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "This is so creepy. Good riddance to awful rubbish.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "I'm REALLY glad the guy saved him but seeing him so pitiful and scared really lingers with me. :(", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "You need to tell her, and make sure she knows it\u2019s not your kid. You went through with a dna test right?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "dev"}
+{"text": "What an unbelievable coward", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Thank you sir, this has made me happy.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "It makes customers uncomfortable because we're calling them on their BS and this is the only way to get them to own up to it.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Fuck I\u2019m sitting in position 3 right now", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "This guy fiths", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I slept so great last night uwu More wins vs them please!", "label": "joy", "fine_emotions": ["approval", "joy"], "source_split": "train"}
+{"text": "Malevolent as I've ever been, head is spinnin'", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": ">Some ~~drugs~~ people are just... Scary... Some drugs tend to bring out what's bubbling under the surface, so in that way, yeah.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "It's a shame that so many experimental psychology studies are still using such dubious statistical practices.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "I want to end myself when it happens", "label": "sadness", "fine_emotions": ["disappointment", "sadness"], "source_split": "train"}
+{"text": "Maybe it's fantasy.....I just feel like the stock for a lot of these Ducks is reallllll low right now", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "test"}
+{"text": "The only death that made me feel any emotion. And it wasn\u2019t even the death itself.", "label": "sadness", "fine_emotions": ["grief", "sadness"], "source_split": "test"}
+{"text": "stop hurting my feelings", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Same, ASMR is nightmarish. My skin crawls just thinking about it.", "label": "fear", "fine_emotions": ["fear", "nervousness"], "source_split": "test"}
+{"text": "Because when everything goes ok people don\u2019t post about it.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Opinions? I mean that's just a statement.", "label": "surprise", "fine_emotions": ["curiosity", "realization"], "source_split": "train"}
+{"text": "[NAME] was gaining a lot of buzz until Twitter cancelled her after finding a bunch of old racist tweets.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Teams got some fire tonight. I like it.", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "Thankyou! :)", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "Likely frostbite advisory weather.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "Love how science doesn\u2019t matter for human biology. What about climate change?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Long, difficult but rewarding combos. Simple defense mechanics. The speed it\u2019s currently at. Meter burns, risk reward.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I feel bad for him and [NAME] i hate seeing the OGs fall #UNITEGAMING", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "good luck my friend", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "In Canada you should probably be more worried about moose than bears", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "[NAME] pays big. He bought out Hot Doug\u2019s so he could enjoy their foie gras sausages 4x a day.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Apologies, I should have been more specific. Where abouts is JD?", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Sorry to hear that, I have it for ps4 and hardcore dlc servers are still up", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "dev"}
+{"text": "Thank you. This is something I really needed to hear. Hugs, mama.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "And this is why this sub is the way it is.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Oh goodness, that show shaped my sense of humor. I loved it so much.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "New book? Or is he talking about 12 rules", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I'm not saying its in a good position im just saying just cause a guy enters free agency doesn't me they will only get scraps from teams.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "That\u2019s a horrible take.", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "Sorry for the delay. Nanaimo's a union/mill town, so no surprise the NDP won.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "[NAME] looking like his older brother on that one.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "No, but a cast member did talk to him after his yelling.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "\"Welp, my bad. Searched for \"\"new year\"\" and didn't see this so posted.\"", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "dev"}
+{"text": "Right before that he called [NAME] for getting barged in the back and nearly kicked in the face. Weird performance. Didn't change the result mind", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "First I was afraid, I was petrified...", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Ok, I gots to know, was the child taken away? Please tell me the child was taken away.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Lol Question for you. Why do you believe everything presented to you?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "They are used to semis surely", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Ever seen a lion limber up before it takes down a gazelle?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "What an absolute moron. Talking about characters everyone and their inbred mother knew would be back. His stupidity fucked him over.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "dev"}
+{"text": "She didn't need that spine.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I may have got lung cancer and hiv but at least I was around when [NAME] was haha baby-boomer win!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "[NAME] was such a nice and calm person, he makes everything wholesome He was just like his paintings Realistic, Hard worked, and with tons of love", "label": "joy", "fine_emotions": ["admiration"], "source_split": "test"}
+{"text": "In this day and age I\u2019m actually surprised at how many hotels haven\u2019t sorted plugs by the beds yet", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Just ask if she wants to go out sometime. It doesn\u2019t require this much thought", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "dev"}
+{"text": "woah this is a reversal of the norm you took a meme from instagram to reddit", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "test"}
+{"text": "Can't help that the president hangs out with the bottom of the barrel.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Just forget about it and act like it never happened. It\u2019s not the right way but it\u2019s what I do.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": ":( bastards", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "She actually survived the incident, I don\u2019t know if anyone has the article", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "It's fishphobic!", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Inland Empire must be objectively the worst film ever then.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "this literally made me sick to my stomach", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Scary. I bet youre fun at parties.", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "That's what I'm afraid of but I don't have a lot of free time so it would never work.", "label": "fear", "fine_emotions": ["fear"], "source_split": "dev"}
+{"text": "Oof... I mean I definitely welcome a dramatic population decrease but I wish we could've done it in a more intentional manner *before* irreparably damaging the environment", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "> Portland seems awesome from the outside, not so much once you're there. big fax here folks", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "My liver CRIES watching these kids. Weeps into a warm cup of steamed milk.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "sure but that doesn't change the fact that he's probably not a neccbeard", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Da real MVP", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Google image him. Hes NEVER had a good haircut.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "That sounds awful. Glad its from 4Chan, so I know its fake.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "lakers bout to get KAT fucked now", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I am scared that I would lose potential study time by seeing him. And worse if I end up liking him too much... :(", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "What accent does the man talking in the video have? It sounds Scottish to me, but I'm just guessing.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "They cannot bypass racial discrimination without facing a serious backlash.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Walmart is a special kind of hell.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Sorry if this is ignorant but is that a wig?", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Um hi.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "The dad is like ARE YOU FUCKING SORRY Jokes aside, good on the dad and the 2nd pissed off dude Tryin to make a change :-", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Hell yeah o/", "label": "joy", "fine_emotions": ["excitement"], "source_split": "dev"}
+{"text": "I dont understand this personality thing? Most guys aren't that interesting but they will still end up with a girl.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Check out the name of the guy above me I was just making an EFT joke", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "\u201cThat\u2019s up to you\u201d Clearly it is not up to you, or you wouldn\u2019t have had a flipping miscarriage!", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "Our road still hasn\u2019t been salted on Troy Hill", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "I\u2019m scared of shots, but I\u2019m more scared of dying. What Anti-vaxxers are scared of is autism", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "That's not what I said. Re-read my comment.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Oooo, shiny! (Is the blue one the new one?)", "label": "joy", "fine_emotions": ["admiration", "excitement"], "source_split": "train"}
+{"text": "There's a lot big talk here that will look kinda dumb if we're third/fourth midseason. I hope we aren't being clowned halfway through the season...", "label": "joy", "fine_emotions": ["optimism"], "source_split": "train"}
+{"text": "Oh yeah, I forgot about the mean one.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Thanks love you", "label": "joy", "fine_emotions": ["gratitude", "love"], "source_split": "train"}
+{"text": "Oops. My bad", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Shh that breaks the narrative though.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "It's crazy, the first day with icy, snowy roads it's scary but within a few days, grip and visibility sound like fantasy", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Basically. My step dad didn't choose to break his back and his knees. The whale chose to overeat and become obese", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "And? Did i say they didnt? Read the whole thread you bimbo", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "[NAME] has consistently being volatile. It's just a matter of time until she's being rude to [NAME] again.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "test"}
+{"text": "My mom wrote a paper for me once in 5th grade. I got a B-. Needless to say, I learned my lesson.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "[NAME] is phenomenal. It\u2019ll be a sad day once he\u2019s gone", "label": "sadness", "fine_emotions": ["disappointment", "sadness"], "source_split": "test"}
+{"text": "Wrong sub, mane.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "I'm just here to say fuck [NAME]", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "19??? Yikes slow down, enjoy yourselves and figure yourselves out. Not an age to make big decisions like that, I say at 24...", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I really want to know what the coordinates he gave him are", "label": "joy", "fine_emotions": ["desire"], "source_split": "train"}
+{"text": "I\u2019m sorry :(. Lol. For me, after the ending of 3, and Andromeda, I have zero interest in ME.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "test"}
+{"text": "I have no idea how we are down by ONLY 13. Its truly a miracle.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "If loving the Falcons along side my Vikings is wrong, *than I don\u2019t want to be right.*", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "I\u2019d tell her nothing, that freaking weirdo would just never see my kid. The End. Disgusting.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "I am starting to get very concerned with [NAME] and [NAME]", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "What? You don't know what punishment is?", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "dev"}
+{"text": "It's even worse when you get someone from NJ who has no clue how to drive in the city environment.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "Don't do #4 it's bullshit", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Lmao. I fucking love this community.", "label": "joy", "fine_emotions": ["amusement", "joy"], "source_split": "dev"}
+{"text": "I'm using mine on the Consumer Cellular customers that come in mad at me because they have to set up an Apple Account to use their IPhone.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "I can, but not that kind.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Must be a terrible swim team. The only thing that your neck beard does is accentuates your double chin.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "I'm impressed you found a non troll post of theirs.", "label": "joy", "fine_emotions": ["admiration"], "source_split": "test"}
+{"text": "I don't think you can afford a lawyer. If fact, I would not be surprised to learn you don't actually have anything on QCX.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Not enough pizza rolls on that plate. How does someone not sit there and eat a whole bag at once, I will never understand", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Oh no, the horror. Look, a pause! Let's start CPR! Those nurses, probably", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Apologies, sir", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Beautiful yet sad that his relationship ended in \u201845 the same way most of mine do...with cheating", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Rest days or continuous cycle?", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "\u201cThat ad is an over-generalization!\u201d \u201cMost men feel this way and agree with me!\u201d Hm. \ud83e\udd14", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "So...... SOOOOOOOOOO glad Atlanta came back and beat the Bucs. Because of it, my beloved [NAME] are coming to Tampa.", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "Oh sorry. Instead of \u201cwillfully stupid \u201c I meant, why do you hate America?", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Dude want's to help his mother... cool I do the same, my mom lives in my basement. But he is doing it with my money!", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I sorry didn\u2019t want to disrespect peep but as i said i needs to be dark and about something i like", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "please don\u2019t make me have to bring up fire emblem in trader joe\u2019s again i can never go back", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": ">ageism Lol. Nobody's *discriminating against* these folks cuz they're teenagers. Settle it down, mate.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "I refuse to watch this. Lifetime exploiting [NAME] gross behavior to sell 'entertainment'.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "The titles of her posts are somewhat dramatic and I have avoided her because of that", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "They\u2019ve always been bad my guy", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Uh, people kept asking me if I was jailor and I said no, and based on this chat you can also see that jailor is not smart.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "test"}
+{"text": "Food stamps are a disgrace. People should get money!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "That's not a denial \ud83e\udd14", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Surly [NAME] always puts a smile on my face.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "So does [NAME], so much for him being a Thibs guy.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "He has a kid that he pays child support and my 2 younger siblings that he also calls leeches", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "i feel betrayed by the community", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "test"}
+{"text": "Why shouldn't you", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "> Sure it might make the population 4:1 [RELIGION] but it's still an awefully large mibority The population already is 4:1 [RELIGION].", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "I don't know what's more embarrassing, the fact I watch the show or own a Roku TV.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "train"}
+{"text": "The Colts badly wanted to hire him. He\u2019d get a GM job in a heartbeat if he wanted it.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "It\u2019s a cruel thing to say to someone with depression.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "It's different when it's your younger sibling, people", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Friends for eternity! Loyalty, honesty!", "label": "joy", "fine_emotions": ["admiration", "approval"], "source_split": "dev"}
+{"text": "By that logic its seedy and insincere for google to act like they care about Homealone.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Damnit, it was *Flavor-Aid*, not Kool-Aid.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Fuck taking the high road. If I\u2019m [NAME] I\u2019m blasting the officials when I speak to the media.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I\u2019m baked and the fact that you updated yourself is extremely satisfying to me so thanks for that.", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "Maybe server related? I've got 2 cars in a low pop server and they work just fine...", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "test"}
+{"text": "At first I thought this was talking about physical piracy (like stealing cargo ships) but now I understand.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "\"\"\"Think about how dumb the average person is; then realize that half of them are dumber than that!\"\" - [NAME]\"", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "This is painfully fake", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "But seriously, you're probably going to feel very sick", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "Please. Sorry.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "Thanks [NAME] for winning so we don't have to see so much of [NAME] laughable career dwindling away.", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "test"}
+{"text": "A Modest Proposal [NAME]", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "dev"}
+{"text": "And..the reality of it hurts", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "He's eating cheese and watching football in the sky now. Rest in peace!", "label": "sadness", "fine_emotions": ["grief"], "source_split": "train"}
+{"text": "It\u2019s more like a bunch of vaguely veiled racists and sexists and MAGAtards. Unless that\u2019s what you consider \u201cgood.\u201d", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "What really got [NAME] bigger that much?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "Ur actually stupid lol.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "Has it really been that many games? How time flies when you got nothing to play for.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "says the insecure idiot who just had to dig through my comment history to try to get back at me. lol creep", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "The fact that 34 thousand people upvoted that painting truly blows my mind", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "Everytime I get to hug someone.", "label": "joy", "fine_emotions": ["joy"], "source_split": "test"}
+{"text": "Yeah those glimpses of the person I fell in love with too but unfortunately the glimpses are not enough which hurts :/", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "If he has to put up with people like you, I feel even more sorry for him now. Yikes.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "dev"}
+{"text": "Nope. This guy is legitimately this dumb.", "label": "anger", "fine_emotions": ["annoyance", "disapproval"], "source_split": "train"}
+{"text": "I am more than pleasantly surprised I clicked this link", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Your title is unnecessarily harsh towards the user. Re-submit with a better title.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "[NAME] is ruining the Pittsburgh Steelers culture...don't fucking @ me. Sinking fucking ship", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "Omg I had to crank my tv because I thought it was just low volume", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "That's disgusting. Apt.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Wow, the video is a lot worse than I thought. His actions after he asks for the age is very uncomfortable.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "No! Mom said it was MY turn!!!!", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "The longest in the southern hemisphere. I always take visiting friends and relatives here, hit them with that fact, and they love it.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I feel a little sad for her. That she thinks the only options or something to do is having kids. Fuck her tho.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Why aren\u2019t we putting guys in for garbage time?", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "I'll take the downvotes and agree with you. Some of the ugliest looking things I've ever seen. Absolutely disgusting aesthetic.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "dev"}
+{"text": "Probably out of desperation as they going no answers with the other made up god.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "As sure as gods got sandals, it sure beats fighting dudes with treasure trails", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "Children taken below decks by [NAME]. Get out now", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "Pepsi tastes better in the UK than Coke but US/Canada coke is pure diabetes and Pepsi is disgusting.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "can I use I can't believe it's not butter because my boyfie doesn't make over 20k :(", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Would this not be the bog-standard practice of allowing close family members to make decisions about resuscitation?", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "It\u2019s definitely a massive problem for both of us. Attributing blame does nothing to solve the problem.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "How to delete spam: Learn how to punish sigs you fucking idiot", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "train"}
+{"text": "Haha yeah actually they don't feel that good but life does involve sacrifice.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I'm sorry you're going through that, I wish I could help somehow :c.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "If the kid knew what she had on her mind, he's been corrupted way too young..", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Cook it in a round dish. The taste got confused because of corners", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Lyft and Uber are expensive compared to Metro", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "GF is false; I saw Mayor get transported and I was stabbed by an SK", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Did either of those places declare independence out of the blue? No.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Pay couples to have kids. I'm not sure if the incentives apply to single moms.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Yeh It\u2019s pretty obvious how I misread it bc ... I misread it. I didn\u2019t downvote you.", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "dev"}
+{"text": "Maybe it's as dangerous for [NAME] to whip people up talking about treason and betrayal and all that as it is when [NAME] do it. Fancy that.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "\"Try \"\"turn that shite aff!\"\"\"", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Yup, my greatest fear realized.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Yeah, all the stun cannonballs are horrible.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Usually they ask, and the generic is almost always cheaper. It's shitty of them not to ask though.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Can you share a link to video?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "It's the physical pain, mostly, I think. Maybe with cbd stuff getting big and easy to get now it'll taper down?", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "I'm surprised they've gone this long not knowing [NAME] swears a lot.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Oh no! Poor dude!", "label": "sadness", "fine_emotions": ["disappointment", "sadness"], "source_split": "train"}
+{"text": "I told their kid that it was okay to be upset. (He was anxious and I was validating his feelings.)", "label": "fear", "fine_emotions": ["nervousness"], "source_split": "train"}
+{"text": "I am curious how much he will get", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "[NAME] said it best. Un-fuckin-believable bro", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "This is horrific", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Twenty some years ago, while I was pregnant with my son, TLC aired shows like A Baby's Life. Oh, the old days...", "label": "joy", "fine_emotions": ["excitement", "joy"], "source_split": "train"}
+{"text": "I know the feeling, but you\u2019re not disgusting. Happy new year!", "label": "joy", "fine_emotions": ["excitement"], "source_split": "train"}
+{"text": "It's a shitty made shirt but if it was done well I'd wear it.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Please go to urgent care and get some antibiotics if you have not already. UTIs can become serious if they go untreated.", "label": "joy", "fine_emotions": ["caring"], "source_split": "train"}
+{"text": "I agreed with your first point and then stated a statistic. My bad, awkward wording on my part.\ud83d\ude22", "label": "sadness", "fine_emotions": ["embarrassment"], "source_split": "dev"}
+{"text": "When her daughter says she wants to take all the weight from her and put it on her own body so her mom can go outside and play \ud83d\ude22\u2764\ufe0f\ud83d\ude22", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "test"}
+{"text": "What? I didn\u2019t understand a thing of what you said.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "test"}
+{"text": "And [NAME], would again like to apologize for any misunderstanding.", "label": "sadness", "fine_emotions": ["remorse", "sadness"], "source_split": "test"}
+{"text": "Pulisic is a replacement for our abysmal right wing.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "what is this logic of which you speak?", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "why is this hard to believe it\u2019s totally believable", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "test"}
+{"text": "Ok thanks \u2764\u2764", "label": "joy", "fine_emotions": ["gratitude"], "source_split": "train"}
+{"text": "55 here. Of course, I could never catch me one of those wonderful incels.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "Disgusting of you [NAME] you filthy who're you pedophilic scum trying to beguile our children it's not gonna work I got [NAME] castorated", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "Well the three games is all we have to go off of, and he was bad.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "One of our favorite rides.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "I thought you said it was last night. But looking back now it's this weekend. well go get'em tiger.", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "dev"}
+{"text": "I\u2019m so sorry for your loss. It\u2019s the smallest things that take up the biggest part of our hearts.", "label": "sadness", "fine_emotions": ["remorse", "sadness"], "source_split": "train"}
+{"text": "And then expanded on! It's so good. Haha I still remember hours and hours spent on Friends of Mineral Town though...", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "Gotcha! I don't know why I focused only on [NAME]. That's an interesting notion which I'll ponder on for a while :P", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "Hooray! ...But I'll still never be able to afford a home.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "I have a very confused boner rn", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "dev"}
+{"text": "i got the auto reply a day ago", "label": "surprise", "fine_emotions": ["realization"], "source_split": "test"}
+{"text": "i dont know the system cause i never speak a word i have never had trouble with it i just wanna play the game", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Don't wear out our [NAME]. We need him if this season is going to amount to anything.", "label": "joy", "fine_emotions": ["optimism"], "source_split": "test"}
+{"text": "That is so creepy and scary. Imagine if he really was a Dr, and the only one available in your hmo.", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "oh [NAME] what did i do", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "You're being a total narc, bro. You're so narcoleptic.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Being a woman is not an excuse, you do not represent all women. Thank the lord.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Lmao!!!! Oh this is too good.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "dev"}
+{"text": "It looks like a very light blue to me.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I know, all the comments have me cracking up.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "\"\"\"You're a good man [NAME].\"\" Yo [NAME], are you watching the same show I am?\"", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Good luck to you! Cheers to a new year! \ud83d\udc4d\ud83c\udffc", "label": "joy", "fine_emotions": ["approval", "joy"], "source_split": "train"}
+{"text": "I\u2019m shocked at how big that defeat is.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Should be nice to we can see full video clip how we died....", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Wow, *only* 7 exes. You are definitely FA.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "I\u2019m more sorry that there are actual [NAME] fans...", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "test"}
+{"text": "It was a terrible, terrible thing to do. He did every day of his time for it, has expressed regret, and has not repeated it.", "label": "fear", "fine_emotions": ["fear"], "source_split": "test"}
+{"text": "PLEASE leave my Mother out of this!", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "I just thought I would be remise if I did not engage with the subject.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "dev"}
+{"text": "Wow. Yeah does your place autograt at 8 or more ? So sorry \ud83d\ude10", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Nobody claims that 20th century socialism was a utopia. Please remember your own comment before replying.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "test"}
+{"text": "Theres a BIG difference between being against ones (hateful) political position and between harassing someone for his ethnicity.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Wow full-screen twitch on mobile is cancer.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Love has no number", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "That's [NAME] and he had a concussion.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "[NAME] is my 2nd favorite QB after [NAME]. Very high ceiling and [NAME] always seems to get the best out of his QBs", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "[RELIGION] is what produces these people, there are plenty of them and a beheading has even occured in the streets of LONDON.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "You don\u2019t understand it because it\u2019s insanely dumb, as the vid demonstrates.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I don't believe you, but even if that were true it still harms nobody", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "So many inaccuracies here.....", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Another episode of idiots with guns", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Looks like Jack the cat with the super deep meow.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "I was under the impression that [NAME] also has some pretty rough health problems.", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "You are an awesome person", "label": "joy", "fine_emotions": ["admiration"], "source_split": "dev"}
+{"text": "I've always hated the 610/45 interchange. Everyone slows to a crawl when there is no need to slow down.", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "I've found that carrying 21 chromosome's is the sweet spot", "label": "surprise", "fine_emotions": ["realization"], "source_split": "test"}
+{"text": "Good deeds don't buy off being shitty. This is why [NAME] is remembered as a monster.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "this video made me feel like screaming", "label": "fear", "fine_emotions": ["fear"], "source_split": "train"}
+{"text": "Every time I get a staff kill, it feels like seeing a shooting star <3 Yeah, it definitely sucks.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "test"}
+{"text": "Love how they all claim no one pays any attention to the comments then acknowledge a comment section personality.", "label": "joy", "fine_emotions": ["love"], "source_split": "train"}
+{"text": "Vancouver is even more ridiculous.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Oh, my [NAME]", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "test"}
+{"text": "I want to bounce a whole roll of quarters off that ass, holy shit.", "label": "anger", "fine_emotions": ["anger", "annoyance"], "source_split": "dev"}
+{"text": "\"When it gushed out I caught myself saying \"\"ooof\"\" out loud\"", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "That whole video was very interesting, thank you for that!", "label": "joy", "fine_emotions": ["admiration", "gratitude"], "source_split": "train"}
+{"text": "I just use a very generic \u201cthis card wont seem to process for some reason, do you have another form of payment you could try?\u201d", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "train"}
+{"text": "You're here forever.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Srs I saw this post and I\u2019m confused that this is considered a hack.", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "The amount of hate that [RELIGION] people get in the world is absolutely staggering.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "I am more of a dumbass for building a $2500 308 AR-10 for my first rifle... regret it but just not willing to sell it till this day", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "So kinda like an assistant? Interesting", "label": "surprise", "fine_emotions": ["curiosity"], "source_split": "test"}
+{"text": "Hello autism my old friend", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "test"}
+{"text": "OK dear.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "Wow two shitty reactions out of order, judging by the way [NAME] looks at you the sweetest.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "How is one not amused by that? I can't imagine being angry even if it was my lunch. lmao...", "label": "anger", "fine_emotions": ["anger"], "source_split": "train"}
+{"text": "A fuckin men", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "Beautiful view!", "label": "joy", "fine_emotions": ["admiration"], "source_split": "train"}
+{"text": "did he just hecking kill [NAME]", "label": "surprise", "fine_emotions": ["confusion"], "source_split": "train"}
+{"text": "It\u2019s really sad to see", "label": "sadness", "fine_emotions": ["sadness"], "source_split": "train"}
+{"text": "Female INTP and i concur! Especially the kids bit! And the Adorkable!", "label": "joy", "fine_emotions": ["approval"], "source_split": "train"}
+{"text": "They got ripped apart here (On Reddit) a few weeks ago for passing false information on aircraft videos and taking legit criticism poorly.", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "Ugh, I have 2 cats as well and I wish for this every single day. I am, so far, constantly disappointed.", "label": "sadness", "fine_emotions": ["disappointment"], "source_split": "train"}
+{"text": "I understand why she is an ex now.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "Could be worse, could be funky town", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "I would say love is never enough. Love is unconditional. Relationships are not.", "label": "joy", "fine_emotions": ["gratitude", "love"], "source_split": "train"}
+{"text": "idk if you're saying that I'm shitposting or that whataboutism is shitposting. But obviously i'm not nor is calling out whataboutism shitposting.", "label": "neutral", "fine_emotions": ["neutral"], "source_split": "train"}
+{"text": "How the hell do you get downvoted for a submission statement on /r/TrueReddit. Title or not it is still required.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Basically he is trying to start something based on a lie, not good. If I were you, I wouldn't see this person again.", "label": "anger", "fine_emotions": ["annoyance"], "source_split": "train"}
+{"text": "Didn't notice the date, sorry.", "label": "sadness", "fine_emotions": ["remorse"], "source_split": "train"}
+{"text": "And then, in private, what do you think they jerk off to? Normal porn? Lmao.", "label": "joy", "fine_emotions": ["amusement"], "source_split": "train"}
+{"text": "oh god this is the worst", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "What the hell. Poor [NAME]. Poor you. Wow.", "label": "surprise", "fine_emotions": ["surprise"], "source_split": "train"}
+{"text": "Bingo! \u201cI tried but those dirty libtards wouldn\u2019t fund it. Sad.\u201d Will be involved somewhere", "label": "joy", "fine_emotions": ["optimism"], "source_split": "train"}
+{"text": "I thought it was that one! I recognize the shadow of the new highway arch and the forever construction signs.", "label": "surprise", "fine_emotions": ["realization"], "source_split": "train"}
+{"text": "I don't think you understand that the average player can't aim like that on console", "label": "anger", "fine_emotions": ["disapproval"], "source_split": "train"}
+{"text": "[NAME] clan needs some fucking therapy.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}
+{"text": "And Meteor Man Edit: Hancock was a superhero movie too even though it was terrible.", "label": "disgust", "fine_emotions": ["disgust"], "source_split": "train"}

@@ -1,0 +1,17 @@
+{
+  "model_type": "StrategyTransformerModel",
+  "taxonomy_name": "ESConv-8",
+  "num_classes": 8,
+  "strategies": [
+    "Question",
+    "Restatement or Paraphrasing",
+    "Reflection of feelings",
+    "Affirmation and Reassurance",
+    "Self-disclosure",
+    "Providing Suggestions",
+    "Information",
+    "Others"
+  ],
+  "max_len": 96,
+  "d_model": 128
+}

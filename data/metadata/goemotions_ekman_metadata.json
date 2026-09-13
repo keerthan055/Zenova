@@ -1,0 +1,115 @@
+{
+  "dataset_name": "GoEmotions Ekman",
+  "version": "1.0.0",
+  "source": "Google Research (Demszky et al., ACL 2020)",
+  "official_url": "https://github.com/google-research/google-research/tree/master/goemotions",
+  "license": "Apache-2.0",
+  "citation": "Demszky, D., Movshovitz-Attias, D., Ko, J., Cowen, A., Nemade, G., & Ravi, S. (2020). GoEmotions: A Dataset of Fine-Grained Emotions. In ACL 2020, pp. 4040-4054.",
+  "download_date": "2026-09-09",
+  "local_storage_location": {
+    "raw": "data\\raw\\goemotions_ekman",
+    "interim": "data\\interim\\goemotions_ekman",
+    "processed": "data\\processed\\goemotions_ekman",
+    "metadata": "data\\metadata\\goemotions_ekman_metadata.json",
+    "docs": "docs\\datasets\\goemotions_ekman.md"
+  },
+  "intended_task": "emotion_analysis",
+  "features": [
+    "text",
+    "fine_emotions"
+  ],
+  "labels": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "neutral"
+  ],
+  "number_of_samples": {
+    "total": 8822,
+    "raw": 8822,
+    "processed": 8822
+  },
+  "train_validation_test_split": {
+    "train_count": 7057,
+    "val_count": 882,
+    "test_count": 883,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (stratified, seed=42)"
+  ],
+  "checksums": {
+    "raw": "3c8a7b4a0b6ffc07ae3638c054e8c62587ef04b9f9f32c05b696647b6e78ace3",
+    "interim": "551948834c14b0d583d7ca4474f86450912ba26aa8cb2657e9bb25d74c83544c",
+    "train": "2ebc1cfdc380a0f32b3a94725558f3d6fb81ed698bff90d7ded3d1de184c120c",
+    "val": "c880aa519a99d1213fcc83e8a04759adf1f784c88e47b85518a1e168c75f8f75",
+    "test": "210d2f8641b36bbd6fcaefe678d6a0de4111762ba40db8cd07ed4ed95ae95312"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 8822,
+    "class_distribution": {
+      "anger": {
+        "count": 1500,
+        "percentage": 17.0
+      },
+      "surprise": {
+        "count": 1500,
+        "percentage": 17.0
+      },
+      "neutral": {
+        "count": 1500,
+        "percentage": 17.0
+      },
+      "joy": {
+        "count": 1500,
+        "percentage": 17.0
+      },
+      "sadness": {
+        "count": 1500,
+        "percentage": 17.0
+      },
+      "fear": {
+        "count": 690,
+        "percentage": 7.82
+      },
+      "disgust": {
+        "count": 632,
+        "percentage": 7.16
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 12.98,
+      "std_words": 6.63,
+      "min_words": 1,
+      "max_words": 31,
+      "median_words": 13.0,
+      "p95_words": 24.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Psychiatric disorder diagnosis",
+    "Depression / Bipolar diagnostic classification",
+    "Suicide risk assessment"
+  ],
+  "registered_at": "2026-09-09T20:02:42.493538Z"
+}

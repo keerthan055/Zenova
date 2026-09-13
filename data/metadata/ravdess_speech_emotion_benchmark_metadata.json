@@ -1,0 +1,130 @@
+{
+  "dataset_name": "RAVDESS Speech Emotion Benchmark",
+  "version": "1.0.0",
+  "source": "Ryerson University (Livingstone & Russo, PLoS ONE 2018)",
+  "official_url": "https://zenodo.org/record/1188976",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "citation": "Livingstone, S. R., & Russo, F. A. (2018). The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English. PLoS ONE, 13(5), e0196391.",
+  "download_date": "2026-09-10",
+  "local_storage_location": {
+    "raw": "data\\raw\\ravdess_speech_emotion_benchmark",
+    "interim": "data\\interim\\ravdess_speech_emotion_benchmark",
+    "processed": "data\\processed\\ravdess_speech_emotion_benchmark",
+    "metadata": "data\\metadata\\ravdess_speech_emotion_benchmark_metadata.json",
+    "docs": "docs\\datasets\\ravdess_speech_emotion_benchmark.md"
+  },
+  "intended_task": "speech_emotion_analysis",
+  "features": [
+    "pitch_mean_hz",
+    "pitch_std_hz",
+    "rms_energy_mean",
+    "intensity_db",
+    "spectral_centroid_mean",
+    "spectral_rolloff_mean",
+    "zero_crossing_rate",
+    "jitter_local",
+    "shimmer_local",
+    "hnr_db",
+    "duration_seconds"
+  ],
+  "labels": [
+    "neutral",
+    "calm",
+    "happy",
+    "sad",
+    "angry",
+    "fearful",
+    "disgust",
+    "surprised"
+  ],
+  "number_of_samples": {
+    "total": 576,
+    "raw": 576,
+    "processed": 576
+  },
+  "train_validation_test_split": {
+    "train_count": 460,
+    "val_count": 58,
+    "test_count": 58,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (stratified, seed=42)"
+  ],
+  "checksums": {
+    "raw": "3646057a5e7e526bf48f3c54c031b4d671d175cd40c03b1037453613a16582c3",
+    "interim": "3646057a5e7e526bf48f3c54c031b4d671d175cd40c03b1037453613a16582c3",
+    "train": "bcb77a76f478dc0749272ef80453824478ff5211cefcb5f64266bcdf8fe8fe83",
+    "val": "f49eac313a5db4e378a47edd388fa78aa517cef461230751cd7ac741c725503a",
+    "test": "e96d4f65cf27d710037f38b68fa17e39dca2a391b2a8b7b2592581d8c32eea32"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 576,
+    "class_distribution": {
+      "neutral": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "calm": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "happy": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "sad": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "angry": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "fearful": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "disgust": {
+        "count": 72,
+        "percentage": 12.5
+      },
+      "surprised": {
+        "count": 72,
+        "percentage": 12.5
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 14.0,
+      "std_words": 0.0,
+      "min_words": 14,
+      "max_words": 14,
+      "median_words": 14.0,
+      "p95_words": 14.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Psychiatric or psychiatric disorder diagnosis (e.g., Major Depressive Disorder)",
+    "Crisis, self-harm, or suicide risk determination from acoustic audio alone",
+    "Inferring clinical pathology from isolated vocal tone without consent",
+    "Single-modality diagnostic inference"
+  ],
+  "registered_at": "2026-09-10T10:36:21.598869Z"
+}

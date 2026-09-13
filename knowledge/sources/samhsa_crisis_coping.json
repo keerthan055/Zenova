@@ -1,0 +1,38 @@
+{
+  "source_id": "SAMHSA-COPING-2022",
+  "title": "Tips for Survivors of a Disaster or Other Traumatic Event: Managing Stress",
+  "publisher": "Substance Abuse and Mental Health Services Administration",
+  "url": "https://store.samhsa.gov/product/tips-survivors-disaster-or-other-traumatic-event-managing-stress",
+  "publication_date": "2022-05-12",
+  "source_type": "crisis_resource",
+  "citation": "Substance Abuse and Mental Health Services Administration. (2022). Tips for survivors of a disaster or other traumatic event: Managing stress (HHS Publication No. SMA-13-4775). U.S. Department of Health and Human Services.",
+  "scope": [
+    "trauma_recovery",
+    "stress_reactions",
+    "healthy_routines",
+    "crisis_support"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_2_GOVERNMENT_HEALTH_SERVICE",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-01-25",
+    "review_status": "APPROVED",
+    "authority_weight": 1.1,
+    "license": "U.S. Public Domain"
+  },
+  "sections": [
+    {
+      "heading": "Normalizing Reactions to Overwhelming Events",
+      "content": "Following a distressing or shocking event, emotional reactions such as numbness, shock, sadness, irritability, sudden crying spells, and difficulty concentrating are entirely natural responses to abnormal circumstances. Recognizing that intense feelings are normal human reactions rather than personal failure or permanent damage helps prevent secondary anxiety and shame. Allow yourself time to mourn losses and process what has transpired at your own pace."
+    },
+    {
+      "heading": "Practical Daily Coping Practices",
+      "content": "Re-establishing predictable routines provides essential psychological safety. Focus on small daily certainties: eat balanced meals even if appetite is low, drink plenty of water, and avoid using alcohol, caffeine, or non-prescribed drugs as coping crutches, as these substances amplify emotional instability and disrupt deep sleep. Limit continuous exposure to distressing news cycles and social media feeds, giving your brain necessary pauses to recover."
+    },
+    {
+      "heading": "Crisis Support Lines and Confidential Help",
+      "content": "If you or someone you know is struggling with overwhelming emotional pain, hopelessness, or thoughts of self-harm, immediate confidential support is available 24/7. In the United States and Canada, call or text 988 to connect with the 988 Suicide & Crisis Lifeline. You can also text 'HOME' to 741741 to connect with the Crisis Text Line. In the UK, call 111 or text 'SHOUT' to 85258. Reaching out for help is a sign of strength, and trained counselors are always available."
+    }
+  ]
+}

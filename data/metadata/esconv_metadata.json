@@ -1,0 +1,45 @@
+{
+  "name": "Emotional Support Conversation Dataset (ESConv)",
+  "version": "1.0.0",
+  "source": "Tsinghua University Conversational AI (CoAI) Group",
+  "authors": [
+    "Siyang Liu",
+    "Chujie Zheng",
+    "Orianna Demasi",
+    "Sahand Sabour",
+    "Yu Li",
+    "Zhou Yu",
+    "Yong Jiang",
+    "Minlie Huang"
+  ],
+  "citation": "Liu, S., Zheng, C., Demasi, O., Sabour, S., Li, Y., Yu, Z., Jiang, Y., & Huang, M. (2021). Towards Emotional Support Dialog Systems. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021), pp. 3469-3483.",
+  "repository_url": "https://github.com/thu-coai/Emotional-Support-Conversation",
+  "license": "Apache-2.0",
+  "download_date": "2026-09-09",
+  "file_path": "data/raw/esconv/ESConv.json",
+  "intended_task": "support_strategy_planning",
+  "theoretical_grounding": "Hill's Helping Skills Model (Exploration, Comforting, Action stages)",
+  "explicit_non_goals": [
+    "Clinical diagnosis",
+    "Psychiatric disorder classification",
+    "Suicide risk detection",
+    "Crisis intervention replacement"
+  ],
+  "annotated_strategies": [
+    "Question",
+    "Restatement or Paraphrasing",
+    "Reflection of feelings",
+    "Affirmation and Reassurance",
+    "Self-disclosure",
+    "Providing Suggestions",
+    "Information",
+    "Others"
+  ],
+  "dataset_statistics": {
+    "num_dialogues": 1300,
+    "languages": [
+      "en"
+    ],
+    "modality": "text"
+  }
+}

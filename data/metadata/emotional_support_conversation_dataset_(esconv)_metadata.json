@@ -1,0 +1,114 @@
+{
+  "dataset_name": "Emotional Support Conversation Dataset (ESConv)",
+  "version": "1.0.0",
+  "source": "Tsinghua University Conversational AI (CoAI) Group",
+  "official_url": "https://github.com/thu-coai/Emotional-Support-Conversation",
+  "license": "Apache-2.0",
+  "citation": "Liu, S., Zheng, C., Demasi, O., Sabour, S., Li, Y., Yu, Z., Jiang, Y., & Huang, M. (2021). Towards Emotional Support Dialog Systems. ACL 2021, pp. 3469-3483.",
+  "download_date": "2026-09-09",
+  "local_storage_location": {
+    "raw": "data/raw/esconv/ESConv.json",
+    "interim": "data/interim/esconv",
+    "processed": "data/processed/strategy",
+    "metadata": "data/metadata/esconv_metadata.json",
+    "docs": "docs/datasets/esconv.md"
+  },
+  "intended_task": "support_strategy_planning",
+  "features": [
+    "dialog_history",
+    "situation",
+    "emotion_type",
+    "problem_type",
+    "turn_index"
+  ],
+  "labels": [
+    "Question",
+    "Restatement or Paraphrasing",
+    "Reflection of feelings",
+    "Affirmation and Reassurance",
+    "Self-disclosure",
+    "Providing Suggestions",
+    "Information",
+    "Others"
+  ],
+  "number_of_samples": {
+    "total": 18376,
+    "raw": 18376,
+    "processed": 18376
+  },
+  "train_validation_test_split": {
+    "train_count": 14700,
+    "val_count": 1838,
+    "test_count": 1838,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified_by_strategy"
+  },
+  "preprocessing_steps": [
+    "Extract annotated supporter turns",
+    "Normalize to 8 Hill's helping skills",
+    "Stratified train/val/test split (seed=42)"
+  ],
+  "checksums": {
+    "raw": "aa0556c5b330562ba009c1cd5137486bfa2a7255f33225a6524cd58f7efdd9af",
+    "train": "6219035bf3d1dd552afdcdd1ee1bcfedfdf40e8fd44ecde7ab3badeeb9489e44",
+    "val": "38ee115a29f152813dfa8b5985e01f730edc79f8fe83d0ffefa08c05429dae95",
+    "test": "87583974b7f8bd271bb81a8ad3810b5c1012ad61c615f0d7228dfd59a5b0d0fa"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 18376,
+    "class_distribution": {
+      "Question": {
+        "count": 3801,
+        "percentage": 20.68
+      },
+      "Others": {
+        "count": 3341,
+        "percentage": 18.18
+      },
+      "Providing Suggestions": {
+        "count": 2954,
+        "percentage": 16.08
+      },
+      "Affirmation and Reassurance": {
+        "count": 2827,
+        "percentage": 15.38
+      },
+      "Self-disclosure": {
+        "count": 1713,
+        "percentage": 9.32
+      },
+      "Reflection of feelings": {
+        "count": 1436,
+        "percentage": 7.81
+      },
+      "Information": {
+        "count": 1215,
+        "percentage": 6.61
+      },
+      "Restatement or Paraphrasing": {
+        "count": 1089,
+        "percentage": 5.93
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 18.11,
+      "std_words": 13.91,
+      "min_words": 1,
+      "max_words": 166,
+      "median_words": 15.0,
+      "p95_words": 44.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0
+  },
+  "explicit_non_goals": [
+    "Clinical diagnostic classification",
+    "Suicide risk assessment",
+    "Psychiatric disorder diagnosis"
+  ],
+  "registered_at": "2026-09-09T19:50:33.044631Z"
+}

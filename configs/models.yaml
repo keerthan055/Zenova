@@ -1,0 +1,141 @@
+active_providers:
+  emotion: transformer
+  symptom: transformer
+  risk: transformer
+  baseline: personal_baseline
+  behavior: behavioral_analyzer
+  voice: voice_analyzer
+  context: context_engine
+  strategy: transformer
+  generator: strategy_controlled
+  rag: retrieval_engine
+  safety: safety_gate
+  fusion: weighted_rule
+registry:
+  emotion:
+    placeholder:
+      module_class: zenova.emotion.placeholder.EmotionPlaceholderAnalyzer
+      version: placeholder-v0.1.0
+      device: cpu
+    transformer:
+      module_class: zenova.emotion.analyzer.EmotionTransformerAnalyzer
+      version: 1.0.0
+      device: cpu
+      checkpoint: models/emotion/transformer_checkpoint.pt
+    baseline_tfidf:
+      module_class: zenova.emotion.baseline.EmotionTfidfBaseline
+      version: 1.0.0
+      checkpoint: models/emotion/tfidf_baseline.joblib
+  symptom:
+    placeholder:
+      module_class: zenova.symptoms.placeholder.SymptomPlaceholderAnalyzer
+      version: placeholder-v0.1.0
+    transformer:
+      module_class: zenova.symptoms.analyzer.SymptomTransformerAnalyzer
+      version: 1.0.0
+      device: cpu
+      checkpoint: models/symptoms/transformer_checkpoint.pt
+    baseline_tfidf:
+      module_class: zenova.symptoms.baseline.SymptomTfidfBaseline
+      version: 1.0.0
+      checkpoint: models/symptoms/tfidf_baseline.joblib
+  risk:
+    placeholder:
+      module_class: zenova.risk.placeholder.RiskPlaceholderAnalyzer
+      version: placeholder-v0.1.0
+      crisis_override: true
+    transformer:
+      module_class: zenova.risk.analyzer.RiskTransformerAnalyzer
+      version: 1.0.0
+      device: cpu
+      checkpoint: models/risk/transformer_checkpoint.pt
+    baseline_tfidf:
+      module_class: zenova.risk.baseline.RiskTfidfBaseline
+      version: 1.0.0
+      checkpoint: models/risk/tfidf_baseline.joblib
+  baseline:
+    placeholder:
+      module_class: zenova.baseline.placeholder.BaselinePlaceholderEngine
+      version: placeholder-v0.1.0
+    personal_baseline:
+      module_class: zenova.baseline.engine.PersonalBaselineEngine
+      version: 1.0.0
+      algorithm: rolling_window
+      min_observations: 5
+      established_threshold: 15
+      window_size: 30
+      alpha: 0.15
+  behavior:
+    placeholder:
+      module_class: zenova.behavior.placeholder.BehaviorPlaceholderAnalyzer
+      version: placeholder-v0.1.0
+    behavioral_analyzer:
+      module_class: zenova.behavior.analyzer.BehavioralAnalyzer
+      version: 1.0.0
+      min_observations_for_baseline: 3
+      z_threshold: 2.0
+      min_affected_domains: 2
+  voice:
+    placeholder:
+      module_class: zenova.voice.placeholder.VoicePlaceholderAnalyzer
+      version: placeholder-v0.1.0
+    voice_analyzer:
+      module_class: zenova.voice.analyzer.VoiceEmotionAnalyzer
+      version: 1.0.0
+  context:
+    placeholder:
+      module_class: zenova.context.placeholder.ContextPlaceholderEngine
+      version: placeholder-v0.1.0
+    context_engine:
+      module_class: zenova.context.engine.MultimodalContextEngine
+      version: 1.0.0
+  strategy:
+    placeholder:
+      module_class: zenova.strategy.placeholder.StrategyPlaceholderPlanner
+      version: placeholder-v0.1.0
+    transformer:
+      module_class: zenova.strategy.planner.ESConvStrategyPlanner
+      version: 1.0.0
+      device: cpu
+      checkpoint: models/strategy/transformer_checkpoint.pt
+    baseline_tfidf:
+      module_class: zenova.strategy.baseline.StrategyTfidfBaseline
+      version: 1.0.0
+      checkpoint: models/strategy/tfidf_baseline.joblib
+  generator:
+    placeholder:
+      module_class: zenova.generation.placeholder.ResponsePlaceholderGenerator
+      version: placeholder-v0.1.0
+    strategy_controlled:
+      module_class: zenova.generation.generator.StrategyControlledGenerator
+      version: strategy-llm-v1.0.0
+      provider: local
+      max_tokens: 256
+      temperature: 0.7
+  rag:
+    placeholder:
+      module_class: zenova.rag.placeholder.RAGPlaceholderEngine
+      version: placeholder-v0.1.0
+    retrieval_engine:
+      module_class: zenova.rag.engine.KnowledgeRetrievalEngine
+      version: 1.0.0
+      knowledge_dir: knowledge
+      min_confidence_threshold: 0.30
+  safety:
+    placeholder:
+      module_class: zenova.safety.placeholder.SafetyPlaceholderGate
+      version: placeholder-v0.1.0
+    safety_gate:
+      module_class: zenova.safety.gate.ResponseSafetyGate
+      version: safety-gate-v1.0.0
+      config_path: configs/safety.yaml
+  fusion:
+    weighted_rule:
+      module_class: zenova.fusion.engine.UnifiedMultimodalFusionEngine
+      version: 1.0.0
+      provider: weighted_rule
+    learnable_gmu:
+      module_class: zenova.fusion.engine.UnifiedMultimodalFusionEngine
+      version: 1.0.0
+      provider: learnable_gmu
+      checkpoint: models/fusion/gmu_checkpoint.pt

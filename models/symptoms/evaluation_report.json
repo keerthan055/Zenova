@@ -1,0 +1,166 @@
+{
+  "dataset": "PsySym Mental Health Symptoms",
+  "splits": {
+    "train": 1338,
+    "val": 167,
+    "test": 168
+  },
+  "labels": [
+    "anxiety / panic",
+    "appetite / eating change",
+    "cognitive difficulty",
+    "depressed mood",
+    "fatigue / low energy",
+    "feelings of worthlessness",
+    "loss of interest",
+    "sleep disturbance",
+    "social withdrawal / isolation",
+    "suicidal ideation / crisis thoughts"
+  ],
+  "models": {
+    "baseline_tfidf": {
+      "micro_f1": 1.0,
+      "micro_precision": 1.0,
+      "micro_recall": 1.0,
+      "macro_f1": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "subset_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "per_label": {
+        "anxiety / panic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 28
+        },
+        "appetite / eating change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 22
+        },
+        "cognitive difficulty": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 23
+        },
+        "depressed mood": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 47
+        },
+        "fatigue / low energy": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 25
+        },
+        "feelings of worthlessness": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 29
+        },
+        "loss of interest": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 22
+        },
+        "sleep disturbance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 30
+        },
+        "social withdrawal / isolation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 22
+        },
+        "suicidal ideation / crisis thoughts": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        }
+      }
+    },
+    "transformer": {
+      "micro_f1": 0.9573,
+      "micro_precision": 0.952,
+      "micro_recall": 0.9627,
+      "macro_f1": 0.9543,
+      "macro_precision": 0.9477,
+      "macro_recall": 0.9633,
+      "subset_accuracy": 0.8631,
+      "hamming_loss": 0.0137,
+      "per_label": {
+        "anxiety / panic": {
+          "precision": 0.9655,
+          "recall": 1.0,
+          "f1": 0.9825,
+          "support": 28
+        },
+        "appetite / eating change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 22
+        },
+        "cognitive difficulty": {
+          "precision": 0.8696,
+          "recall": 0.8696,
+          "f1": 0.8696,
+          "support": 23
+        },
+        "depressed mood": {
+          "precision": 1.0,
+          "recall": 0.9574,
+          "f1": 0.9783,
+          "support": 47
+        },
+        "fatigue / low energy": {
+          "precision": 0.8519,
+          "recall": 0.92,
+          "f1": 0.8846,
+          "support": 25
+        },
+        "feelings of worthlessness": {
+          "precision": 1.0,
+          "recall": 0.931,
+          "f1": 0.9643,
+          "support": 29
+        },
+        "loss of interest": {
+          "precision": 1.0,
+          "recall": 0.9545,
+          "f1": 0.9767,
+          "support": 22
+        },
+        "sleep disturbance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 30
+        },
+        "social withdrawal / isolation": {
+          "precision": 0.9565,
+          "recall": 1.0,
+          "f1": 0.9778,
+          "support": 22
+        },
+        "suicidal ideation / crisis thoughts": {
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091,
+          "support": 20
+        }
+      }
+    }
+  }
+}

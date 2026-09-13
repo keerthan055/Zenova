@@ -1,0 +1,49 @@
+{
+  "total_dialogues": 1300,
+  "total_supporter_strategy_turns": 18376,
+  "splits": {
+    "train": 14753,
+    "val": 1734,
+    "test": 1889
+  },
+  "strategy_distribution_total": {
+    "Question": 3801,
+    "Affirmation and Reassurance": 2827,
+    "Others": 3341,
+    "Information": 1215,
+    "Self-disclosure": 1713,
+    "Providing Suggestions": 2954,
+    "Restatement or Paraphrasing": 1089,
+    "Reflection of feelings": 1436
+  },
+  "strategy_distribution_train": {
+    "Question": 3038,
+    "Affirmation and Reassurance": 2244,
+    "Others": 2649,
+    "Information": 987,
+    "Self-disclosure": 1371,
+    "Providing Suggestions": 2396,
+    "Restatement or Paraphrasing": 891,
+    "Reflection of feelings": 1177
+  },
+  "strategy_distribution_val": {
+    "Question": 377,
+    "Reflection of feelings": 133,
+    "Self-disclosure": 152,
+    "Affirmation and Reassurance": 288,
+    "Providing Suggestions": 272,
+    "Others": 322,
+    "Information": 101,
+    "Restatement or Paraphrasing": 89
+  },
+  "strategy_distribution_test": {
+    "Affirmation and Reassurance": 295,
+    "Restatement or Paraphrasing": 109,
+    "Others": 370,
+    "Providing Suggestions": 286,
+    "Question": 386,
+    "Self-disclosure": 190,
+    "Reflection of feelings": 126,
+    "Information": 127
+  }
+}

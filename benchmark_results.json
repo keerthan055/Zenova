@@ -1,0 +1,29 @@
+{
+  "end_to_end_latency_ms": {
+    "p50": 38.93,
+    "p90": 43.14,
+    "p95": 46.5,
+    "p99": 155.6,
+    "min": 33.31,
+    "max": 188.01,
+    "mean": 44.93
+  },
+  "crisis_bypass_latency_ms": {
+    "p50": 39.62
+  },
+  "throughput_qps": 10.55,
+  "component_latencies_ms": {
+    "emotion_classifier": 2.0,
+    "symptom_signal_detector": 2.07,
+    "crisis_risk_assessor": 2.0,
+    "strategy_planner": 1.89,
+    "rag_retrieval": 1.66,
+    "llm_generator": 0.19,
+    "acoustic_prosody_extractor": 9.68
+  },
+  "memory_mb": {
+    "start_rss": 341.04,
+    "end_rss": 395.91,
+    "delta_rss": 54.86
+  }
+}

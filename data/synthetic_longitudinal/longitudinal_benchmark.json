@@ -1,0 +1,1741 @@
+{
+  "user_stable_baseline": [
+    {
+      "user_id": "user_stable_baseline",
+      "day": 1,
+      "timestamp": "2026-08-01T12:33:27.745898+00:00",
+      "valence": 0.4292,
+      "arousal": 0.36,
+      "word_count": 26,
+      "symptom_scores": {
+        "anxiety": 0.1644,
+        "sleep_disturbance": 0.0731
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.6,
+      "ema_mood": 4.4
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 2,
+      "timestamp": "2026-08-02T10:07:09.079960+00:00",
+      "valence": 0.4044,
+      "arousal": 0.3686,
+      "word_count": 30,
+      "symptom_scores": {
+        "anxiety": 0.1263,
+        "sleep_disturbance": 0.1255
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.1,
+      "ema_mood": 3.8
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 3,
+      "timestamp": "2026-08-03T10:52:54.344957+00:00",
+      "valence": 0.1958,
+      "arousal": 0.2725,
+      "word_count": 34,
+      "symptom_scores": {
+        "anxiety": 0.103,
+        "sleep_disturbance": 0.1054
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.1,
+      "ema_mood": 4.5
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 4,
+      "timestamp": "2026-08-04T11:20:46.961450+00:00",
+      "valence": 0.5581,
+      "arousal": 0.3801,
+      "word_count": 26,
+      "symptom_scores": {
+        "anxiety": 0.1313,
+        "sleep_disturbance": 0.0643
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.8,
+      "ema_mood": 3.6
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 5,
+      "timestamp": "2026-08-05T12:08:41.684517+00:00",
+      "valence": 0.4461,
+      "arousal": 0.3369,
+      "word_count": 16,
+      "symptom_scores": {
+        "anxiety": 0.0758,
+        "sleep_disturbance": 0.0469
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.8,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 6,
+      "timestamp": "2026-08-06T10:10:59.871125+00:00",
+      "valence": 0.2771,
+      "arousal": 0.3592,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.1255,
+        "sleep_disturbance": 0.1375
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.8,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 7,
+      "timestamp": "2026-08-07T12:32:33.855997+00:00",
+      "valence": 0.2865,
+      "arousal": 0.4078,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.1305,
+        "sleep_disturbance": 0.1866
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.2,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 8,
+      "timestamp": "2026-08-08T12:54:59.425890+00:00",
+      "valence": 0.3112,
+      "arousal": 0.3905,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.1571,
+        "sleep_disturbance": 0.1153
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.8,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 9,
+      "timestamp": "2026-08-09T13:22:17.067651+00:00",
+      "valence": 0.3617,
+      "arousal": 0.2931,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.107,
+        "sleep_disturbance": 0.1162
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.8,
+      "ema_mood": 4.7
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 10,
+      "timestamp": "2026-08-10T11:15:31.361483+00:00",
+      "valence": 0.2782,
+      "arousal": 0.3051,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.1381,
+        "sleep_disturbance": 0.0917
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.5,
+      "ema_mood": 4.3
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 11,
+      "timestamp": "2026-08-11T12:14:43.701132+00:00",
+      "valence": 0.3394,
+      "arousal": 0.4557,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.0758,
+        "sleep_disturbance": 0.1532
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 9.2,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 12,
+      "timestamp": "2026-08-12T10:11:18.475806+00:00",
+      "valence": 0.3474,
+      "arousal": 0.4368,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.1109,
+        "sleep_disturbance": 0.0695
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.0,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 13,
+      "timestamp": "2026-08-13T13:59:04.147875+00:00",
+      "valence": 0.0882,
+      "arousal": 0.3113,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.0953,
+        "sleep_disturbance": 0.1062
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.8,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 14,
+      "timestamp": "2026-08-14T12:33:49.849900+00:00",
+      "valence": 0.3319,
+      "arousal": 0.4153,
+      "word_count": 28,
+      "symptom_scores": {
+        "anxiety": 0.005,
+        "sleep_disturbance": 0.1555
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.8,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 15,
+      "timestamp": "2026-08-15T12:00:08.440028+00:00",
+      "valence": 0.4457,
+      "arousal": 0.5092,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.0755,
+        "sleep_disturbance": 0.076
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.0,
+      "ema_mood": 4.4
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 16,
+      "timestamp": "2026-08-16T12:09:27.058034+00:00",
+      "valence": 0.4889,
+      "arousal": 0.3676,
+      "word_count": 18,
+      "symptom_scores": {
+        "anxiety": 0.1354,
+        "sleep_disturbance": 0.1202
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.6,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 17,
+      "timestamp": "2026-08-17T13:30:53.595041+00:00",
+      "valence": 0.3921,
+      "arousal": 0.2902,
+      "word_count": 34,
+      "symptom_scores": {
+        "anxiety": 0.1292,
+        "sleep_disturbance": 0.14
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.4,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 18,
+      "timestamp": "2026-08-18T13:02:32.671180+00:00",
+      "valence": 0.3533,
+      "arousal": 0.3542,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0501,
+        "sleep_disturbance": 0.1298
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.4,
+      "ema_mood": 4.7
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 19,
+      "timestamp": "2026-08-19T11:41:33.186339+00:00",
+      "valence": 0.3796,
+      "arousal": 0.4467,
+      "word_count": 24,
+      "symptom_scores": {
+        "anxiety": 0.0734,
+        "sleep_disturbance": 0.0583
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 9.0,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 20,
+      "timestamp": "2026-08-20T12:04:13.092111+00:00",
+      "valence": 0.2632,
+      "arousal": 0.3914,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.072,
+        "sleep_disturbance": 0.1767
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.5,
+      "ema_mood": 4.3
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 21,
+      "timestamp": "2026-08-21T10:17:02.300439+00:00",
+      "valence": 0.301,
+      "arousal": 0.3077,
+      "word_count": 33,
+      "symptom_scores": {
+        "anxiety": 0.0556,
+        "sleep_disturbance": 0.1533
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.7,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 22,
+      "timestamp": "2026-08-22T10:31:45.290622+00:00",
+      "valence": 0.2894,
+      "arousal": 0.4457,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0309,
+        "sleep_disturbance": 0.135
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.6,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 23,
+      "timestamp": "2026-08-23T10:23:15.803725+00:00",
+      "valence": 0.2547,
+      "arousal": 0.3853,
+      "word_count": 17,
+      "symptom_scores": {
+        "anxiety": 0.1133,
+        "sleep_disturbance": 0.0533
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.2,
+      "ema_mood": 4.3
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 24,
+      "timestamp": "2026-08-24T11:21:25.957518+00:00",
+      "valence": 0.4088,
+      "arousal": 0.389,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.116,
+        "sleep_disturbance": 0.1708
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.1,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 25,
+      "timestamp": "2026-08-25T10:59:57.212850+00:00",
+      "valence": 0.4459,
+      "arousal": 0.3099,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.0613,
+        "sleep_disturbance": 0.3007
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.1,
+      "ema_mood": 4.5
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 26,
+      "timestamp": "2026-08-26T13:42:19.684555+00:00",
+      "valence": 0.124,
+      "arousal": 0.378,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0724,
+        "sleep_disturbance": 0.1231
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.4,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 27,
+      "timestamp": "2026-08-27T11:30:57.212913+00:00",
+      "valence": 0.4282,
+      "arousal": 0.3442,
+      "word_count": 26,
+      "symptom_scores": {
+        "anxiety": 0.0569,
+        "sleep_disturbance": 0.0088
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.1,
+      "ema_mood": 4.5
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 28,
+      "timestamp": "2026-08-28T12:52:25.079164+00:00",
+      "valence": 0.3463,
+      "arousal": 0.3878,
+      "word_count": 28,
+      "symptom_scores": {
+        "anxiety": 0.1516,
+        "sleep_disturbance": 0.1071
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.7,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 29,
+      "timestamp": "2026-08-29T10:13:43.179930+00:00",
+      "valence": 0.2479,
+      "arousal": 0.3023,
+      "word_count": 26,
+      "symptom_scores": {
+        "anxiety": 0.0813,
+        "sleep_disturbance": 0.1398
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.5,
+      "ema_mood": 4.3
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 30,
+      "timestamp": "2026-08-30T12:42:03.060772+00:00",
+      "valence": 0.4737,
+      "arousal": 0.3538,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.1232,
+        "sleep_disturbance": 0.0961
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.9,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 31,
+      "timestamp": "2026-08-31T11:40:36.838781+00:00",
+      "valence": 0.2448,
+      "arousal": 0.3012,
+      "word_count": 28,
+      "symptom_scores": {
+        "anxiety": 0.0892,
+        "sleep_disturbance": 0.1122
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.1,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 32,
+      "timestamp": "2026-09-01T11:11:59.957949+00:00",
+      "valence": 0.4409,
+      "arousal": 0.296,
+      "word_count": 32,
+      "symptom_scores": {
+        "anxiety": 0.1398,
+        "sleep_disturbance": 0.1444
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 9.2,
+      "ema_mood": 4.1
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 33,
+      "timestamp": "2026-09-02T10:17:34.954384+00:00",
+      "valence": 0.368,
+      "arousal": 0.4111,
+      "word_count": 34,
+      "symptom_scores": {
+        "anxiety": 0.0664,
+        "sleep_disturbance": 0.1549
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.2,
+      "ema_mood": 4.4
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 34,
+      "timestamp": "2026-09-03T12:48:50.974921+00:00",
+      "valence": 0.5085,
+      "arousal": 0.1696,
+      "word_count": 15,
+      "symptom_scores": {
+        "anxiety": 0.0972,
+        "sleep_disturbance": 0.1148
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.7,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 35,
+      "timestamp": "2026-09-04T12:39:12.797496+00:00",
+      "valence": 0.3998,
+      "arousal": 0.3339,
+      "word_count": 26,
+      "symptom_scores": {
+        "anxiety": 0.1126,
+        "sleep_disturbance": 0.0823
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.4,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 36,
+      "timestamp": "2026-09-05T10:48:51.801298+00:00",
+      "valence": 0.2527,
+      "arousal": 0.3084,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0134,
+        "sleep_disturbance": 0.1278
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.6,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 37,
+      "timestamp": "2026-09-06T11:41:39.491125+00:00",
+      "valence": 0.3486,
+      "arousal": 0.3566,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.0435,
+        "sleep_disturbance": 0.1138
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.3,
+      "ema_mood": 3.8
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 38,
+      "timestamp": "2026-09-07T10:02:19.243674+00:00",
+      "valence": 0.3163,
+      "arousal": 0.4976,
+      "word_count": 29,
+      "symptom_scores": {
+        "anxiety": 0.1414,
+        "sleep_disturbance": 0.0844
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.8,
+      "ema_mood": 3.8
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 39,
+      "timestamp": "2026-09-08T10:35:32.550512+00:00",
+      "valence": 0.4098,
+      "arousal": 0.3993,
+      "word_count": 32,
+      "symptom_scores": {
+        "anxiety": 0.0577,
+        "sleep_disturbance": 0.1886
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.7,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_stable_baseline",
+      "day": 40,
+      "timestamp": "2026-09-09T10:24:40.228152+00:00",
+      "valence": 0.4234,
+      "arousal": 0.3812,
+      "word_count": 14,
+      "symptom_scores": {
+        "anxiety": 0.0537,
+        "sleep_disturbance": 0.1586
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 8.2,
+      "ema_mood": 4.7
+    }
+  ],
+  "user_gradual_depression": [
+    {
+      "user_id": "user_gradual_depression",
+      "day": 1,
+      "timestamp": "2026-08-01T13:27:30.322026+00:00",
+      "valence": 0.4304,
+      "arousal": 0.2462,
+      "word_count": 20,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0864,
+        "depressive_mood": 0.0866
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.5,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 2,
+      "timestamp": "2026-08-02T13:43:23.748759+00:00",
+      "valence": 0.3144,
+      "arousal": 0.2556,
+      "word_count": 21,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0054,
+        "depressive_mood": 0.0917
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.4,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 3,
+      "timestamp": "2026-08-03T13:29:19.201674+00:00",
+      "valence": 0.2947,
+      "arousal": 0.2197,
+      "word_count": 30,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0725,
+        "depressive_mood": 0.098
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.3,
+      "ema_mood": 3.6
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 4,
+      "timestamp": "2026-08-04T10:54:37.375019+00:00",
+      "valence": 0.3148,
+      "arousal": 0.2896,
+      "word_count": 22,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1049,
+        "depressive_mood": 0.0422
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.2,
+      "ema_mood": 4.4
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 5,
+      "timestamp": "2026-08-05T12:33:57.337036+00:00",
+      "valence": 0.0223,
+      "arousal": 0.3493,
+      "word_count": 29,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1831,
+        "depressive_mood": 0.0
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.1,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 6,
+      "timestamp": "2026-08-06T10:42:51.376553+00:00",
+      "valence": 0.3264,
+      "arousal": 0.2442,
+      "word_count": 18,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0908,
+        "depressive_mood": 0.1132
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 7.0,
+      "ema_mood": 4.1
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 7,
+      "timestamp": "2026-08-07T12:25:29.407488+00:00",
+      "valence": 0.1516,
+      "arousal": 0.2493,
+      "word_count": 21,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0965,
+        "depressive_mood": 0.0528
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.9,
+      "ema_mood": 3.8
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 8,
+      "timestamp": "2026-08-08T13:42:08.282383+00:00",
+      "valence": 0.0952,
+      "arousal": 0.2375,
+      "word_count": 22,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0809,
+        "depressive_mood": 0.077
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.8,
+      "ema_mood": 3.5
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 9,
+      "timestamp": "2026-08-09T12:39:25.022663+00:00",
+      "valence": 0.2081,
+      "arousal": 0.2366,
+      "word_count": 24,
+      "symptom_scores": {
+        "sleep_disturbance": 0.138,
+        "depressive_mood": 0.1169
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.7,
+      "ema_mood": 3.5
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 10,
+      "timestamp": "2026-08-10T11:38:00.857884+00:00",
+      "valence": 0.1815,
+      "arousal": 0.32,
+      "word_count": 18,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1241,
+        "depressive_mood": 0.1091
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.6,
+      "ema_mood": 4.1
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 11,
+      "timestamp": "2026-08-11T13:36:40.399859+00:00",
+      "valence": 0.1867,
+      "arousal": 0.2378,
+      "word_count": 24,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0719,
+        "depressive_mood": 0.0789
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.5,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 12,
+      "timestamp": "2026-08-12T12:19:11.780849+00:00",
+      "valence": 0.187,
+      "arousal": 0.1439,
+      "word_count": 21,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0538,
+        "depressive_mood": 0.0541
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.4,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 13,
+      "timestamp": "2026-08-13T13:11:02.756546+00:00",
+      "valence": 0.2704,
+      "arousal": 0.2029,
+      "word_count": 26,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1184,
+        "depressive_mood": 0.0236
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.3,
+      "ema_mood": 3.9
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 14,
+      "timestamp": "2026-08-14T13:00:16.389181+00:00",
+      "valence": 0.2167,
+      "arousal": 0.2518,
+      "word_count": 24,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0684,
+        "depressive_mood": 0.0828
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.2,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 15,
+      "timestamp": "2026-08-15T13:23:56.222803+00:00",
+      "valence": 0.3428,
+      "arousal": 0.2307,
+      "word_count": 14,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1229,
+        "depressive_mood": 0.062
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.1,
+      "ema_mood": 3.8
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 16,
+      "timestamp": "2026-08-16T10:58:33.375930+00:00",
+      "valence": 0.2016,
+      "arousal": 0.2912,
+      "word_count": 21,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1322,
+        "depressive_mood": 0.1206
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 6.0,
+      "ema_mood": 3.3
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 17,
+      "timestamp": "2026-08-17T10:42:12.768217+00:00",
+      "valence": 0.2816,
+      "arousal": 0.282,
+      "word_count": 15,
+      "symptom_scores": {
+        "sleep_disturbance": 0.1561,
+        "depressive_mood": 0.2032
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.9,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 18,
+      "timestamp": "2026-08-18T13:12:20.399065+00:00",
+      "valence": -0.0246,
+      "arousal": 0.3035,
+      "word_count": 14,
+      "symptom_scores": {
+        "sleep_disturbance": 0.0576,
+        "depressive_mood": 0.0788
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.8,
+      "ema_mood": 3.1
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 19,
+      "timestamp": "2026-08-19T12:52:37.545042+00:00",
+      "valence": -0.1083,
+      "arousal": 0.2477,
+      "word_count": 13,
+      "symptom_scores": {
+        "sleep_disturbance": 0.2466,
+        "depressive_mood": 0.1178
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.7,
+      "ema_mood": 3.2
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 20,
+      "timestamp": "2026-08-20T11:02:12.358298+00:00",
+      "valence": 0.04,
+      "arousal": 0.222,
+      "word_count": 15,
+      "symptom_scores": {
+        "sleep_disturbance": 0.373,
+        "depressive_mood": 0.2872
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.6,
+      "ema_mood": 2.9
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 21,
+      "timestamp": "2026-08-21T10:18:35.760296+00:00",
+      "valence": -0.0227,
+      "arousal": 0.2734,
+      "word_count": 19,
+      "symptom_scores": {
+        "sleep_disturbance": 0.3716,
+        "depressive_mood": 0.2883
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.5,
+      "ema_mood": 3.5
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 22,
+      "timestamp": "2026-08-22T12:46:32.877297+00:00",
+      "valence": -0.0574,
+      "arousal": 0.2206,
+      "word_count": 18,
+      "symptom_scores": {
+        "sleep_disturbance": 0.3415,
+        "depressive_mood": 0.2972
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.4,
+      "ema_mood": 3.2
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 23,
+      "timestamp": "2026-08-23T11:40:50.066656+00:00",
+      "valence": 0.0195,
+      "arousal": 0.2548,
+      "word_count": 12,
+      "symptom_scores": {
+        "sleep_disturbance": 0.3553,
+        "depressive_mood": 0.3603
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.3,
+      "ema_mood": 2.3
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 24,
+      "timestamp": "2026-08-24T10:01:24.903604+00:00",
+      "valence": -0.2324,
+      "arousal": 0.1776,
+      "word_count": 19,
+      "symptom_scores": {
+        "sleep_disturbance": 0.5181,
+        "depressive_mood": 0.5299
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.2,
+      "ema_mood": 2.2
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 25,
+      "timestamp": "2026-08-25T12:11:04.305260+00:00",
+      "valence": -0.2312,
+      "arousal": 0.2945,
+      "word_count": 16,
+      "symptom_scores": {
+        "sleep_disturbance": 0.4494,
+        "depressive_mood": 0.4923
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.1,
+      "ema_mood": 3.0
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 26,
+      "timestamp": "2026-08-26T12:42:59.643144+00:00",
+      "valence": -0.267,
+      "arousal": 0.2416,
+      "word_count": 15,
+      "symptom_scores": {
+        "sleep_disturbance": 0.5329,
+        "depressive_mood": 0.4893
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 5.0,
+      "ema_mood": 2.6
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 27,
+      "timestamp": "2026-08-27T11:34:33.891691+00:00",
+      "valence": -0.2815,
+      "arousal": 0.2344,
+      "word_count": 15,
+      "symptom_scores": {
+        "sleep_disturbance": 0.5445,
+        "depressive_mood": 0.5398
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 4.9,
+      "ema_mood": 2.3
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 28,
+      "timestamp": "2026-08-28T11:30:59.095644+00:00",
+      "valence": -0.2813,
+      "arousal": 0.2512,
+      "word_count": 7,
+      "symptom_scores": {
+        "sleep_disturbance": 0.6393,
+        "depressive_mood": 0.6041
+      },
+      "risk_severity_score": 0.0,
+      "sleep_hours": 4.8,
+      "ema_mood": 2.0
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 29,
+      "timestamp": "2026-08-29T11:00:32.710058+00:00",
+      "valence": -0.3278,
+      "arousal": 0.2074,
+      "word_count": 19,
+      "symptom_scores": {
+        "sleep_disturbance": 0.6308,
+        "depressive_mood": 0.3892
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.7,
+      "ema_mood": 1.8
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 30,
+      "timestamp": "2026-08-30T13:07:29.755914+00:00",
+      "valence": -0.4845,
+      "arousal": 0.2785,
+      "word_count": 14,
+      "symptom_scores": {
+        "sleep_disturbance": 0.5805,
+        "depressive_mood": 0.718
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.6,
+      "ema_mood": 2.0
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 31,
+      "timestamp": "2026-08-31T10:30:17.582038+00:00",
+      "valence": -0.4925,
+      "arousal": 0.2532,
+      "word_count": 11,
+      "symptom_scores": {
+        "sleep_disturbance": 0.6324,
+        "depressive_mood": 0.7386
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.5,
+      "ema_mood": 2.4
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 32,
+      "timestamp": "2026-09-01T12:25:44.363912+00:00",
+      "valence": -0.4731,
+      "arousal": 0.2589,
+      "word_count": 14,
+      "symptom_scores": {
+        "sleep_disturbance": 0.7079,
+        "depressive_mood": 0.8255
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.4,
+      "ema_mood": 1.1
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 33,
+      "timestamp": "2026-09-02T11:14:52.184319+00:00",
+      "valence": -0.6261,
+      "arousal": 0.318,
+      "word_count": 16,
+      "symptom_scores": {
+        "sleep_disturbance": 0.6393,
+        "depressive_mood": 0.7243
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.3,
+      "ema_mood": 1.9
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 34,
+      "timestamp": "2026-09-03T12:30:32.290497+00:00",
+      "valence": -0.4195,
+      "arousal": 0.354,
+      "word_count": 20,
+      "symptom_scores": {
+        "sleep_disturbance": 0.8742,
+        "depressive_mood": 0.8879
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.2,
+      "ema_mood": 1.2
+    },
+    {
+      "user_id": "user_gradual_depression",
+      "day": 35,
+      "timestamp": "2026-09-04T13:07:49.948988+00:00",
+      "valence": -0.6607,
+      "arousal": 0.1972,
+      "word_count": 19,
+      "symptom_scores": {
+        "sleep_disturbance": 0.902,
+        "depressive_mood": 0.831
+      },
+      "risk_severity_score": 1.0,
+      "sleep_hours": 4.1,
+      "ema_mood": 1.7
+    }
+  ],
+  "user_acute_panic_spike": [
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 1,
+      "timestamp": "2026-08-01T13:17:21.565220+00:00",
+      "valence": 0.101,
+      "arousal": 0.3783,
+      "word_count": 14,
+      "symptom_scores": {
+        "anxiety": 0.1402
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 2,
+      "timestamp": "2026-08-02T12:49:45.244469+00:00",
+      "valence": 0.262,
+      "arousal": 0.3321,
+      "word_count": 19,
+      "symptom_scores": {
+        "anxiety": 0.0351
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 3,
+      "timestamp": "2026-08-03T13:13:58.068751+00:00",
+      "valence": 0.0808,
+      "arousal": 0.2863,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0465
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 4,
+      "timestamp": "2026-08-04T11:04:24.895748+00:00",
+      "valence": 0.3414,
+      "arousal": 0.2244,
+      "word_count": 24,
+      "symptom_scores": {
+        "anxiety": 0.1137
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 5,
+      "timestamp": "2026-08-05T10:58:31.633524+00:00",
+      "valence": 0.186,
+      "arousal": 0.3151,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.0398
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 6,
+      "timestamp": "2026-08-06T13:24:13.720843+00:00",
+      "valence": 0.2216,
+      "arousal": 0.3314,
+      "word_count": 16,
+      "symptom_scores": {
+        "anxiety": 0.0886
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 7,
+      "timestamp": "2026-08-07T13:31:16.607709+00:00",
+      "valence": 0.3942,
+      "arousal": 0.2617,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.0727
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 8,
+      "timestamp": "2026-08-08T10:20:32.826652+00:00",
+      "valence": 0.2063,
+      "arousal": 0.2431,
+      "word_count": 13,
+      "symptom_scores": {
+        "anxiety": 0.0735
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 9,
+      "timestamp": "2026-08-09T12:35:01.001756+00:00",
+      "valence": 0.2472,
+      "arousal": 0.3051,
+      "word_count": 21,
+      "symptom_scores": {
+        "anxiety": 0.0268
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 10,
+      "timestamp": "2026-08-10T12:46:01.735036+00:00",
+      "valence": 0.103,
+      "arousal": 0.3619,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.0663
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 11,
+      "timestamp": "2026-08-11T11:42:07.254903+00:00",
+      "valence": 0.1814,
+      "arousal": 0.2552,
+      "word_count": 16,
+      "symptom_scores": {
+        "anxiety": 0.0793
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 12,
+      "timestamp": "2026-08-12T11:00:20.212937+00:00",
+      "valence": 0.2724,
+      "arousal": 0.3225,
+      "word_count": 23,
+      "symptom_scores": {
+        "anxiety": 0.0942
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 13,
+      "timestamp": "2026-08-13T13:02:55.530377+00:00",
+      "valence": 0.0722,
+      "arousal": 0.3321,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.0883
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 14,
+      "timestamp": "2026-08-14T13:54:23.141130+00:00",
+      "valence": 0.2424,
+      "arousal": 0.2937,
+      "word_count": 21,
+      "symptom_scores": {
+        "anxiety": 0.0558
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 15,
+      "timestamp": "2026-08-15T10:54:35.757554+00:00",
+      "valence": 0.1374,
+      "arousal": 0.3076,
+      "word_count": 19,
+      "symptom_scores": {
+        "anxiety": 0.0822
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 16,
+      "timestamp": "2026-08-16T13:53:49.847008+00:00",
+      "valence": 0.313,
+      "arousal": 0.2746,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.0362
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 17,
+      "timestamp": "2026-08-17T11:57:48.653201+00:00",
+      "valence": 0.1154,
+      "arousal": 0.2532,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.1073
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 18,
+      "timestamp": "2026-08-18T10:44:14.836854+00:00",
+      "valence": 0.0528,
+      "arousal": 0.3377,
+      "word_count": 21,
+      "symptom_scores": {
+        "anxiety": 0.1477
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 19,
+      "timestamp": "2026-08-19T11:36:10.187168+00:00",
+      "valence": 0.2429,
+      "arousal": 0.3316,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.1178
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 20,
+      "timestamp": "2026-08-20T12:15:04.890198+00:00",
+      "valence": 0.3001,
+      "arousal": 0.4507,
+      "word_count": 24,
+      "symptom_scores": {
+        "anxiety": 0.0482
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 21,
+      "timestamp": "2026-08-21T12:25:30.974178+00:00",
+      "valence": 0.1133,
+      "arousal": 0.2654,
+      "word_count": 19,
+      "symptom_scores": {
+        "anxiety": 0.0854
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 22,
+      "timestamp": "2026-08-22T11:46:15.182458+00:00",
+      "valence": 0.162,
+      "arousal": 0.1831,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.1381
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 23,
+      "timestamp": "2026-08-23T12:26:18.685136+00:00",
+      "valence": 0.2144,
+      "arousal": 0.1788,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0755
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 24,
+      "timestamp": "2026-08-24T12:38:30.165176+00:00",
+      "valence": 0.2052,
+      "arousal": 0.3258,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.0902
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_acute_panic_spike",
+      "day": 25,
+      "timestamp": "2026-08-25T11:48:07.253346+00:00",
+      "valence": -0.7,
+      "arousal": 0.9,
+      "word_count": 45,
+      "symptom_scores": {
+        "anxiety": 0.88
+      },
+      "risk_severity_score": 1.0
+    }
+  ],
+  "user_cold_start": [
+    {
+      "user_id": "user_cold_start",
+      "day": 1,
+      "timestamp": "2026-08-01T10:00:00+00:00",
+      "valence": 0.15,
+      "arousal": 0.3,
+      "word_count": 18,
+      "symptom_scores": {
+        "anxiety": 0.12
+      },
+      "risk_severity_score": 0.0
+    },
+    {
+      "user_id": "user_cold_start",
+      "day": 2,
+      "timestamp": "2026-08-02T10:00:00+00:00",
+      "valence": 0.2,
+      "arousal": 0.28,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.1
+      },
+      "risk_severity_score": 0.0
+    }
+  ],
+  "user_multimodal": [
+    {
+      "user_id": "user_multimodal",
+      "day": 1,
+      "timestamp": "2026-08-01T12:22:30.881210+00:00",
+      "valence": 0.1277,
+      "arousal": 0.4561,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.1099
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 2.9,
+      "pitch_mean": 191.5,
+      "jitter": 0.0197
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 2,
+      "timestamp": "2026-08-02T12:30:00.835303+00:00",
+      "valence": 0.0528,
+      "arousal": 0.3013,
+      "word_count": 18,
+      "symptom_scores": {
+        "anxiety": 0.1329
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.7
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 3,
+      "timestamp": "2026-08-03T12:35:25.940017+00:00",
+      "valence": 0.3385,
+      "arousal": 0.3185,
+      "word_count": 33,
+      "symptom_scores": {
+        "anxiety": 0.2157
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.3,
+      "pitch_mean": 208.3,
+      "jitter": 0.0128
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 4,
+      "timestamp": "2026-08-04T10:29:50.692678+00:00",
+      "valence": 0.1083,
+      "arousal": 0.3534,
+      "word_count": 21,
+      "symptom_scores": {
+        "anxiety": 0.2662
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.3
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 5,
+      "timestamp": "2026-08-05T11:58:30.651159+00:00",
+      "valence": 0.1799,
+      "arousal": 0.411,
+      "word_count": 25,
+      "symptom_scores": {
+        "anxiety": 0.2219
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.5,
+      "pitch_mean": 191.6,
+      "jitter": 0.0205
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 6,
+      "timestamp": "2026-08-06T12:18:02.867173+00:00",
+      "valence": 0.0959,
+      "arousal": 0.7002,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.1777
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.2
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 7,
+      "timestamp": "2026-08-07T10:09:39.336093+00:00",
+      "valence": 0.1553,
+      "arousal": 0.3099,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.0912
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.7,
+      "pitch_mean": 203.1,
+      "jitter": 0.0127
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 8,
+      "timestamp": "2026-08-08T10:21:53.890651+00:00",
+      "valence": 0.0454,
+      "arousal": 0.3584,
+      "word_count": 34,
+      "symptom_scores": {
+        "anxiety": 0.143
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 2.8
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 9,
+      "timestamp": "2026-08-09T11:19:09.172756+00:00",
+      "valence": 0.1157,
+      "arousal": 0.3381,
+      "word_count": 40,
+      "symptom_scores": {
+        "anxiety": 0.1629
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.1,
+      "pitch_mean": 179.9,
+      "jitter": 0.014
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 10,
+      "timestamp": "2026-08-10T13:52:50.660066+00:00",
+      "valence": 0.2475,
+      "arousal": 0.3207,
+      "word_count": 34,
+      "symptom_scores": {
+        "anxiety": 0.2876
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.5
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 11,
+      "timestamp": "2026-08-11T12:10:13.347759+00:00",
+      "valence": 0.0839,
+      "arousal": 0.4267,
+      "word_count": 23,
+      "symptom_scores": {
+        "anxiety": 0.277
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.0,
+      "pitch_mean": 167.0,
+      "jitter": 0.0161
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 12,
+      "timestamp": "2026-08-12T13:42:38.487756+00:00",
+      "valence": 0.2951,
+      "arousal": 0.2854,
+      "word_count": 33,
+      "symptom_scores": {
+        "anxiety": 0.3166
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 4.2
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 13,
+      "timestamp": "2026-08-13T12:26:07.752006+00:00",
+      "valence": 0.1547,
+      "arousal": 0.4469,
+      "word_count": 22,
+      "symptom_scores": {
+        "anxiety": 0.1761
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 4.5,
+      "pitch_mean": 210.9,
+      "jitter": 0.0179
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 14,
+      "timestamp": "2026-08-14T10:28:11.512547+00:00",
+      "valence": 0.0806,
+      "arousal": 0.4464,
+      "word_count": 23,
+      "symptom_scores": {
+        "anxiety": 0.1851
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.0
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 15,
+      "timestamp": "2026-08-15T11:05:37.318513+00:00",
+      "valence": 0.3206,
+      "arousal": 0.2069,
+      "word_count": 30,
+      "symptom_scores": {
+        "anxiety": 0.2759
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 2.8,
+      "pitch_mean": 207.6,
+      "jitter": 0.0088
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 16,
+      "timestamp": "2026-08-16T13:27:21.987856+00:00",
+      "valence": 0.1372,
+      "arousal": 0.3768,
+      "word_count": 40,
+      "symptom_scores": {
+        "anxiety": 0.0795
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 4.0
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 17,
+      "timestamp": "2026-08-17T12:01:51.422532+00:00",
+      "valence": 0.192,
+      "arousal": 0.3411,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.2761
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 4.0,
+      "pitch_mean": 184.9,
+      "jitter": 0.0172
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 18,
+      "timestamp": "2026-08-18T11:22:49.784760+00:00",
+      "valence": 0.27,
+      "arousal": 0.3051,
+      "word_count": 27,
+      "symptom_scores": {
+        "anxiety": 0.1492
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.6
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 19,
+      "timestamp": "2026-08-19T10:45:16.594181+00:00",
+      "valence": 0.0994,
+      "arousal": 0.3014,
+      "word_count": 31,
+      "symptom_scores": {
+        "anxiety": 0.3032
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 4.1,
+      "pitch_mean": 191.7,
+      "jitter": 0.0135
+    },
+    {
+      "user_id": "user_multimodal",
+      "day": 20,
+      "timestamp": "2026-08-20T11:32:39.534036+00:00",
+      "valence": -0.0606,
+      "arousal": 0.3234,
+      "word_count": 20,
+      "symptom_scores": {
+        "anxiety": 0.2697
+      },
+      "risk_severity_score": 0.0,
+      "ema_mood": 3.4
+    }
+  ]
+}

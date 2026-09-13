@@ -1,0 +1,38 @@
+{
+  "source_id": "APA-RESILIENCE-2022",
+  "title": "Building Your Resilience",
+  "publisher": "American Psychological Association",
+  "url": "https://www.apa.org/topics/resilience/building-your-resilience",
+  "publication_date": "2022-02-01",
+  "source_type": "psychoeducation",
+  "citation": "American Psychological Association. (2022). Building your resilience. APA Help Center.",
+  "scope": [
+    "resilience",
+    "cognitive_reframing",
+    "social_connection",
+    "goal_setting"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_1_CLINICAL_PEER_REVIEW",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-01-20",
+    "review_status": "APPROVED",
+    "authority_weight": 1.1,
+    "license": "Educational Fair Use / APA Guidelines"
+  },
+  "sections": [
+    {
+      "heading": "Prioritizing Authentic Social Connection",
+      "content": "Connecting with empathetic, understanding individuals reminds you that you are not alone amid difficulties. Focus on finding trustworthy and compassionate people who validate your feelings without immediately trying to minimize them. Joining support groups, staying in touch with supportive family members, or confiding in a trusted peer helps build emotional safety and reduces the physiological impact of chronic isolation."
+    },
+    {
+      "heading": "Maintaining Healthy Thinking and Perspective",
+      "content": "How you think about hardships can significantly affect how you tolerate them. Try to avoid viewing crises as insurmountable obstacles. While you cannot change the fact that highly stressful events happen, you can change how you interpret and respond to them. Practice cognitive reframing by asking: 'Is there another way to look at this situation?' and 'What is one constructive step, no matter how small, that I can take today?' Keep a realistic, long-term perspective and avoid catastrophizing."
+    },
+    {
+      "heading": "Fostering Self-Care and Purpose",
+      "content": "A healthy lifestyle nourishes your resilience. Proper hydration, nutritious meals, sufficient rest, and gentle movement help your body adapt to the physical toll of stress. Complement bodily care by proactively setting realistic micro-goals each day. Accomplishing even one modest task—such as answering an important email or organizing a desk—fosters personal agency, self-efficacy, and a sense of forward momentum."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "WHO-STRESS-2020",
+  "title": "Doing What Matters in Times of Stress: An Illustrated Guide",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/publications/i/item/9789240003927",
+  "publication_date": "2020-04-29",
+  "source_type": "clinical_guideline",
+  "citation": "World Health Organization. (2020). Doing what matters in times of stress: An illustrated guide. World Health Organization.",
+  "scope": [
+    "stress_management",
+    "grounding_exercises",
+    "unhooking_from_thoughts",
+    "emotional_regulation"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_1_GLOBAL_HEALTH_AGENCY",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-01-15",
+    "review_status": "APPROVED",
+    "authority_weight": 1.2,
+    "license": "CC BY-NC-SA 3.0 IGO"
+  },
+  "sections": [
+    {
+      "heading": "Grounding and Dropping Anchor",
+      "content": "When a storm of difficult emotions or thoughts arises, the first essential practice is grounding—also known as dropping anchor. Grounding does not make the storm vanish, but it holds you steady until the storm passes. First, notice how you are feeling and what you are thinking. Second, slow down and connect with your physical body: push your feet hard into the floor, sit upright, and slowly breathe out. Third, refocus on the world around you: name 5 things you can see, 4 things you can physically touch, 3 things you can hear, 2 things you can smell, and 1 taste. Engaging physical senses brings your nervous system back from emotional overdrive."
+    },
+    {
+      "heading": "Unhooking from Difficult Thoughts",
+      "content": "Difficult thoughts and feelings often hook us like a fish on a line, pulling us away from our values and into rumination. Unhooking involves three gentle steps. Step 1: Notice that a difficult thought or feeling has hooked you. Step 2: Name it silently to yourself by saying, 'Here is a thought that I am failing' or 'Here is a feeling of tightness in my chest.' Naming creates distance between you and the thought. Step 3: Refocus on what you are doing in this present moment and take a small, constructive action aligned with what matters to you."
+    },
+    {
+      "heading": "Self-Compassion and Kindness",
+      "content": "Under intense stress, many people criticize themselves for struggling or feeling weak. Self-compassion means speaking to yourself with the same warmth, care, and patience you would offer to a close friend facing great adversity. Acknowledge the pain directly: 'This is a moment of suffering, and it is very hard right now.' Place a hand gently over your heart or on your arm to feel the physical warmth of your touch, reminding yourself that distress is a universal human experience and you are doing the best you can."
+    }
+  ]
+}

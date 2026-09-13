@@ -1,0 +1,24 @@
+strategy_planner:
+  module_name: "esconv_strategy_planner"
+  version: "0.1.0"
+  random_seed: 42
+  dataset:
+    raw_path: "data/raw/esconv/ESConv.json"
+    processed_dir: "data/processed/strategy"
+    train_ratio: 0.8
+    val_ratio: 0.1
+    test_ratio: 0.1
+    stratify_by_strategy: true
+  model:
+    architecture: "feature_classifier_baseline"
+    context_window_turns: 3
+    num_classes: 8
+  strategies:
+    - "Question"
+    - "Restatement or Paraphrasing"
+    - "Reflection of feelings"
+    - "Affirmation and Reassurance"
+    - "Self-disclosure"
+    - "Providing Suggestions"
+    - "Information"
+    - "Others"

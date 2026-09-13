@@ -1,0 +1,89 @@
+version: "1.0.0"
+enabled: true
+
+# The 12 Configurable Policy Checks
+checks:
+  harmful_instructions:
+    enabled: true
+    severity: critical
+    action: block_and_escalate
+  inappropriate_medical_claims:
+    enabled: true
+    severity: high
+    action: revise
+  unsupported_diagnosis:
+    enabled: true
+    severity: high
+    action: revise
+  crisis_mishandling:
+    enabled: true
+    severity: critical
+    action: block_and_escalate
+  unsafe_advice:
+    enabled: true
+    severity: high
+    action: revise
+  reinforcement_of_delusional_beliefs:
+    enabled: true
+    severity: high
+    action: revise
+  inappropriate_dependency:
+    enabled: true
+    severity: medium
+    action: revise
+  manipulative_language:
+    enabled: true
+    severity: medium
+    action: revise
+  false_claims_of_professional_authority:
+    enabled: true
+    severity: high
+    action: revise
+  privacy_violations:
+    enabled: true
+    severity: high
+    action: revise
+  hallucinated_resources:
+    enabled: true
+    severity: medium
+    action: revise
+  dangerous_certainty:
+    enabled: true
+    severity: medium
+    action: revise
+
+# Approved & Certified Emergency Resources Registry
+approved_resources:
+  hotlines:
+    - "988"
+    - "741741"
+    - "1-800-273-8255"
+    - "1-800-662-4357"
+    - "1-800-799-7233"
+  domains:
+    - "findahelpline.com"
+    - "988lifeline.org"
+    - "crisistextline.org"
+    - "who.int"
+    - "nimh.nih.gov"
+    - "apa.org"
+    - "nhs.uk"
+    - "samhsa.gov"
+    - "cdc.gov"
+
+# Mandatory Clinical Disclaimers
+disclaimers:
+  standard: "ZENOVA is an AI wellbeing support companion, not a licensed medical provider or therapist."
+  crisis_override: |
+    I hear how much pain you are experiencing right now, and your safety is the most important thing. 
+    I am an AI wellbeing companion and cannot provide emergency medical care. 
+    Please connect with trained professionals who can help you immediately:
+    • Call or text 988 (USA & Canada) — Free, confidential, 24/7
+    • Text HOME to 741741 to reach Crisis Text Line
+    • International support: https://findahelpline.com/
+    You do not have to carry this alone.
+
+audit:
+  retention_days: 90
+  log_level: audit
+  store_raw_user_text: false

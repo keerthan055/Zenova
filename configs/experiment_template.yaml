@@ -1,0 +1,29 @@
+# ZENOVA Experiment Configuration Template
+experiment:
+  name: "experiment_name"
+  version: "1.0.0"
+  task: "support_strategy_planning" # or emotion_analysis, risk_detection
+  random_seed: 42
+  description: "Benchmarking strategy classifier on ESConv"
+
+dataset:
+  name: "ESConv"
+  train_split: "data/processed/strategy/train.jsonl"
+  val_split: "data/processed/strategy/val.jsonl"
+  test_split: "data/processed/strategy/test.jsonl"
+
+model:
+  architecture: "transformer"
+  base_model: "roberta-base"
+  num_labels: 8
+
+hyperparameters:
+  learning_rate: 2.0e-5
+  batch_size: 16
+  max_epochs: 5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+
+tracking:
+  save_checkpoint_dir: "models/strategy/checkpoints"
+  log_every_n_steps: 50

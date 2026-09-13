@@ -1,0 +1,38 @@
+{
+  "source_id": "NIMH-STRESS-2023",
+  "title": "I'm So Stressed Out! Fact Sheet",
+  "publisher": "National Institute of Mental Health",
+  "url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+  "publication_date": "2023-08-10",
+  "source_type": "psychoeducation",
+  "citation": "National Institute of Mental Health. (2023). I'm so stressed out! Fact sheet. U.S. Department of Health and Human Services, National Institutes of Health.",
+  "scope": [
+    "stress_vs_anxiety",
+    "physiological_symptoms",
+    "evidence_based_coping",
+    "sleep_and_relaxation"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_1_CLINICAL_PEER_REVIEW",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-02-01",
+    "review_status": "APPROVED",
+    "authority_weight": 1.15,
+    "license": "U.S. Public Domain"
+  },
+  "sections": [
+    {
+      "heading": "Understanding Stress Versus Anxiety",
+      "content": "Stress is generally a physiological response to an external trigger, such as a looming deadline, relationship conflict, or financial burden. It subsides once the situation is resolved. Anxiety, by contrast, is characterized by persistent, excessive worries that don't go away even in the absence of an immediate stressor. Both conditions activate the body's sympathetic nervous system, causing rapid heart rate, muscle tension, shallow breathing, and gastrointestinal changes. Recognizing whether your distress is situational stress or internal anxiety helps you choose the most suitable coping response."
+    },
+    {
+      "heading": "Evidence-Based Coping Strategies",
+      "content": "Clinical research supports several accessible coping practices for down-regulating the autonomic nervous system. First, scheduled physical exercise: even a 20-minute brisk walk prompts the release of neuroprotective endorphins and reduces cortisol. Second, routine relaxation activities such as progressive muscle relaxation, guided mindfulness meditation, or slow rhythmic breathing. Third, establishing a consistent daily schedule for meals, waking, and sleeping, which stabilizes biological circadian rhythms disrupted by chronic stress."
+    },
+    {
+      "heading": "Recognizing When to Seek Professional Support",
+      "content": "While periodic stress is a normal part of life, professional guidance should be considered if symptoms persist for more than two weeks, impair daily functioning at school or work, disrupt sleep consistently, or lead to feelings of helplessness. Talking to a licensed primary care provider, mental health counselor, or clinical social worker can provide personalized cognitive-behavioral tools and structured clinical support."
+    }
+  ]
+}

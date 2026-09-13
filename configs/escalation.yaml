@@ -1,0 +1,137 @@
+# ZENOVA Step 14: Human/Clinician Escalation Configuration
+# Defines trigger conditions, clinician rules, thresholds, actions, and RBAC policies.
+
+escalation:
+  enabled: true
+  version: "1.0.0"
+  
+  # 1. High / Critical Risk Classification Triggers
+  risk_triggers:
+    critical:
+      enabled: true
+      severity: "critical"
+      categories: ["suicidal_ideation", "self_harm", "imminent_danger", "violence", "delusional_break"]
+      auto_escalate_immediate: true
+    high:
+      enabled: true
+      severity: "high"
+      confidence_threshold: 0.60
+      auto_escalate_immediate: true
+
+  # 2. Repeated Concerning Signals Triggers
+  repeated_signals:
+    enabled: true
+    severity: "high"
+    window_turns: 3
+    min_consecutive_acute_turns: 3
+    acute_emotions: ["sadness", "grief", "fear", "shame"]
+    acute_valence_threshold: -0.50
+    acute_emotion_confidence: 0.70
+    min_consecutive_symptom_turns: 2
+    acute_symptom_severities: ["moderate", "severe"]
+
+  # 3. Significant Longitudinal Changes Triggers
+  longitudinal_triggers:
+    enabled: true
+    baseline_deviation_z_threshold: 3.0
+    baseline_severity: "high"
+    deviation_metrics: ["anxiety_score", "depression_score", "distress_score", "negative_affect"]
+    behavioral_anomaly_min_domains: 3
+    behavioral_severity: "medium"
+
+  # 4. Safety-Gate Event Triggers
+  safety_gate_triggers:
+    enabled: true
+    actions:
+      block_and_escalate:
+        severity: "critical"
+      revise:
+        severity: "low"
+        escalate_on_revise: false
+    critical_policies:
+      - "harmful_instructions"
+      - "crisis_mishandling"
+      - "reinforcement_of_delusional_beliefs"
+
+  # 5. Configured Clinician Rules
+  clinician_rules:
+    - rule_id: "EXPLICIT_HUMAN_REQUEST"
+      title: "Explicit Request for Human / Clinician"
+      description: "User expresses direct desire to connect with a real human, doctor, therapist, or counselor."
+      severity: "high"
+      patterns:
+        - "\\b(?:i want to|can i|let me|please)\\s+(?:speak|talk|connect)\\s+(?:with|to)\\s+(?:a|an)?\\s*(?:human|real person|person|doctor|therapist|psychiatrist|counselor|clinician)\\b"
+        - "\\b(?:get me|connect me with|transfer me to)\\s+(?:a|an)?\\s*(?:human|doctor|therapist|crisis worker|supervisor)\\b"
+        - "\\b(?:i need a (?:real )?doctor|i need a (?:real )?therapist right now)\\b"
+
+    - rule_id: "SUBSTANCE_OVERDOSE_SUSPICION"
+      title: "Acute Substance Ingestion / Overdose Suspicion"
+      description: "User mentions acute excessive ingestion of substances, drugs, or poisons."
+      severity: "critical"
+      patterns:
+        - "\\b(?:i (?:just )?(?:took|drank|swallowed|ingested)|overdosed on)\\s+(?:a whole bottle|all my pills|too many pills|bleach|poison)\\b"
+        - "\\b(?:drank antifreeze|swallowed pesticide|ingested drain cleaner)\\b"
+
+    - rule_id: "DOMESTIC_VIOLENCE_INTIMIDATION"
+      title: "Immediate Domestic Abuse / Interpersonal Danger"
+      description: "User mentions immediate physical abuse, domestic violence, or imminent physical danger."
+      severity: "critical"
+      patterns:
+        - "\\b(?:my partner|my spouse|my boyfriend|my girlfriend|my husband|my wife)\\s+(?:is hitting me|beat me up|threatened to kill me|has a gun)\\b"
+        - "\\b(?:hiding in the bathroom|afraid they will hurt me|scared for my life at home)\\b"
+
+    - rule_id: "PEDIATRIC_CRISIS"
+      title: "Unaccompanied Minor in Acute Crisis"
+      description: "Self-identified minor or adolescent disclosing severe abuse or self-harm without adult support."
+      severity: "critical"
+      patterns:
+        - "\\b(?:i am|i'm)\\s+(?:10|11|12|13|14|15|16|17)\\s+(?:years old)?\\s+(?:and want to die|and hurting myself|and being abused)\\b"
+
+  # Role-Based Access Control (RBAC) Permissions
+  rbac:
+    roles:
+      clinician:
+        can_view_queue: true
+        can_view_full_context: true
+        can_view_cues: true
+        can_acknowledge: true
+        can_resolve: true
+        can_reassign: false
+        can_view_audit: true
+        can_edit_rules: false
+      triage_supervisor:
+        can_view_queue: true
+        can_view_full_context: true
+        can_view_cues: true
+        can_acknowledge: true
+        can_resolve: true
+        can_reassign: true
+        can_view_audit: true
+        can_edit_rules: true
+      system_admin:
+        can_view_queue: true
+        can_view_full_context: false  # Sensitive PII masked
+        can_view_cues: false
+        can_acknowledge: false
+        can_resolve: false
+        can_reassign: true
+        can_view_audit: true
+        can_edit_rules: true
+      auditor:
+        can_view_queue: true
+        can_view_full_context: false  # Sanitized/anonymized
+        can_view_cues: false
+        can_acknowledge: false
+        can_resolve: false
+        can_reassign: false
+        can_view_audit: true
+        can_edit_rules: false
+      patient:
+        can_view_queue: false
+        can_view_full_context: false
+        can_view_cues: false
+        can_acknowledge: false
+        can_resolve: false
+        can_reassign: false
+        can_view_audit: false
+        can_edit_rules: false

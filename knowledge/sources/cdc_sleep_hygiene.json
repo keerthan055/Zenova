@@ -1,0 +1,38 @@
+{
+  "source_id": "CDC-SLEEP-2022",
+  "title": "Tips for Better Sleep and Sleep Hygiene",
+  "publisher": "Centers for Disease Control and Prevention",
+  "url": "https://www.cdc.gov/sleep/about_sleep/sleep_hygiene.html",
+  "publication_date": "2022-09-13",
+  "source_type": "psychoeducation",
+  "citation": "Centers for Disease Control and Prevention. (2022). Tips for better sleep. U.S. Department of Health and Human Services.",
+  "scope": [
+    "sleep_hygiene",
+    "insomnia_prevention",
+    "circadian_rhythm",
+    "bedtime_routines"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_1_GLOBAL_HEALTH_AGENCY",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-02-05",
+    "review_status": "APPROVED",
+    "authority_weight": 1.15,
+    "license": "U.S. Public Domain"
+  },
+  "sections": [
+    {
+      "heading": "Establishing Circadian Rhythm Consistency",
+      "content": "Consistency in your sleep schedule reinforces your brain's internal circadian clock. Go to bed at the same time each night and wake up at the same time every morning, including on weekends. Irregular sleep timing produces social jetlag, making falling asleep on weekday evenings difficult and elevating daytime cortisol. Maintaining a regular wake-up time, paired with exposure to natural sunlight within 30 minutes of waking, anchors healthy melatonin production for the following night."
+    },
+    {
+      "heading": "Optimizing the Sleep Environment",
+      "content": "Your sleeping environment should promote restfulness by minimizing sensory stimulation. Ensure your bedroom is quiet, dark, and comfortably cool—typically between 60 to 67 degrees Fahrenheit (15 to 19 degrees Celsius), as a slight drop in core body temperature naturally signals the onset of sleep. Remove electronic devices such as televisions, computers, and smartphones from the immediate bedside. The blue light emitted by screens suppresses melatonin secretion and keeps the prefrontal cortex alert."
+    },
+    {
+      "heading": "Daytime Habits Supporting Restful Nights",
+      "content": "What you do during daylight hours profoundly shapes nocturnal sleep quality. Engage in regular physical activity earlier in the day, but avoid vigorous workouts within 2 hours of bedtime. Avoid large, heavy meals, alcohol, and caffeine in the late afternoon and evening. While caffeine blocks adenosine sleep-pressure receptors for up to 8 hours, alcohol disrupts REM sleep architecture and causes frequent middle-of-the-night awakenings."
+    }
+  ]
+}

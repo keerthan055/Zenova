@@ -1,0 +1,27 @@
+system:
+  name: "ZENOVA"
+  version: "0.1.0"
+  environment: "development"
+  random_seed: 42
+  debug: false
+
+logging:
+  level: "INFO"
+  format: "json"
+  log_to_file: true
+  file_path: "logs/zenova.log"
+
+safety:
+  strict_mode: true
+  crisis_override_enabled: true
+  disclaimer: "ZENOVA is an AI wellbeing support companion, not a medical device or crisis service."
+  crisis_resources:
+    hotline: "988"
+    crisis_text_line: "Text HOME to 741741"
+    international_url: "https://findahelpline.com/"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  models: "models"
+  metadata: "data/metadata"

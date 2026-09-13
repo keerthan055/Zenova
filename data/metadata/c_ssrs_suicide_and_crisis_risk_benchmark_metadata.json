@@ -1,0 +1,102 @@
+{
+  "dataset_name": "C-SSRS Suicide and Crisis Risk Benchmark",
+  "version": "1.0.0",
+  "source": "C-SSRS Social Media Corpus (Gaur et al., WWW 2019 / CLPsych 2019)",
+  "official_url": "https://dl.acm.org/doi/10.1145/3308558.3313698",
+  "license": "Academic Research Use (De-identified C-SSRS Benchmark)",
+  "citation": "Gaur, M., Alambo, A., Sain, J., Kursuncu, U., Thirunarayan, K., Kavuluru, R., ... & Pathak, J. (2019). Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention. In The World Wide Web Conference (WWW '19), pp. 514-525.",
+  "download_date": "2026-09-09",
+  "local_storage_location": {
+    "raw": "data\\raw\\c_ssrs_suicide_and_crisis_risk_benchmark",
+    "interim": "data\\interim\\c_ssrs_suicide_and_crisis_risk_benchmark",
+    "processed": "data\\processed\\c_ssrs_suicide_and_crisis_risk_benchmark",
+    "metadata": "data\\metadata\\c_ssrs_suicide_and_crisis_risk_benchmark_metadata.json",
+    "docs": "docs\\datasets\\c_ssrs_suicide_and_crisis_risk_benchmark.md"
+  },
+  "intended_task": "crisis_risk_detection",
+  "features": [
+    "text",
+    "crisis_category",
+    "requires_escalation",
+    "sample_type"
+  ],
+  "labels": [
+    "low",
+    "moderate",
+    "high",
+    "critical"
+  ],
+  "number_of_samples": {
+    "total": 1218,
+    "raw": 1218,
+    "processed": 1218
+  },
+  "train_validation_test_split": {
+    "train_count": 974,
+    "val_count": 122,
+    "test_count": 122,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "stratified"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (stratified, seed=42)"
+  ],
+  "checksums": {
+    "raw": "259c7941cffb23ee8843b6b835c8c976e794e51adf6bf2b83ac9b0a3f2d69d73",
+    "interim": "259c7941cffb23ee8843b6b835c8c976e794e51adf6bf2b83ac9b0a3f2d69d73",
+    "train": "71b9ccc9893a63b21723a1d19734f09ab9d066853ca68288bb521b7f06560ac7",
+    "val": "9aa111dbd56786b5f7a25c1ec9b5884e79258877e9bf53a0998b926891236fb5",
+    "test": "3e63fa7cd8b757e7583370ec82ac6e3e0551588dc15aafcbd03816dddc1792a9"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 1218,
+    "class_distribution": {
+      "low": {
+        "count": 654,
+        "percentage": 53.69
+      },
+      "moderate": {
+        "count": 226,
+        "percentage": 18.56
+      },
+      "high": {
+        "count": 198,
+        "percentage": 16.26
+      },
+      "critical": {
+        "count": 140,
+        "percentage": 11.49
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 16.22,
+      "std_words": 3.81,
+      "min_words": 3,
+      "max_words": 27,
+      "median_words": 16.0,
+      "p95_words": 22.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Clinical psychiatric diagnosis",
+    "Emergency dispatch replacement",
+    "Autonomous involuntary commitment"
+  ],
+  "registered_at": "2026-09-09T20:35:58.945114Z"
+}

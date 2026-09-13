@@ -1,0 +1,38 @@
+{
+  "source_id": "NHS-BREATHING-2023",
+  "title": "Breathing Exercises for Stress and Anxiety",
+  "publisher": "National Health Service (NHS UK)",
+  "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
+  "publication_date": "2023-11-14",
+  "source_type": "coping_strategy",
+  "citation": "National Health Service. (2023). Breathing exercises for stress. NHS Every Mind Matters.",
+  "scope": [
+    "breathing_exercises",
+    "box_breathing",
+    "diaphragmatic_breathing",
+    "acute_anxiety_relief"
+  ],
+  "reliability": {
+    "evidence_tier": "TIER_2_GOVERNMENT_HEALTH_SERVICE",
+    "peer_reviewed": true,
+    "reviewed_by": "ZENOVA Clinical Advisory Review",
+    "last_reviewed_date": "2026-02-10",
+    "review_status": "APPROVED",
+    "authority_weight": 1.05,
+    "license": "Open Government Licence v3.0 (UK)"
+  },
+  "sections": [
+    {
+      "heading": "Diaphragmatic Belly Breathing",
+      "content": "Deep belly breathing activates the parasympathetic 'rest-and-digest' branch of the autonomic nervous system, rapidly countering the shallow chest breathing triggered by acute anxiety. To practice: Sit or lie down comfortably. Place one hand on your chest and the other on your belly just below your ribs. Inhale gently through your nose for a count of 4, feeling your belly expand outward while your chest remains relatively still. Exhale slowly through your mouth for a count of 5 or 6, feeling your belly sink inward. Repeat for 3 to 5 minutes to restore calm."
+    },
+    {
+      "heading": "Box Breathing (Square Breathing)",
+      "content": "Box breathing is a structured, rhythmic pacing technique widely utilized by healthcare professionals and emergency responders to regain mental clarity during acute tension. The practice follows an equal four-count rhythm like the four sides of a square: Step 1: Inhale slowly through your nose for 4 seconds. Step 2: Hold your breath gently for 4 seconds without straining. Step 3: Exhale smoothly through your mouth for 4 seconds. Step 4: Hold your lungs empty for 4 seconds. Complete 4 consecutive cycles."
+    },
+    {
+      "heading": "The 4-7-8 Relaxing Breath",
+      "content": "The 4-7-8 breathing technique acts as a natural tranquilizer for the nervous system by lengthening the exhalation phase relative to the inhalation. Sit with your back straight. Place the tip of your tongue behind your upper front teeth. Exhale completely through your mouth with a soft whooshing sound. Close your mouth and inhale quietly through your nose for 4 seconds. Hold your breath for 7 seconds. Exhale completely through your mouth for 8 seconds. Perform 4 breath cycles, particularly useful before bedtime to ease racing thoughts."
+    }
+  ]
+}

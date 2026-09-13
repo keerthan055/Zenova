@@ -1,0 +1,131 @@
+{
+  "dataset_name": "Synthetic Wellbeing Benchmark",
+  "version": "1.0.0",
+  "source": "ZENOVA Synthetic Benchmark Generator",
+  "official_url": "https://zenova.internal/datasets/synthetic_wellbeing",
+  "license": "MIT",
+  "citation": "Zenova Research Team. (2026). Synthetic Wellbeing Benchmark Dataset for Controlled Pipeline Validation.",
+  "download_date": "2026-09-09",
+  "local_storage_location": {
+    "raw": "data\\raw\\synthetic_wellbeing_benchmark",
+    "interim": "data\\interim\\synthetic_wellbeing_benchmark",
+    "processed": "data\\processed\\synthetic_wellbeing_benchmark",
+    "metadata": "data\\metadata\\synthetic_wellbeing_benchmark_metadata.json",
+    "docs": "docs\\datasets\\synthetic_wellbeing_benchmark.md"
+  },
+  "intended_task": "support_strategy_planning",
+  "features": [
+    "text",
+    "situation",
+    "emotion",
+    "dialog_id",
+    "turn_id"
+  ],
+  "labels": [
+    "Question",
+    "Restatement or Paraphrasing",
+    "Reflection of feelings",
+    "Affirmation and Reassurance",
+    "Self-disclosure",
+    "Providing Suggestions",
+    "Information",
+    "Others"
+  ],
+  "number_of_samples": {
+    "total": 240,
+    "raw": 240,
+    "processed": 240
+  },
+  "train_validation_test_split": {
+    "train_count": 192,
+    "val_count": 24,
+    "test_count": 24,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42,
+    "split_strategy": "grouped_by_dialog_id"
+  },
+  "preprocessing_steps": [
+    "Text normalization (clean_text)",
+    "Minimum character filtering",
+    "Split (grouped_by_dialog_id, seed=42)"
+  ],
+  "checksums": {
+    "raw": "11be7c7d5d79218df9e81223fa221cafbb37a8d67c4acaea538b8de8b3cfc2af",
+    "interim": "11be7c7d5d79218df9e81223fa221cafbb37a8d67c4acaea538b8de8b3cfc2af",
+    "train": "aa412dd7f0a22b25faa35527bfcd5255d11843c31357698325a57e1265db51d1",
+    "val": "680356e3bd50df0887357e7c009a1d80100f3a9c7262c59fdd84a602fef9c784",
+    "test": "74ba074408b067be813dff91aa3234085e5aceecc901fbba8b14c1e413cb9cfa"
+  },
+  "leakage_check_passed": true,
+  "statistics": {
+    "total_samples": 240,
+    "class_distribution": {
+      "Affirmation and Reassurance": {
+        "count": 42,
+        "percentage": 17.5
+      },
+      "Information": {
+        "count": 33,
+        "percentage": 13.75
+      },
+      "Restatement or Paraphrasing": {
+        "count": 31,
+        "percentage": 12.92
+      },
+      "Self-disclosure": {
+        "count": 28,
+        "percentage": 11.67
+      },
+      "Reflection of feelings": {
+        "count": 28,
+        "percentage": 11.67
+      },
+      "Providing Suggestions": {
+        "count": 28,
+        "percentage": 11.67
+      },
+      "Others": {
+        "count": 26,
+        "percentage": 10.83
+      },
+      "Question": {
+        "count": 24,
+        "percentage": 10.0
+      }
+    },
+    "text_length_statistics": {
+      "mean_words": 22.11,
+      "std_words": 1.94,
+      "min_words": 17,
+      "max_words": 28,
+      "median_words": 22.0,
+      "p95_words": 25.0
+    },
+    "missing_text_count": 0,
+    "missing_text_rate": 0.0,
+    "leakage_audit": {
+      "group_leakage": {
+        "group_field": "dialog_id",
+        "has_leakage": false,
+        "train_val_overlap_count": 0,
+        "train_test_overlap_count": 0,
+        "val_test_overlap_count": 0,
+        "train_val_overlap_sample": [],
+        "train_test_overlap_sample": []
+      },
+      "text_leakage": {
+        "text_field": "text",
+        "has_leakage": false,
+        "overlap_count": 0,
+        "overlap_sample": []
+      }
+    }
+  },
+  "explicit_non_goals": [
+    "Clinical diagnostic classification",
+    "Automated medication prescribing"
+  ],
+  "registered_at": "2026-09-09T19:50:02.554479Z"
+}

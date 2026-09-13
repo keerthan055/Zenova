@@ -1,0 +1,55 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-09-14T00:00:00Z",
+  "system_version": "0.1.0",
+  "models": {
+    "emotion": {
+      "name": "GoEmotions Ekman Transformer Classifier",
+      "task": "multi_class_classification",
+      "version": "1.0.0",
+      "checkpoint_path": "models/emotion/transformer_checkpoint.pt",
+      "benchmark_dataset": "GoEmotions Ekman",
+      "baseline_accuracy": 0.4439,
+      "baseline_macro_f1": 0.4543,
+      "active": true
+    },
+    "symptoms": {
+      "name": "PsySym Observational Symptom Multi-Label Transformer",
+      "task": "multi_label_classification",
+      "version": "1.0.0",
+      "checkpoint_path": "models/symptoms/transformer_checkpoint.pt",
+      "benchmark_dataset": "PsySym Multi-Label",
+      "baseline_micro_f1": 0.9573,
+      "baseline_hamming_loss": 0.0137,
+      "active": true
+    },
+    "risk": {
+      "name": "C-SSRS Crisis Risk Assessment Classifier",
+      "task": "ordinal_risk_triage",
+      "version": "1.0.0",
+      "checkpoint_path": "models/risk/transformer_checkpoint.pt",
+      "benchmark_dataset": "C-SSRS Benchmark",
+      "baseline_sensitivity": 1.0,
+      "baseline_specificity": 1.0,
+      "active": true
+    },
+    "strategy": {
+      "name": "ESConv Support Strategy Transformer Planner",
+      "task": "dialogue_act_selection",
+      "version": "1.0.0",
+      "checkpoint_path": "models/strategy/transformer_checkpoint.pt",
+      "benchmark_dataset": "ESConv",
+      "baseline_accuracy": 0.2896,
+      "baseline_macro_f1": 0.1567,
+      "active": true
+    },
+    "rag_embeddings": {
+      "name": "Curated Clinical Dense TF-IDF Embeddings",
+      "task": "knowledge_retrieval",
+      "version": "1.0.0",
+      "checkpoint_path": "knowledge/embeddings/embedding_model.joblib",
+      "index_path": "knowledge/embeddings/index.json",
+      "active": true
+    }
+  }
+}

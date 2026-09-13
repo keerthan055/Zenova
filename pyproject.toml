@@ -52,6 +52,9 @@ all = [
     "zenova[dev,audio,postgres]",
 ]
 
+[project.scripts]
+zenova = "zenova.api.app:main"
+
 [tool.pytest.ini_options]
 minversion = "7.0"
 addopts = "-ra -q --import-mode=importlib"

@@ -2,7 +2,7 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 
 from zenova.core.logging import get_logger
 from zenova.core.config import get_system_config
@@ -112,6 +112,12 @@ async def zenova_exception_handler(request: Request, exc: ZenovaException):
     )
 
 
+@app.get("/", include_in_schema=False)
+async def root_redirect():
+    """Redirect root path directly to the user-facing web interface."""
+    return RedirectResponse(url="/app")
+
+
 # Metrics endpoint
 app.add_api_route("/metrics", metrics_endpoint_handler, methods=["GET"], tags=["Health & Status"])
 
@@ -139,3 +145,13 @@ app.include_router(evaluation_router)
 app.include_router(user_router)
 
 logger.info("Loaded API routes and production middlewares successfully.")
+
+
+def main():
+    """CLI entrypoint to run the ZENOVA development server."""
+    import uvicorn
+    uvicorn.run("zenova.api.app:app", host="127.0.0.1", port=8000, reload=True)
+
+
+if __name__ == "__main__":
+    main()

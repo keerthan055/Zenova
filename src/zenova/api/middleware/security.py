@@ -1,4 +1,4 @@
-"""Production security headers and token-bucket rate limiting middleware."""
+import os
 import sys
 import time
 from collections import defaultdict
@@ -26,9 +26,11 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
         response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
         
-        # Content Security Policy (allows Swagger UI assets on docs endpoints)
+        # Content Security Policy (allows Swagger UI assets and embedded web UI scripts)
         if request.url.path in ("/docs", "/redoc", "/openapi.json"):
             response.headers["Content-Security-Policy"] = "default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://fastapi.tiangolo.com;"
+        elif request.url.path in ("/app", "/dashboard", "/"):
+            response.headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
         else:
             response.headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
 

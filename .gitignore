@@ -25,6 +25,7 @@ data/*.db
 # Temporary benchmarks & scratch
 scratch/
 backups/
+Zenova/
 
 # Logs
 logs/

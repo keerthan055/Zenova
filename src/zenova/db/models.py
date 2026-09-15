@@ -231,6 +231,87 @@ class UserCheckinModel(Base):
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), index=True)
 
 
+class UserModel(Base):
+    """User account model for authentication, credential storage, and RBAC."""
+    __tablename__ = "users"
+
+    id = Column(String(64), primary_key=True, index=True)
+    email = Column(String(255), unique=True, index=True, nullable=False)
+    display_name = Column(String(128), nullable=True)
+    password_hash = Column(String(255), nullable=False)
+    role = Column(String(32), default="user", index=True, nullable=False)
+    is_active = Column(Boolean, default=True, nullable=False)
+    is_verified = Column(Boolean, default=False, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+    last_login_at = Column(DateTime, nullable=True)
+
+    auth_sessions = relationship("UserAuthSessionModel", back_populates="user", cascade="all, delete-orphan")
+    reset_tokens = relationship("PasswordResetTokenModel", back_populates="user", cascade="all, delete-orphan")
+    verify_tokens = relationship("EmailVerificationTokenModel", back_populates="user", cascade="all, delete-orphan")
+
+
+class UserAuthSessionModel(Base):
+    """Active user authentication session and refresh token storage."""
+    __tablename__ = "auth_sessions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(64), unique=True, index=True, nullable=False)
+    user_id = Column(String(64), ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    token_hash = Column(String(64), index=True, nullable=False)
+    ip_address = Column(String(64), default="127.0.0.1", nullable=False)
+    user_agent = Column(String(255), nullable=True)
+    expires_at = Column(DateTime, nullable=False)
+    is_revoked = Column(Boolean, default=False, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("UserModel", back_populates="auth_sessions")
+
+
+class PasswordResetTokenModel(Base):
+    """Single-use, time-limited password reset tokens."""
+    __tablename__ = "password_reset_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(String(64), ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    token_hash = Column(String(64), index=True, nullable=False)
+    expires_at = Column(DateTime, nullable=False)
+    used_at = Column(DateTime, nullable=True)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("UserModel", back_populates="reset_tokens")
+
+
+class EmailVerificationTokenModel(Base):
+    """Single-use, time-limited email verification tokens."""
+    __tablename__ = "email_verification_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(String(64), ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    token_hash = Column(String(64), index=True, nullable=False)
+    expires_at = Column(DateTime, nullable=False)
+    used_at = Column(DateTime, nullable=True)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("UserModel", back_populates="verify_tokens")
+
+
+class AuthAuditLogModel(Base):
+    """Immutable audit trail for security, authentication, and RBAC events."""
+    __tablename__ = "auth_audit_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    audit_id = Column(String(64), unique=True, index=True, nullable=False)
+    event_type = Column(String(64), index=True, nullable=False)
+    user_id = Column(String(64), index=True, nullable=True)
+    email = Column(String(255), index=True, nullable=True)
+    ip_address = Column(String(64), default="127.0.0.1", nullable=False)
+    user_agent = Column(String(255), nullable=True)
+    success = Column(Boolean, default=True, nullable=False)
+    metadata_json = Column(Text, default="{}", nullable=False)
+    timestamp = Column(DateTime, default=lambda: datetime.now(timezone.utc), index=True)
+
+
 
 
 

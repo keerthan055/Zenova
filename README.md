@@ -1,7 +1,7 @@
 # ZENOVA: Clinical-Grade Conversational Wellbeing & Emotional Support AI
 
-[![Tests](https://img.shields.io/badge/tests-369%20passed-brightgreen.svg)](tests/)
-[![Coverage](https://img.shields.io/badge/coverage-85%25-green.svg)](tests/)
+[![Tests](https://img.shields.io/badge/tests-391%20passed-brightgreen.svg)](tests/)
+[![Coverage](https://img.shields.io/badge/coverage-86%25-green.svg)](tests/)
 [![Status](https://img.shields.io/badge/status-production--ready-blue.svg)](ZENOVA_RELEASE.md)
 [![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey.svg)](LICENSE)
 
@@ -91,14 +91,20 @@ $env:PYTHONPATH="src"
 python -c "import asyncio; from zenova.db.session import init_db; asyncio.run(init_db())"
 ```
 
-### Step 4: Run the Complete Automated Test Suite (369 Tests)
+### Step 4: Run the Complete Automated Test Suite (391 Tests)
 ```powershell
 $env:PYTHONPATH="src"
 python -m pytest tests/ -v --cov=src/zenova --cov-report=term
 ```
-*Expected output: `369 passed, 0 failed, 85% coverage across 11,376 lines`.*
+*Expected output: `391 passed, 0 failed, 86% coverage`.*
 
-### Step 5: Start the Application Server
+### Step 5: Provision Initial Administrator (Optional CLI)
+```powershell
+$env:PYTHONPATH="src"
+python scripts/create_user.py --email admin@zenova.ai --password "AdminSecure2026!" --role admin --display-name "System Administrator"
+```
+
+### Step 6: Start the Application Server
 ```powershell
 $env:PYTHONPATH="src"
 python -m uvicorn zenova.api.main:app --host 0.0.0.0 --port 8000 --reload
@@ -112,10 +118,12 @@ When the server is running on `http://localhost:8000`:
 
 | Portal / Endpoint | URL | Description |
 | :--- | :--- | :--- |
+| **Authentication Portals** | `http://localhost:8000/login` <br> `http://localhost:8000/register` | Responsive authentication web pages with Argon2id hashing, password strength evaluation, and cookie sessions. |
 | **User-Facing Application** | `http://localhost:8000/app` | Accessible, responsive Single Page App with chat, audio input, daily check-ins, and GDPR privacy controls. |
-| **OpenAPI / Swagger Docs** | `http://localhost:8000/docs` | Interactive documentation for all orchestrator, user, dashboard, and escalation endpoints. |
+| **Clinician Dashboard** | `http://localhost:8000/dashboard` | Active escalation alerts, patient risk trajectories, and model explainability cards (requires `clinician` or `admin` role). |
+| **OpenAPI / Swagger Docs** | `http://localhost:8000/docs` | Interactive documentation for all authentication, orchestrator, user, dashboard, and escalation endpoints. |
+| **Auth REST API** | `POST /api/v1/auth/login` <br> `POST /api/v1/auth/register` | JWT token issuing, refresh rotation, password reset, and verification APIs. |
 | **Orchestration API** | `POST /api/v1/orchestrator/process` | Central high-level entry point executing multimodal input processing through to storage. |
-| **Clinician Dashboard** | `GET /api/v1/dashboard/overview` | Active escalation alerts, patient risk trajectories, and model explainability cards. |
 | **Liveness Health Probe** | `GET /health/live` | Kubernetes-compatible liveness health probe. |
 | **Readiness Health Probe** | `GET /health/ready` | Verifies database, model weights, and cache readiness. |
 | **Prometheus Metrics** | `GET /metrics` | Real-time telemetry: latencies, throughput, and safety interception counters. |
@@ -151,12 +159,13 @@ docker-compose logs -f api
 | **Inference Latency** | $p50$ Median Latency | **`38.93 ms`** | Target: $< 50\text{ ms}$ |
 | **Crisis Bypass Latency**| $p50$ Emergency Response | **`39.62 ms`** | Target: $< 100\text{ ms}$ |
 | **API Reliability** | Handled Request Rate | **`100.0%`** | Target: $> 99.9\%$ |
-| **Automated Tests** | Pass Rate | **`369 / 369 (100%)`** | Target: $100\%$ |
+| **Automated Tests** | Pass Rate | **`391 / 391 (100%)`** | Target: $100\%$ |
 
 ---
 
 ## 6. Complete Documentation Index
 
+- [`docs/authentication_and_security.md`](docs/authentication_and_security.md): Authentication architecture, Argon2id specifications, JWT/session lifecycle, IDOR defense, and RBAC matrix.
 - [`ZENOVA_RELEASE.md`](ZENOVA_RELEASE.md): Release manifest, module inventory, model hashes, limitations, and future work.
 - [`docs/research_and_technical_documentation.md`](docs/research_and_technical_documentation.md): Comprehensive publication-grade 27-section research whitepaper.
 - [`docs/complete_system_integration.md`](docs/complete_system_integration.md): Step 22 system integration, dual-branch routing, and fault-tolerance resilience matrix.

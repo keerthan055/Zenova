@@ -20,6 +20,8 @@ from zenova.dashboard.service import ClinicianDashboardService
 from zenova.dashboard.registry import DashboardModuleRegistry
 from zenova.db.session import get_db_session
 from zenova.core.logging import get_logger
+from zenova.db.models import UserModel
+from zenova.auth.dependencies import get_optional_user
 
 logger = get_logger("zenova.api.routes.dashboard")
 
@@ -30,9 +32,19 @@ _registry = DashboardModuleRegistry()
 
 def get_user_context(
     x_user_role: str = Header(default="clinician", alias="X-User-Role"),
-    x_user_id: str = Header(default="dr_smith", alias="X-User-ID")
+    x_user_id: str = Header(default="dr_smith", alias="X-User-ID"),
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
 ) -> tuple[UserRole, str]:
-    """Validate caller RBAC role and ID."""
+    """Validate caller RBAC role and ID with authenticated session precedence."""
+    if auth_user is not None:
+        if auth_user.role not in ("clinician", "admin"):
+            raise HTTPException(
+                status_code=403,
+                detail=f"Forbidden: User role '{auth_user.role}' is not authorized to access clinical decision-support."
+            )
+        role = UserRole.CLINICIAN if auth_user.role == "clinician" else UserRole.SYSTEM_ADMIN
+        return role, auth_user.id
+
     try:
         role = UserRole(x_user_role.lower())
     except ValueError:

@@ -33,6 +33,8 @@ from zenova.api.routes.fusion import router as fusion_router
 from zenova.api.routes.orchestrator import router as orchestrator_router
 from zenova.api.routes.evaluation import router as evaluation_router
 from zenova.api.routes.user import router as user_router
+from zenova.api.routes.auth import router as auth_router
+from zenova.api.routes.auth_pages import router as auth_pages_router
 
 logger = get_logger("zenova.api")
 
@@ -57,7 +59,9 @@ OPENAPI_TAGS = [
     {"name": "Evaluation", "description": "Unified model, generation, system, and ablation benchmarks."},
     {"name": "Clinician Dashboard", "description": "Clinical analytics, risk timelines, and longitudinal charts."},
     {"name": "Multimodal Fusion", "description": "Acoustic, behavioral, and text feature integration."},
-    {"name": "User Application", "description": "User-facing conversational experience, wellbeing check-ins, privacy controls, and support resources."}
+    {"name": "User Application", "description": "User-facing conversational experience, wellbeing check-ins, privacy controls, and support resources."},
+    {"name": "Authentication", "description": "User registration, login, token rotation, password recovery, and RBAC audits."},
+    {"name": "Authentication Web Pages", "description": "Interactive HTML authentication pages for browser onboarding and login."}
 ]
 
 app = FastAPI(
@@ -143,6 +147,8 @@ app.include_router(fusion_router)
 app.include_router(orchestrator_router)
 app.include_router(evaluation_router)
 app.include_router(user_router)
+app.include_router(auth_router)
+app.include_router(auth_pages_router)
 
 logger.info("Loaded API routes and production middlewares successfully.")
 

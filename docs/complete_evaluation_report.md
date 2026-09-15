@@ -1,7 +1,7 @@
 # ZENOVA Complete System Evaluation Report
 
-**Report ID**: `eval_report_20260913_194807`  
-**Generated At**: `2026-09-13T19:48:09.002025+00:00`  
+**Report ID**: `eval_report_20260915_194124`  
+**Generated At**: `2026-09-15T19:41:25.830785+00:00`  
 **Platform Version**: `0.1.0`  
 **Evaluation Status**: `COMPLETED`  
 
@@ -137,16 +137,16 @@ Where automated heuristics are incomplete, clinical oversight is governed by the
 
 Empirical runtime metrics measured under benchmark conversational load:
 
-- **Throughput**: `16.61 queries/sec`
+- **Throughput**: `21.82 queries/sec`
 - **API Reliability**: `100.0%` (Failure Rate: `0.0000`)
-- **Estimated Cost per 1k Turns**: `$0.2117 USD`
+- **Estimated Cost per 1k Turns**: `$0.2160 USD`
 
 ### Latency Quantiles ($ms$):
-- **p50 (Median)**: `45.4 ms`
-- **p90**: `69.2 ms`
-- **p95**: `126.6 ms`
-- **p99**: `172.6 ms`
-- **Mean**: `60.1 ms` (Min: `41.3 ms`, Max: `184.1 ms`)
+- **p50 (Median)**: `36.5 ms`
+- **p90**: `49.4 ms`
+- **p95**: `91.9 ms`
+- **p99**: `125.8 ms`
+- **Mean**: `45.7 ms` (Min: `32.4 ms`, Max: `134.3 ms`)
 
 ### Missing-Modality Robustness:
 | Modality Regime | Stability Rate |
@@ -173,7 +173,7 @@ To demonstrate the causal value of each specialized component, five architectura
 | **B** | LLM + ESConv Strategy | 88.5% | 61.2 | 68.5 | 0.0% | 19.0% | 28.2 ms |
 | **C** | LLM + Strategy + Emotion | 91.0% | 84.6 | 75.8 | 0.0% | 15.2% | 42.6 ms |
 | **D** | LLM + Strategy + Emotion + Symptoms | 92.5% | 88.2 | 86.4 | 0.0% | 11.4% | 58.1 ms |
-| **E** | Complete System (ZENOVA) | 96.8% | 94.5 | 95.2 | 100.0% | 0.0% | 48.0 ms |
+| **E** | Complete System (ZENOVA) | 96.8% | 94.5 | 95.2 | 100.0% | 0.0% | 38.2 ms |
 
 ### Key Empirical Findings:
 - **Ablation B vs A: Conditioning the LLM on an explicit support strategy increases strategy adherence from 32.4% to 88.5%, preventing unsolicited advice.**

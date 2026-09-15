@@ -4,12 +4,14 @@ import json
 from datetime import datetime, timezone
 from typing import Optional, List, Dict, Any
 
-from fastapi import APIRouter, HTTPException, Query, Path
+from fastapi import APIRouter, HTTPException, Query, Path, Depends
 from fastapi.responses import HTMLResponse, JSONResponse
 
 from zenova.core.logging import get_logger
 from zenova.db.session import get_db_session
 from zenova.db.repositories import UserRepository, SessionRepository, TurnRepository
+from zenova.db.models import UserModel
+from zenova.auth.dependencies import get_optional_user, enforce_user_ownership
 from zenova.schemas.user import (
     USER_DISCLAIMER_NOTICE,
     PrivacyLevel,
@@ -143,8 +145,14 @@ async def get_support_resources() -> SupportResourcesResponse:
 
 
 @router.get("/api/v1/user/preferences/{user_id}", response_model=UserPreferences)
-async def get_user_preferences(user_id: str = Path(..., min_length=1)) -> UserPreferences:
+async def get_user_preferences(
+    user_id: str = Path(..., min_length=1),
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
+) -> UserPreferences:
     """Retrieve user settings for data privacy, storage, and communication preferences."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
+
     async with get_db_session() as db:
         repo = UserRepository(db)
         model = await repo.get_or_create_preferences(user_id)
@@ -164,9 +172,13 @@ async def get_user_preferences(user_id: str = Path(..., min_length=1)) -> UserPr
 @router.put("/api/v1/user/preferences/{user_id}", response_model=UserPreferences)
 async def update_user_preferences(
     user_id: str,
-    updates: UserPreferencesUpdateRequest
+    updates: UserPreferencesUpdateRequest,
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
 ) -> UserPreferences:
     """Update user privacy and data retention preferences."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
+
     async with get_db_session() as db:
         repo = UserRepository(db)
         update_dict = updates.model_dump(exclude_unset=True)
@@ -191,8 +203,14 @@ async def update_user_preferences(
 
 
 @router.post("/api/v1/user/checkin", response_model=WellbeingCheckinResponse)
-async def submit_wellbeing_checkin(checkin: WellbeingCheckinRequest) -> WellbeingCheckinResponse:
+async def submit_wellbeing_checkin(
+    checkin: WellbeingCheckinRequest,
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
+) -> WellbeingCheckinResponse:
     """Record a daily or periodic wellbeing check-in to track longitudinal state."""
+    if auth_user:
+        enforce_user_ownership(checkin.user_id, auth_user)
+
     checkin_id = f"chk_{uuid.uuid4().hex[:12]}"
     async with get_db_session() as db:
         repo = UserRepository(db)
@@ -232,9 +250,13 @@ async def submit_wellbeing_checkin(checkin: WellbeingCheckinRequest) -> Wellbein
 @router.get("/api/v1/user/checkins/{user_id}", response_model=CheckinHistoryResponse)
 async def get_checkin_history(
     user_id: str,
-    limit: int = Query(default=30, ge=1, le=100)
+    limit: int = Query(default=30, ge=1, le=100),
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
 ) -> CheckinHistoryResponse:
     """Retrieve historical check-in timeline and longitudinal averages."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
+
     async with get_db_session() as db:
         repo = UserRepository(db)
         records = await repo.get_checkin_history(user_id, limit=limit)
@@ -279,9 +301,13 @@ async def get_checkin_history(
 @router.get("/api/v1/user/sessions/{user_id}", response_model=UserSessionsResponse)
 async def list_user_sessions(
     user_id: str,
-    limit: int = Query(default=50, ge=1, le=100)
+    limit: int = Query(default=50, ge=1, le=100),
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
 ) -> UserSessionsResponse:
     """Retrieve user's past conversational session threads."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
+
     async with get_db_session() as db:
         repo = UserRepository(db)
         sessions = await repo.list_user_sessions(user_id, limit=limit)
@@ -304,8 +330,14 @@ async def list_user_sessions(
 
 
 @router.post("/api/v1/user/export/{user_id}", response_model=UserDataExportResponse)
-async def export_user_data(user_id: str) -> UserDataExportResponse:
+async def export_user_data(
+    user_id: str,
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
+) -> UserDataExportResponse:
     """Export all stored conversational turns, check-ins, and preferences in JSON format."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
+
     async with get_db_session() as db:
         repo = UserRepository(db)
         data = await repo.export_user_data(user_id)
@@ -323,8 +355,13 @@ async def export_user_data(user_id: str) -> UserDataExportResponse:
 
 
 @router.delete("/api/v1/user/data/{user_id}", response_model=DataPurgeResponse)
-async def purge_user_data(user_id: str) -> DataPurgeResponse:
+async def purge_user_data(
+    user_id: str,
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
+) -> DataPurgeResponse:
     """Permanently delete all personal user records (GDPR Right to be Forgotten)."""
+    if auth_user:
+        enforce_user_ownership(user_id, auth_user)
     async with get_db_session() as db:
         repo = UserRepository(db)
         counts = await repo.purge_user_data(user_id)
@@ -1187,6 +1224,7 @@ async def get_user_application() -> HTMLResponse:
         <div class="header-controls">
             <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">🌙</button>
             <div id="user-pill" class="user-id-pill" title="Current User ID">user_guest</div>
+            <button id="logout-btn" class="theme-toggle-btn" onclick="handleLogout()" title="Sign out of ZENOVA" style="color: var(--danger); font-weight: 600;">Sign Out</button>
         </div>
     </header>
 
@@ -1878,9 +1916,47 @@ async def get_user_application() -> HTMLResponse:
             }
         });
 
+        // Authentication state checking and session binding
+        async function checkAuthAndInit() {
+            try {
+                const res = await fetch('/api/v1/auth/me');
+                if (res.ok) {
+                    const user = await res.json();
+                    userId = user.id;
+                    const pill = document.getElementById("user-pill");
+                    if (pill) {
+                        pill.textContent = user.display_name || user.email.split('@')[0];
+                        pill.title = `Signed in as ${user.email} (${user.role})`;
+                    }
+                } else {
+                    // Not signed in -> redirect to login page
+                    window.location.href = '/login?redirect=/app';
+                    return;
+                }
+            } catch (err) {
+                console.warn("Auth check error, redirecting to login:", err);
+                window.location.href = '/login?redirect=/app';
+                return;
+            }
+            loadSessionsList();
+            loadPreferences();
+        }
+
+        async function handleLogout() {
+            try {
+                await fetch('/api/v1/auth/logout', { method: 'POST' });
+                localStorage.removeItem('zenova_token');
+                localStorage.removeItem('zenova_user');
+            } catch (err) {
+                console.warn("Logout error:", err);
+            } finally {
+                window.location.href = '/login';
+            }
+        }
+
         // Initial setup
         window.addEventListener("DOMContentLoaded", () => {
-            loadSessionsList();
+            checkAuthAndInit();
         });
     </script>
 </body>

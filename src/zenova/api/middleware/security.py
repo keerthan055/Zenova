@@ -29,7 +29,7 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
         # Content Security Policy (allows Swagger UI assets and embedded web UI scripts)
         if request.url.path in ("/docs", "/redoc", "/openapi.json"):
             response.headers["Content-Security-Policy"] = "default-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://fastapi.tiangolo.com;"
-        elif request.url.path in ("/app", "/dashboard", "/"):
+        elif request.url.path in ("/app", "/dashboard", "/", "/login", "/register", "/forgot-password", "/reset-password", "/verify-email"):
             response.headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
         else:
             response.headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
@@ -65,7 +65,7 @@ class RateLimitingMiddleware(BaseHTTPMiddleware):
             return await call_next(request)
 
         # Exclude internal/diagnostic routes and static UI pages from rate limiting
-        if request.url.path in ("/health", "/health/live", "/health/ready", "/metrics", "/docs", "/redoc", "/openapi.json", "/app", "/dashboard"):
+        if request.url.path in ("/health", "/health/live", "/health/ready", "/metrics", "/docs", "/redoc", "/openapi.json", "/app", "/dashboard", "/login", "/register", "/forgot-password", "/reset-password", "/verify-email"):
             return await call_next(request)
 
         client_key = self._get_client_key(request)

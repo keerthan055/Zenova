@@ -3,6 +3,7 @@ from zenova.db.session import (
     Base,
     init_db,
     get_db_session,
+    get_db,
     async_engine,
     AsyncSessionLocal,
     sync_engine

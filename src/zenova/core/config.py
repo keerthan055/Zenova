@@ -44,10 +44,26 @@ class DatabaseConfig(BaseModel):
 class SecurityConfig(BaseModel):
     secret_key: str = Field(default_factory=lambda: os.getenv("ZENOVA_SECRET_KEY", "zenova-dev-secret-key-do-not-use-in-production"))
     algorithm: str = "HS256"
-    token_expire_minutes: int = 60
+    token_expire_minutes: int = 30
+    refresh_token_expire_days: int = 14
+    password_reset_expire_minutes: int = 30
+    email_verification_expire_hours: int = 24
     cors_allowed_origins: List[str] = Field(default_factory=lambda: ["*"])
     rate_limit_per_minute: int = 60
     rate_limit_burst: int = 15
+    cookie_secure: bool = Field(default_factory=lambda: os.getenv("COOKIE_SECURE", "false").lower() in ("true", "1"))
+    cookie_samesite: str = Field(default_factory=lambda: os.getenv("COOKIE_SAMESITE", "lax"))
+
+
+class EmailConfig(BaseModel):
+    provider: str = Field(default_factory=lambda: os.getenv("EMAIL_PROVIDER", "development"))
+    smtp_host: Optional[str] = Field(default_factory=lambda: os.getenv("SMTP_HOST", None))
+    smtp_port: int = Field(default_factory=lambda: int(os.getenv("SMTP_PORT", "587")))
+    smtp_user: Optional[str] = Field(default_factory=lambda: os.getenv("SMTP_USER", None))
+    smtp_password: Optional[str] = Field(default_factory=lambda: os.getenv("SMTP_PASSWORD", None))
+    smtp_use_tls: bool = Field(default_factory=lambda: os.getenv("SMTP_USE_TLS", "true").lower() in ("true", "1"))
+    from_email: str = Field(default_factory=lambda: os.getenv("EMAIL_FROM", "noreply@zenova.ai"))
+    frontend_base_url: str = Field(default_factory=lambda: os.getenv("FRONTEND_BASE_URL", "http://localhost:8000"))
 
 
 class MonitoringConfig(BaseModel):
@@ -68,6 +84,7 @@ class SystemConfig(BaseModel):
     paths: PathsConfig = Field(default_factory=PathsConfig)
     database: DatabaseConfig = Field(default_factory=DatabaseConfig)
     security: SecurityConfig = Field(default_factory=SecurityConfig)
+    email: EmailConfig = Field(default_factory=EmailConfig)
     monitoring: MonitoringConfig = Field(default_factory=MonitoringConfig)
 
     @model_validator(mode="after")

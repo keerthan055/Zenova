@@ -1,18 +1,27 @@
 """Conversation turn processing and session history endpoints."""
-from typing import Dict, Any
-from fastapi import APIRouter, HTTPException
+from typing import Dict, Any, Optional
+from fastapi import APIRouter, HTTPException, Depends
 from zenova.schemas.standard import UserInput
 from zenova.core.orchestrator import ZenovaOrchestrator
 from zenova.db.session import get_db_session
 from zenova.db.repositories import TurnRepository
+from zenova.db.models import UserModel
+from zenova.auth.dependencies import get_optional_user
 
 router = APIRouter(prefix="/api/v1/conversation", tags=["Conversation"])
 orchestrator = ZenovaOrchestrator()
 
 
 @router.post("/turn")
-async def process_turn(user_input: UserInput) -> Dict[str, Any]:
+async def process_turn(
+    user_input: UserInput,
+    auth_user: Optional[UserModel] = Depends(get_optional_user)
+) -> Dict[str, Any]:
     """Process an inbound conversational turn through the safety-gated pipeline."""
+    if auth_user:
+        # Securely bind turn identity to verified session token
+        user_input.user_id = auth_user.id
+
     try:
         result = await orchestrator.process_turn(user_input)
         return result

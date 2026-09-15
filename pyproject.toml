@@ -33,6 +33,8 @@ dependencies = [
     "psutil>=5.9.0",
     "tenacity>=8.2.0",
     "soundfile>=0.12.0",
+    "argon2-cffi>=23.1.0",
+    "pyjwt>=2.8.0",
 ]
 
 [project.optional-dependencies]

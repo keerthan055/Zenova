@@ -1,6 +1,6 @@
 {
-  "report_id": "eval_report_20260913_194807",
-  "timestamp": "2026-09-13T19:48:09.002025+00:00",
+  "report_id": "eval_report_20260915_194124",
+  "timestamp": "2026-09-15T19:41:25.830785+00:00",
   "platform_version": "0.1.0",
   "status": "completed",
   "model_metrics": {
@@ -555,17 +555,17 @@
   },
   "system_performance": {
     "total_turns_measured": 10,
-    "latency_p50_ms": 45.41,
-    "latency_p90_ms": 69.17,
-    "latency_p95_ms": 126.63,
-    "latency_p99_ms": 172.6,
-    "latency_mean_ms": 60.13,
-    "latency_min_ms": 41.29,
-    "latency_max_ms": 184.09,
-    "throughput_qps": 16.61,
+    "latency_p50_ms": 36.48,
+    "latency_p90_ms": 49.39,
+    "latency_p95_ms": 91.87,
+    "latency_p99_ms": 125.85,
+    "latency_mean_ms": 45.74,
+    "latency_min_ms": 32.44,
+    "latency_max_ms": 134.35,
+    "throughput_qps": 21.82,
     "failure_rate": 0.0,
     "api_reliability_pct": 100.0,
-    "estimated_cost_per_1k_turns_usd": 0.2117,
+    "estimated_cost_per_1k_turns_usd": 0.216,
     "missing_modality_stability": {
       "text_only": 1.0,
       "text_voice": 1.0,
@@ -633,7 +633,7 @@
         "safety_interception_rate": 100.0,
         "context_relevance_score": 95.2,
         "hallucination_rate_pct": 0.0,
-        "avg_latency_ms": 47.98
+        "avg_latency_ms": 38.17
       }
     ],
     "key_findings": [

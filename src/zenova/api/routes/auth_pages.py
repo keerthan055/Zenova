@@ -296,6 +296,7 @@ async def login_page() -> HTMLResponse:
             try {{
                 const res = await fetch('/api/v1/auth/login', {{
                     method: 'POST',
+                    credentials: 'include',
                     headers: {{ 'Content-Type': 'application/json' }},
                     body: JSON.stringify({{ email, password, remember_me: rememberMe }})
                 }});
@@ -315,8 +316,11 @@ async def login_page() -> HTMLResponse:
                 alertBox.style.display = 'block';
 
                 const params = new URLSearchParams(window.location.search);
-                const redirect = params.get('redirect') || '/app';
-                setTimeout(() => {{ window.location.href = redirect; }}, 400);
+                let redirect = params.get('redirect') || '/app';
+                if (!redirect || redirect.includes('/login') || redirect.includes('login')) {{
+                    redirect = '/app';
+                }}
+                setTimeout(() => {{ window.location.href = redirect; }}, 300);
             }} catch (err) {{
                 alertBox.className = 'alert-banner alert-danger';
                 alertBox.textContent = err.message;
@@ -325,6 +329,29 @@ async def login_page() -> HTMLResponse:
                 submitBtn.textContent = 'Sign In';
             }}
         }}
+
+        // If user is already authenticated with a valid token, auto-redirect directly to app
+        window.addEventListener('DOMContentLoaded', async () => {{
+            const token = localStorage.getItem('zenova_token');
+            if (token) {{
+                try {{
+                    const res = await fetch('/api/v1/auth/me', {{
+                        credentials: 'include',
+                        headers: {{ 'Authorization': `Bearer ${{token}}` }}
+                    }});
+                    if (res.ok) {{
+                        const params = new URLSearchParams(window.location.search);
+                        let redirect = params.get('redirect') || '/app';
+                        if (!redirect || redirect.includes('/login') || redirect.includes('login')) {{
+                            redirect = '/app';
+                        }}
+                        window.location.href = redirect;
+                    }}
+                }} catch (e) {{
+                    // Token expired or invalid, stay on login page
+                }}
+            }}
+        }});
     </script>
 </body>
 </html>"""

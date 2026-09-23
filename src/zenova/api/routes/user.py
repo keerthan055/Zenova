@@ -1501,9 +1501,22 @@ async def get_user_application() -> HTMLResponse:
         // ====================================================================
         // ZENOVA Client Application Logic (Zero Frontend ML)
         // ====================================================================
-        const userId = "user_" + (localStorage.getItem("zenova_uid") || Math.random().toString(36).substring(2, 8));
+        let userId = "user_" + (localStorage.getItem("zenova_uid") || Math.random().toString(36).substring(2, 8));
         localStorage.setItem("zenova_uid", userId.replace("user_", ""));
         document.getElementById("user-pill").textContent = userId;
+
+        function authFetch(url, options = {}) {
+            const token = localStorage.getItem("zenova_token");
+            const headers = options.headers ? { ...options.headers } : {};
+            if (token && !headers["Authorization"]) {
+                headers["Authorization"] = `Bearer ${token}`;
+            }
+            return fetch(url, {
+                ...options,
+                credentials: "include",
+                headers: headers
+            });
+        }
 
         let activeSessionId = "sess_" + Math.random().toString(36).substring(2, 10);
         let selectedStress = 3;
@@ -1583,7 +1596,7 @@ async def get_user_application() -> HTMLResponse:
                     metadata: { client: "zenova_web_app" }
                 };
 
-                const res = await fetch("/api/v1/orchestrator/process", {
+                const res = await authFetch("/api/v1/orchestrator/process", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(payload)
@@ -1692,7 +1705,7 @@ async def get_user_application() -> HTMLResponse:
         // Load Sessions List
         async function loadSessionsList() {
             try {
-                const res = await fetch("/api/v1/user/sessions/" + userId);
+                const res = await authFetch("/api/v1/user/sessions/" + userId);
                 if (!res.ok) return;
                 const data = await res.json();
                 const container = document.getElementById("sessions-list-container");
@@ -1719,7 +1732,7 @@ async def get_user_application() -> HTMLResponse:
             activeSessionId = sid;
             loadSessionsList();
             try {
-                const res = await fetch("/api/v1/conversation/" + sid + "/history");
+                const res = await authFetch("/api/v1/conversation/" + sid + "/history");
                 if (!res.ok) return;
                 const data = await res.json();
                 chatMessages.innerHTML = "";
@@ -1760,7 +1773,7 @@ async def get_user_application() -> HTMLResponse:
             const valence = (mood - 5.5) / 4.5; // map 1-10 to approx -1.0 to 1.0
 
             try {
-                const res = await fetch("/api/v1/user/checkin", {
+                const res = await authFetch("/api/v1/user/checkin", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
@@ -1787,7 +1800,7 @@ async def get_user_application() -> HTMLResponse:
 
         async function loadCheckinStats() {
             try {
-                const res = await fetch("/api/v1/user/checkins/" + userId);
+                const res = await authFetch("/api/v1/user/checkins/" + userId);
                 if (!res.ok) return;
                 const data = await res.json();
                 document.getElementById("stat-total").textContent = data.total_checkins;
@@ -1804,7 +1817,7 @@ async def get_user_application() -> HTMLResponse:
         // ====================================================================
         async function loadResources() {
             try {
-                const res = await fetch("/api/v1/user/resources");
+                const res = await authFetch("/api/v1/user/resources");
                 if (!res.ok) return;
                 const data = await res.json();
                 const grid = document.getElementById("resources-grid");
@@ -1848,7 +1861,7 @@ async def get_user_application() -> HTMLResponse:
         // ====================================================================
         async function loadPreferences() {
             try {
-                const res = await fetch("/api/v1/user/preferences/" + userId);
+                const res = await authFetch("/api/v1/user/preferences/" + userId);
                 if (!res.ok) return;
                 const data = await res.json();
                 document.getElementById("toggle-save-history").checked = data.save_history;
@@ -1866,7 +1879,7 @@ async def get_user_application() -> HTMLResponse:
                 enable_wearables: document.getElementById("toggle-enable-wearables").checked
             };
             try {
-                await fetch("/api/v1/user/preferences/" + userId, {
+                await authFetch("/api/v1/user/preferences/" + userId, {
                     method: "PUT",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(body)
@@ -1883,7 +1896,7 @@ async def get_user_application() -> HTMLResponse:
         // Export Data
         document.getElementById("export-data-btn").addEventListener("click", async () => {
             try {
-                const res = await fetch("/api/v1/user/export/" + userId, { method: "POST" });
+                const res = await authFetch("/api/v1/user/export/" + userId, { method: "POST" });
                 if (!res.ok) return alert("Export failed.");
                 const data = await res.json();
                 const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
@@ -1903,7 +1916,7 @@ async def get_user_application() -> HTMLResponse:
             const confirmMsg = "Are you sure you want to permanently delete all your conversation history, check-ins, and data?\\n\\nThis action cannot be undone.";
             if (confirm(confirmMsg)) {
                 try {
-                    const res = await fetch("/api/v1/user/data/" + userId, { method: "DELETE" });
+                    const res = await authFetch("/api/v1/user/data/" + userId, { method: "DELETE" });
                     if (res.ok) {
                         alert("All personal data has been permanently deleted from ZENOVA.");
                         window.location.reload();
@@ -1919,24 +1932,40 @@ async def get_user_application() -> HTMLResponse:
         // Authentication state checking and session binding
         async function checkAuthAndInit() {
             try {
-                const res = await fetch('/api/v1/auth/me');
+                const res = await authFetch('/api/v1/auth/me');
                 if (res.ok) {
                     const user = await res.json();
                     userId = user.id;
+                    localStorage.setItem('zenova_user', JSON.stringify(user));
+                    localStorage.setItem('zenova_uid', user.id);
                     const pill = document.getElementById("user-pill");
                     if (pill) {
                         pill.textContent = user.display_name || user.email.split('@')[0];
                         pill.title = `Signed in as ${user.email} (${user.role})`;
                     }
                 } else {
-                    // Not signed in -> redirect to login page
+                    // Session not active or token invalid -> clear and redirect
+                    localStorage.removeItem('zenova_token');
+                    localStorage.removeItem('zenova_user');
                     window.location.href = '/login?redirect=/app';
                     return;
                 }
             } catch (err) {
-                console.warn("Auth check error, redirecting to login:", err);
-                window.location.href = '/login?redirect=/app';
-                return;
+                console.warn("Auth check error:", err);
+                const token = localStorage.getItem('zenova_token');
+                const cachedUser = localStorage.getItem('zenova_user');
+                if (token && cachedUser) {
+                    try {
+                        const u = JSON.parse(cachedUser);
+                        userId = u.id;
+                    } catch (e) {
+                        window.location.href = '/login?redirect=/app';
+                        return;
+                    }
+                } else {
+                    window.location.href = '/login?redirect=/app';
+                    return;
+                }
             }
             loadSessionsList();
             loadPreferences();
@@ -1944,12 +1973,12 @@ async def get_user_application() -> HTMLResponse:
 
         async function handleLogout() {
             try {
-                await fetch('/api/v1/auth/logout', { method: 'POST' });
-                localStorage.removeItem('zenova_token');
-                localStorage.removeItem('zenova_user');
+                await authFetch('/api/v1/auth/logout', { method: 'POST' });
             } catch (err) {
                 console.warn("Logout error:", err);
             } finally {
+                localStorage.removeItem('zenova_token');
+                localStorage.removeItem('zenova_user');
                 window.location.href = '/login';
             }
         }
